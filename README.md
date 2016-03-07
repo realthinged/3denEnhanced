@@ -26,3 +26,5 @@ BIS Forums: https://forums.bistudio.com/topic/188312-3den-enhanced/
 Steam Workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=623475643
  
 PlayWithSix : http://withsix.com/p/Arma-3/mods/tUSAv2ZlsUSfu5kTGSy24w/3den-Enhanced
+
+Armaholic: http://www.armaholic.com/page.php?id=30461
