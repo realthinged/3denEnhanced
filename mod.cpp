@@ -1,0 +1,12 @@
+name = "3den Enhanced";
+author = "Revo";
+picture = "logo.paa";
+logoSmall = "logoSmall.paa";
+logo = "logo.paa";
+logoOver = "";
+actionName = "Arma 3"; 
+action = "www.arma3.com";
+tooltipOwned = "Adds new functionalities to 3den.";
+overview = "Adds new functionalities to 3den. Mod is not needed for the mission to be played. No dependencies are created.";
+hideName = 0;
+hidePicture = 0;

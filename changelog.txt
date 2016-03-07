@@ -1,0 +1,38 @@
+v1.1
+
+*removed*
+- removed composition tool
+- removed custom triggers (If used, remove those from your mission, otherwise it won't run without 3den Enhanced mod, sorry for the inconvinience that caused)
+
+*added*
+- time multiplier to environment attribute
+- advanced fog settings to environment attributes.
+- remove map attribute
+- remove GPS attribute
+- ambient combat animation
+- view distance and disable grass option to environment mission attribute (Will be executed globally and for JIP playes)
+- attribute to create a small mission intro containing three lines (See scenario attribute -> general)
+- quick links for:(Can be found in the menu strip -> help)
+	- Arma 3 Assets
+	- Arma 3 Function Overview
+	- 3den Enhanced Forum thread
+- ability to quickly copy class name of selected unit to clipboard
+- ability to quickly set random rotation for all selected entities
+- attribute to force walk
+- attribute to disallow sprinting
+- rearranged attributes into different classes
+- mission attribute for radio, music and sound volume
+- suppression attribute
+- fatigue level attribute
+- attribute to enable headlights of empty vehicles
+
+*changed*
+- renamed some attributes
+- save gear now also works on dedicated, not only on hosted server (Thanks to larrow!)
+- crew in immobile is now only shown for vehicle entities
+- fixed typo in ambient animation tooltip
+- ambient anim attribute is now using combo boxes
+- allowCrewImmobile attribute has been tweaked
+- shortened ambient anim init time
+- removed some ambient animation that would not work, e.g sit and treat_injured
+
