@@ -12,6 +12,8 @@ class AdvancedFogSettings
 			control = "CheckboxState"; 
 			expression = 
 			"\
+			if(_value) then\
+			{\
 				[] spawn\
 				{\
 					waitUntil {time > 0.2};\
@@ -24,6 +26,7 @@ class AdvancedFogSettings
 						]\
 					]remoteExec ['setFog',2];\
 				};\
+			};\
 			";
 			defaultValue = "false";
 		};
