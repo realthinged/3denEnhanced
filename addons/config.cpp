@@ -6,13 +6,13 @@ class ctrlStatic;
 class CfgPatches
 
 {
-	class Revo_3denEnhanced
+	class 3denEnhanced
 	{
 		units[]= {};
 		weapons[]= {};
 		requiredVersion= 1.57;
 		requiredAddons[]= {3den};
-		author[] = {"Revo"};
+		author[] = {"3E_"};
 	};
 };
 
@@ -21,7 +21,7 @@ class CfgGroups
 	class Empty
 	{
 		class civilian;
-		class Revo_compositions: civilian
+		class 3E_compositions: civilian
 		{	
 			name = "Custom Compositions";
 			#include "compositions\fob.hpp"
@@ -36,9 +36,9 @@ class CfgGroups
 
 class CfgFunctions
 {
-	class Revo
+	class 3E
 	{
-		class Eden_Enhanced
+		class misc
 		{
 			file="3den_enhanced\functions";
 			class playMusic {};

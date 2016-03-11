@@ -47,19 +47,19 @@ class display3DEN
 			};
 			class LogClassName
 			{
-				action = "call Revo_fnc_logClassName";
+				action = "call 3E_fnc_logClassName";
 				Text = "Log Class Name to Clipboard";
 				conditionShow = "selectedObject + selectedWaypoint + selectedLogic + selectedMarker";
 			};	
 			class SetRandomDir
 			{
-				action = "call Revo_fnc_setRandomDir";
+				action = "call 3E_fnc_setRandomDir";
 				Text = "Set Random Direction";
 				conditionShow = "selectedObject + selectedWaypoint + selectedLogic + selectedMarker";
 			};		
 			// class LogTerrainObject
 			// {
-				// action = "call Revo_fnc_logTerrainObjectData";
+				// action = "call 3E_fnc_logTerrainObjectData";
 				// Text = "Log Terrain Object Data to Clipboard";
 			// };				
 		};
