@@ -8,16 +8,16 @@ class Music
 		{
 			displayName = "Enable Music Loop"; 
 			tooltip = "If enabled, random music from CfgMusic will be played in a loop."; 
-			property = "Revo_enableMusic"; 
+			property = "3E_enableMusic"; 
 			control = "CheckboxState";
-			expression = "[_value] spawn Revo_fnc_playMusic";
+			expression = "[_value] spawn 3E_fnc_playMusic";
 			defaultValue = "false";
 		};
 		class Volume
 		{
 			displayName = "Music Volume"; 
 			tooltip = "Set the music volume."; 
-			property = "Revo_musicVolume"; 
+			property = "3E_musicVolume"; 
 			control = "Slider";
 			expression = "0 fadeMusic _value";
 			defaultValue = "1";

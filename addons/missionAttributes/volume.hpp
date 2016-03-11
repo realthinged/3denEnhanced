@@ -8,7 +8,7 @@ class Volume
 		{
 			displayName = "Sound Volume"; 
 			tooltip = "Set the sound volume."; 
-			property = "Revo_soundVolume"; 
+			property = "3E_soundVolume"; 
 			control = "Slider";
 			expression = 
 			"\
@@ -23,7 +23,7 @@ class Volume
 		{
 			displayName = "Music Volume"; 
 			tooltip = "Set the music volume."; 
-			property = "Revo_musicVolume"; 
+			property = "3E_musicVolume"; 
 			control = "Slider";
 			expression = 
 			"\
@@ -38,7 +38,7 @@ class Volume
 		{
 			displayName = "Radio Volume"; 
 			tooltip = "Set the radio volume."; 
-			property = "Revo_radioVolume"; 
+			property = "3E_radioVolume"; 
 			control = "Slider";
 			expression = 
 			"\

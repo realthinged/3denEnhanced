@@ -8,7 +8,7 @@ class AdvancedFogSettings
 		{
 			displayName = "Activate"; 
 			tooltip = ""; 
-			property = "Revo_fogActivate"; 
+			property = "3E_fogActivate"; 
 			control = "CheckboxState"; 
 			expression = 
 			"\
@@ -16,11 +16,11 @@ class AdvancedFogSettings
 				{\
 					waitUntil {time > 0.2};\
 					[\
-						(missionNamespace getVariable 'Revo_fogDelay'),\
+						(missionNamespace getVariable '3E_fogDelay'),\
 						[\
-							missionNamespace getVariable 'Revo_fogValue',\
-							missionNamespace getVariable 'Revo_fogDecay',\
-							missionNamespace getVariable 'Revo_fogBase'\
+							missionNamespace getVariable '3E_fogValue',\
+							missionNamespace getVariable '3E_fogDecay',\
+							missionNamespace getVariable '3E_fogBase'\
 						]\
 					]remoteExec ['setFog',2];\
 				};\
@@ -31,9 +31,9 @@ class AdvancedFogSettings
 		{
 			displayName = "Delay"; 
 			tooltip = "Define how long it will take for the fog to appear. [sec]"; 
-			property = "Revo_fogDelay"; 
+			property = "3E_fogDelay"; 
 			control = "Edit"; 
-			expression = "missionNamespace setVariable ['Revo_fogDelay',_value]";
+			expression = "missionNamespace setVariable ['3E_fogDelay',_value]";
 			defaultValue = "0";
 			typeName = "NUMBER";
 			validate = "number";
@@ -42,25 +42,25 @@ class AdvancedFogSettings
 		{
 			displayName = "Density";
 			tooltip = "Value for fog at base level."; 
-			property = "Revo_fogValue"; 
+			property = "3E_fogValue"; 
 			control = "Slider";
-			expression = "missionNamespace setVariable ['Revo_fogValue',_value]";
+			expression = "missionNamespace setVariable ['3E_fogValue',_value]";
 		};
 		class FogDecay: Delay
 		{
 			displayName = "Decay"; 
 			tooltip = "Decay of fog density with altitude."; 
-			property = "Revo_fogDecay"; 
+			property = "3E_fogDecay"; 
 			control = "Slider"; 
-			expression = "missionNamespace setVariable ['Revo_fogDecay',_value]";
+			expression = "missionNamespace setVariable ['3E_fogDecay',_value]";
 		};
 		class FogBase: Delay
 		{
 			displayName = "Base Altitude"; 
 			tooltip = "Base altitude of fog [m]."; 
-			property = "Revo_fogBase"; 
+			property = "3E_fogBase"; 
 			control = "Edit"; 
-			expression = "missionNamespace setVariable ['Revo_fogBase',_value]";
+			expression = "missionNamespace setVariable ['3E_fogBase',_value]";
 		};
 	};
 };
