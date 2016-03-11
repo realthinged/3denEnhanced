@@ -1,3 +1,10 @@
+v1.2
+*removed*
+
+*added*
+
+*changed*
+- added check to prevent vanilla fog to be overwritten by advanced fog
 v1.1
 
 *removed*
