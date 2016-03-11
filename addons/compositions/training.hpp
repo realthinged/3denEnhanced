@@ -1,4 +1,4 @@
-class Revo_compositions_training
+class 3E_compositions_training
 {
 	name = "Training";
 	class trainingArea

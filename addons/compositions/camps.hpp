@@ -1,4 +1,4 @@
-class Revo_compositions_camps
+class 3E_compositions_camps
 {
 	name = "Camps";
 	class campSmall

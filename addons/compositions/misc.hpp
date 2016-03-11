@@ -1,4 +1,4 @@
-class Revo_compositions_misc
+class 3E_compositions_misc
 {
 	name = "Miscellaneous";
 	class mg_nest

@@ -1,4 +1,4 @@
-class Revo_compositions_fob
+class 3E_compositions_fob
 {
 	name = "FOBs";
 	class fob_small

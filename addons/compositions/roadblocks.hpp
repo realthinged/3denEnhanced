@@ -1,4 +1,4 @@
-class Revo_compositions_roadblocks
+class 3E_compositions_roadblocks
 {
 	name = "Roadblocks";
 	class roadblock_noPassing

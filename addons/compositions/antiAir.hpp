@@ -1,4 +1,4 @@
-class Revo_compositions_antiAir
+class 3E_compositions_antiAir
 {
 	name = "Anti Air Defenses";
 	class antiAir_heavy
