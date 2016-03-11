@@ -6,7 +6,7 @@ class State
 		{
 			displayName = "Stance";
 			tooltip = "";
-			property = "Revo_unitPos";
+			property = "3E_unitPos";
 			control = "Stance";
 			expression = "_this setUnitPos _value";
 			condition = "objectControllable";
@@ -15,7 +15,7 @@ class State
 		{
 			displayName = "Fatigue";
 			tooltip = "Will increase the fatigue for the unit at mission start";
-			property = "Revo_setFatigue";
+			property = "3E_setFatigue";
 			control = "Slider";
 			expression = "_this setFatigue _value;";
 			condition = "objectControllable";
@@ -25,7 +25,7 @@ class State
 		{
 			displayName = "Suppression";
 			tooltip = "Sets the soldier's suppression";
-			property = "Revo_setSuppression";
+			property = "3E_setSuppression";
 			expression = "_this setSuppression _value;";
 		};
 	};

@@ -7,7 +7,7 @@ class StateSpecial
 			displayName = "Allow Sprinting";
 			control = "Checkbox";
 			tooltip = "Force player to run if unchecked.";
-			property = "Revo_allowSprint";
+			property = "3E_allowSprint";
 			expression = "_this allowSprint _value;";
 			condition = "objectControllable";
 			defaultValue = "true";
@@ -16,7 +16,7 @@ class StateSpecial
 		{
 			displayName = "Set Captive";
 			tooltip = "Change unit's status to captive, unit will be on civilian side";
-			property = "Revo_setCaptive";
+			property = "3E_setCaptive";
 			control = "Checkbox";
 			expression = "_this setCaptive _value;";
 			condition = "objectControllable";
@@ -26,7 +26,7 @@ class StateSpecial
 		{
 			displayName = "Enable Headlights";
 			tooltip = "Will enable headlights of selected EMPTY vehicle";
-			property = "Revo_enableHeadlights";
+			property = "3E_enableHeadlights";
 			expression = 
 			"\
 				if (!(is3den)) then\
@@ -40,14 +40,14 @@ class StateSpecial
 		{
 			displayName = "Force Walk";
 			tooltip = "Forces unit to walk even if run or sprint is selected";
-			property = "Revo_forceWalk";
+			property = "3E_forceWalk";
 			expression = "_this forceWalk _value;";
 		};
 		class AllowCrewInImmobile: SetCaptive
 		{
 			displayName = "Crew in Immobile";
 			tooltip = "If enabled, crew will stay in vehicle even if tracks/wheels are damaged";
-			property = "Revo_allowCrewInImmobile";
+			property = "3E_allowCrewInImmobile";
 			expression = 
 			"\
 				_this allowCrewInImmobile _value;\
@@ -63,7 +63,7 @@ class StateSpecial
 		{
 			displayName = "Speed Limit";
 			tooltip = "Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles.";
-			property = "Revo_limitSpeed";
+			property = "3E_limitSpeed";
 			control = "edit";
 			expression = 
 			"\

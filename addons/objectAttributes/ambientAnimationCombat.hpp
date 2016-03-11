@@ -15,7 +15,7 @@ class AmbientAnimationCombat
 					[_this] spawn\
 					{\
 						waitUntil {time > 0.2};\
-						[_this select 0,(_this select 0) getVariable 'Revo_animCombType',(_this select 0) getVariable 'Revo_animCombEquipment'] remoteExec ['BIS_fnc_ambientAnimCombat',0,true];\
+						[_this select 0,(_this select 0) getVariable '3E_animCombType',(_this select 0) getVariable '3E_animCombEquipment'] remoteExec ['BIS_fnc_ambientAnimCombat',0,true];\
 					};\
 				}\
 				else\
@@ -23,7 +23,7 @@ class AmbientAnimationCombat
 					[_this] remoteExec ['BIS_fnc_ambientAnim__terminate',0,true];\
 				};\
 			";
-			property = "Revo_ambAnimCombActivate"; 
+			property = "3E_ambAnimCombActivate"; 
 			control = "CheckboxState"; 
 			condition = "objectControllable";
 			defaultValue = "false";
@@ -32,9 +32,9 @@ class AmbientAnimationCombat
 		{
 			displayName = "Animation"; 
 			tooltip = ""; 
-			property = "Revo_animCombType"; 
+			property = "3E_animCombType"; 
 			control = "AmbAnimCombTypeCombo";
-			expression = "_this setVariable ['Revo_animCombType',_value]";
+			expression = "_this setVariable ['3E_animCombType',_value]";
 			condition = "objectControllable";
 			defaultValue = "STAND";
 			typeName = "STRING";
@@ -43,9 +43,9 @@ class AmbientAnimationCombat
 		{
 			displayName = "Equipment"; 
 			tooltip = ""; 
-			property = "Revo_animCombEquipment"; 
+			property = "3E_animCombEquipment"; 
 			control = "AmbAnimEquipmentCombo";
-			expression = "_this setVariable ['Revo_animCombEquipment',_value]";
+			expression = "_this setVariable ['3E_animCombEquipment',_value]";
 			condition = "objectControllable";
 			defaultValue = "ASIS";
 			typeName = "STRING";

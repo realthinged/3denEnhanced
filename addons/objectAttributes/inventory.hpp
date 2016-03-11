@@ -8,7 +8,7 @@ class Inventory
 		{
 			displayName = "Remove Weapons";
 			tooltip = "Removes entities' weapons";
-			property = "Revo_removeWeapon";
+			property = "3E_removeWeapon";
 			control = "Checkbox";
 			expression = 
 			"\
@@ -25,7 +25,7 @@ class Inventory
 		{
 			displayName = "Clear Inventory";
 			tooltip = "Removes all items from entities' inventory, including uniform, vest and backpack";
-			property = "Revo_clearInventory";
+			property = "3E_clearInventory";
 			expression = 
 			"\
 				if(_value) then\
@@ -44,7 +44,7 @@ class Inventory
 		{
 			displayName = "Remove NVG";
 			tooltip = "";
-			property = "Revo_removeNVG";
+			property = "3E_removeNVG";
 			expression = 
 			"\
 				if(_value) then\
@@ -59,21 +59,21 @@ class Inventory
 		{
 			displayName = "Remove Map";
 			tooltip = "";
-			property = "Revo_removeMap";
+			property = "3E_removeMap";
 			expression = "if(_value) then {_this unlinkItem 'ItemMap'}";
 		};
 		class RemoveGPS: RemoveWeapons
 		{
 			displayName = "Remove GPS";
 			tooltip = "";
-			property = "Revo_removeGPS";
+			property = "3E_removeGPS";
 			expression = "if(_value) then {_this unlinkItem 'ItemGPS'}";
 		};
 		class AddGunLight: RemoveWeapons
 		{
 			displayName = "Add Gun Light";
 			tooltip = "Forces unit to have gun light turned on.";
-			property = "Revo_addGunLight";
+			property = "3E_addGunLight";
 			expression = 
 			"\
 				if(_value) then\
@@ -88,7 +88,7 @@ class Inventory
 		{
 			displayName = "Save Loadout";
 			tooltip = "If enabled, the loadout of the unit will be restored on respawn";
-			property = "Revo_saveGear";
+			property = "3E_saveGear";
 			expression = 
 			"\
 				_this spawn\
@@ -107,7 +107,7 @@ class Inventory
 		{
 			displayName = "Arsenal";
 			tooltip = "If enabled, the object will have an option to open the Arsenal with all items";
-			property = "Revo_arsenal";
+			property = "3E_arsenal";
 			expression = "if (_value && !(is3den)) then {['AmmoboxInit',[_this,true]] spawn BIS_fnc_arsenal}";
 			condition = "objectControllable + objectVehicle + objectSimulated";
 		};
@@ -115,7 +115,7 @@ class Inventory
 		{
 			displayName = "Clear Vehicle Cargo";
 			tooltip = "Removes all items from vehicle's cargo";
-			property = "Revo_clearVehCargo";
+			property = "3E_clearVehCargo";
 			expression = 
 			"\
 				if(_value) then\
