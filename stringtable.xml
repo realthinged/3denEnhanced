@@ -1,1 +1,1162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--English, Czech, French, Spanish, Italian, Polish, Portuguese, Russian, German
 
+The syntax of key IDs for the vast majority is : 1)Folder (Package is file) 2)Class 3)Parameter
+-->
+<Project name="3DEN Enhanced">
+    <Package name="Anims_Informations">
+        <Key ID="STR_INFO_STAND">
+            <Original>Stand (Slightly turning to the sides, needs rifle!)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Eretto (Si gira leggermente, necessita un fucile!)</Italian>
+        </Key>
+        <Key ID="STR_INFO_STANDIA">
+            <Original>Stand (Default A3 animation)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Eretto (Animazione di default)</Italian>
+        </Key>
+        <Key ID="STR_INFO_SITLOW">
+            <Original>Sit (Sitting on the ground, with weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Seduto (Seduto per terra, con un'arma)</Italian>
+
+        </Key>
+        <Key ID="STR_INFO_SITLOWU">
+            <Original>Sit low U (Sitting on the ground, no weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Sit Low(Seduto a terra senza arma)</Italian>
+        </Key>
+        <Key ID="STR_INFO_KNEEL">
+            <Original>Kneel (Kneeling, with weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Kneel (Inginocchiato, con un'arma)</Italian>
+        </Key>
+        <Key ID="STR_INFO_LEAN">
+            <Original>Lean</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+
+        </Key>
+        <Key ID="STR_INFO_WATCH">
+            <Original>Watch (Standing and turning around)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Watch (Posizione eretta mentre controlla i dintorni)</Italian>
+        </Key>
+
+
+        <Key ID="STR_INFO_STANDU">
+            <Original>Stand U1 (Slightly turning to the sides, no weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Stand U1 (Si gira leggermente, nessun'arma)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_LISTENBRIEFING">
+            <Original>Listen Briefing (Hands behind back, no weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Ascolta il briefing (Mani dietro la schiena, nessun'arma)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_LEANONTABLE">
+            <Original>Lean on table (Standing while leaning on table)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Lean On Table (In piedi mentre indica sul tavolo)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_BRIEFING">
+            <Original>Briefing (Ambient briefing loop)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Briefing (Animazione loop del Briefing)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_BRIEFINGPOINTLEFT">
+            <Original>Briefing pointing left (Pointing left & high)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Briefing Pointing Left (Indica in alto a sinistra)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_BRIEFINGPOINTRIGHT">
+            <Original>Briefing pointing right (Pointing right & high)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Briefing Pointing Right (Indica in alto a destra)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_BRIEFINGPOINTTABLE">
+            <Original>Briefing pointing down (pointing front & low)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Briefing Pointing Down (Indica in basso in avanti)</Italian>
+        </Key>
+
+        <Key ID="STR_INFO_SITU">
+            <Original>Sit U1 (Sitting on bench or similar, no weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Sit U1 (Seduto su una panchina o similiari, nessun'arma)</Italian>
+        </Key>
+        <Key ID="STR_INFO_SIT">
+            <Original>Sit (Sitting on bench or similar)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Sit (Seduto su una panchina o similiari)</Italian>
+            <French></French>
+            <Spanish></Spanish>
+        </Key>
+        <Key ID="STR_INFO_SITATTABLE">
+            <Original>Sit at table</Original>
+            <Italian>Seduto ad un tavolo</Italian>
+            <French></French>
+            <Spanish></Spanish>
+        </Key>
+        <Key ID="STR_INFO_SITHIGH">
+            <Original>Sit high 1 (Sitting on higher object, legs swinging, needs a rifle)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Sit High 1 (Seduot su un oggetto sopraelevato, gambe a penzoloni, necessita un fucile)</Italian>
+        </Key>
+        <Key ID="STR_INFO_PRONEINJURED1">
+            <Original>Prone injured 1 (Laying wounded on back, no weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+        <Key ID="STR_INFO_PRONEINJURED2">
+            <Original>Prone injured (Laying wounded on back, with or without weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+        <Key ID="STR_INFO_REPAIRVEHSTAND">
+            <Original>Repair vehicle (Reparing vehicle, standing)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+        <Key ID="STR_INFO_REPAIRVEHKNEEL">
+            <Original>Repair vehicle (Reparing vehicle, kneeling)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>)</Italian>
+        </Key>
+        <Key ID="STR_INFO_REPAIRVEHPRONE">
+            <Original>Repair vehicle (Reparing vehicle, prone)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+
+    </Package>
+
+    <Package name="ambAnimEquipCombo">
+        <Key ID="STR_INFO_ASIS">
+            <Original>Asis (No changes)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Asis (Nessun cambiamento)</Italian>
+        </Key>
+        <Key ID="STR_INFO_RANDOM">
+            <Original>Random (Gear is randomized according to the animation set)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Random (L'equipaggiamento randomizzato in base all'animazione impostata)</Italian>
+        </Key>
+        <Key ID="STR_INFO_LIGHT">
+            <Original>Light (No goggles, headgear, vest)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Light (Niente occhiali,né elmetto e veste)</Italian>
+        </Key>
+        <Key ID="STR_INFO_MEDIUM">
+            <Original>Medium (No goggles, headgear)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Medium (Niente occhiali né elmetto)</Italian>
+        </Key>
+        <Key ID="STR_INFO_FULL">
+            <Original>Full (No goggles)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Full (Niente occhiali)</Italian>
+        </Key>
+        <Key ID="STR_INFO_NONE">
+            <Original>None (No goggles, headgear, vest, weapon)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian>Nulla (Niente occhiali, elmetto, veste e arma)</Italian>
+        </Key>
+    </Package>
+
+    <Package name="Fog">
+
+        <Container name="FogDelay">
+            <Key ID="STR_mAttributes_fogDelay_displayName">
+                <Original>Delay</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_fogDelay_tooltip">
+                <Original>Define how long it will take for the fog to appear. [sec]</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+        <Container name="FogValue">
+            <Key ID="STR_mAttributes_fogvalue_displayName">
+                <Original>Density</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_fogvalue_tooltip">
+                <Original>Value for fog at base level.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+
+        <Container name="FogDecay">
+            <Key ID="STR_mAttributes_fogDecay_displayName">
+                <Original>Decay</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_fogDecay_tooltip">
+                <Original>Decay of fog density with altitude.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+        <Container name="FogBase">
+            <Key ID="STR_mAttributes_fogBase_displayName">
+                <Original>Base Altitude</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_fogBase_tooltip">
+                <Original>Base altitude of fog [m].</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="enableEnvironment">
+        <Key ID="STR_mAttributes_enableEnvironment_displayName">
+            <Original>Enable Environment</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_mAttributes_enableEnvironment_tooltip">
+            <Original>Enable/disable environmental effects (ambient life + sound). Can have positive effect on performance if disabled</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+    </Package>
+    <Package name="introText">
+        <Key ID="STR_mAttributes_introText_displayName">
+            <Original>Intro Text</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <container name="Activate">
+            <Key ID="STR_mAttributes_introText_Activate_Displayname">
+                <Original>Activate</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+        <container name="Delay">
+            <Key ID="STR_mAttributes_introText_Delay_Displayname">
+                <Original>Delay</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_introText_Delay_tooltip">
+                <Original>Set the delay after which the intro text is shown.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+        <Container name="introText">
+            <Key ID="STR_mAttributes_introText_Delay_Displayname">
+                <Original>Delay</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_introText_Delay_Displayname">
+                <Original>Delay</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="music">
+        <Container name="EnableMusic">
+            <Key ID="STR_mAttributes_music_EnableMusic_displayName">
+                <Original>Enable Music Loop</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_music_EnableMusic_tooltip">
+                <Original>If enabled, random music from CfgMusic will be played in a loop.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+        <Container name="Volume">
+            <Key ID="STR_mAttributes_music_Volume_displayName">
+                <Original>Music Volume</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_music_Volume_tooltip">
+                <Original>Set the music volume</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </Container>
+    </Package>
+    <Package name="timeMultiplier">
+        <Key ID="STR_mAttributes_timeMultiplier_displayName">
+            <Original>Time Multiplier</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_mAttributes_timeMultiplier_tooltip">
+            <Original>Set how fast the time will pass. Values from 0.1 - 120 are valid</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+    </Package>
+    <Package name="volume">
+        <container name="SoundVolume">
+            <Key ID="STR_mAttributes_volume_SoundVolume_displayName">
+                <Original>Sound Volume</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_volume_SoundVolume_tooltip">
+                <Original>Set the sound volume.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+        <container name="MusicVolume">
+
+            <Key ID="STR_mAttributes_volume_MusicVolume_displayName">
+                <Original>Music Volume</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_volume_MusicVolume_tooltip">
+                <Original>Set the music volume.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+        <container name="RadioVolume">
+            <Key ID="STR_mAttributes_volume_RadioVolume_displayName">
+                <Original>Radio Volume</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_mAttributes_volume_RadioVolume_tooltip">
+                <Original>Set the radio volume.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+    </Package>
+    <Package name="advancedDamageUnit">
+        <Key ID="STR_objAttributes_advDmgUnit_Body_tooltip">
+            <Original>Damages a specific body part.</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Head">
+            <Original>Head</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+
+        <Key ID="STR_objAttributes_advDmgUnit_Face">
+            <Original>Face</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Neck">
+            <Original>Neck</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Chest">
+            <Original>Chest</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Arms">
+            <Original>Arms</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Hands">
+            <Original>Hands</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Abdomen">
+            <Original>Abdomen</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Pelvis">
+            <Original>Pelvis</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Diaphragm">
+            <Original>Diaphragm</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgUnit_Head">
+            <Original>Legs</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+    </Package>
+    <Package name="advDmgVehicle">
+        <Key ID="STR_objAttributes_advDmgVehicle_tooltip">
+            <Original>Damages a specific vehicle part.</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_Engine">
+            <Original>Engine (all)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_Gun">
+            <Original>Gun (all)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_fueltank">
+            <Original>Fuel tank (all)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_turret">
+            <Original>Turret (all)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_Windows">
+            <Original>Window (all)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_LFWheel">
+            <Original>1st axle left wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_RFWheel">
+            <Original>1st axle right wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_LF2Wheel">
+            <Original>2nd axle left wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_RF2Wheel">
+            <Original>2nd axle right wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_LMWheel">
+            <Original>3rd axle left wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_RMWheel">
+            <Original>3rd axle right wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_LBWheel">
+            <Original>4th axle left wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_RBWheel">
+            <Original>4th axle right wheel (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_vehBody">
+            <Original>Body (cars)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_LTrack">
+            <Original>Left track (tanks)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_RTrack">
+            <Original>Right track (tanks)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_Hull">
+            <Original>Hull (tanks & helicopters)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_Avionics">
+            <Original>Damage avionics (helicopter)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_MainRotor">
+            <Original>Main rotor (helicopter)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+        <Key ID="STR_objAttributes_advDmgVehicle_TrailRotor">
+            <Original>Trail rotor (helicopter)</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian> </Italian>
+        </Key>
+    </Package>
+    <package name="advancedSkill">
+        <container name="AimingShake">
+            <Key ID="STR_objAttributes_AimingShake_displayName">
+                <Original>Aiming Shake</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_AimingShake_tooltip">
+                <Original>Affects how steadily the AI can hold a weapon (Higher value = less weapon sway).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+        <Container name="AimingSpeed">
+            <Key ID="STR_objAttributes_AimingSpeed_displayName">
+                <Original>Aiming Speed</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_AimingSpeed_tooltip">
+                <Original>Affects how quickly the AI can rotate and stabilize its aim (Higher value = faster, less error).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+        <Container name="AimingAccuracy">
+            <Key ID="STR_objAttributes_AimingAccuracy_displayName">
+                <Original>Aiming Accuracy</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_AimingAccuracy_tooltip">
+                <Original>Affects how well the AI can lead a target\nAffects how accurately the AI estimate range and calculates bullet drop\nAffects how well the AI compensates for weapon dispersion\nAffects how much the AI will know to compensate for recoil (Higher
+                    value = more controlled fire)\nAffects how certain the AI must be about its aim on target before opening fire</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+        </container>
+        <Container name="Commanding">
+            <Key ID="STR_objAttributes_Commanding_displayName">
+                <Original>Commanding</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Commanding_tooltip">
+                <Original>Affects how quickly recognized targets are shared with the group (Higher value = faster reporting).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <Container name="Courage">
+            <Key ID="STR_objAttributes_Courage_displayName">
+                <Original>Courage</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Courage_tooltip">
+                <Original>Affects unit's subordinates' morale (Higher value = more courage).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <Container name="General">
+            <Key ID="STR_objAttributes_General_displayName">
+                <Original>General</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_General_tooltip">
+                <Original>Raw Skill, value is distributed to sub-skills unless defined otherwise. Affects the AI's decision making.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <Container name="ReloadSpeed">
+            <Key ID="STR_objAttributes_ReloadSpeed_displayName">
+                <Original>Reloading Speed</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_ReloadSpeed_tooltip">
+                <Original>Affects the delay between switching or reloading a weapon (Higher value = less delay).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <Container name="SpotDistance">
+            <Key ID="STR_objAttributes_SpotDistance_displayName">
+                <Original>Spot Distance</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_SpotDistance_tooltip">
+                <Original>Affects the AI ability to spot targets within it's visual or audible range (Higher value = more likely to spot). Affects the accuracy of the information (Higher value = more accurate information).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <Container name="SpotTime">
+            <Key ID="STR_objAttributes_SpotTime_displayName">
+                <Original>Spot Time</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian> </Italian>
+            </Key>
+            <Key ID="STR_objAttributes_SpotTime_tooltip">
+                <Original>Affects how quick the AI react to death, damage or observing an enemy (Higher value = quicker reaction).</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+    </package>
+    <package name="ambientAnimations">
+        <container name="Activate">
+            <Key ID="STR_objAttributes_Activate_displayName">
+                <Original>Activate</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Activate_tooltip">
+                <Original>Enables ambient animation for selected unit, unit will not react to danger</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </Container>
+        <container name="Type">
+            <Key ID="STR_objAttributes_Type_displayName">
+                <Original>Animation</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Activate_tooltip">
+                <Original></Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </Container>
+        <container name="Equipment">
+            <Key ID="STR_objAttributes_Type_displayName">
+                <Original>Equipment</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </Container>
+        <Key ID="STR_objAttributes_ActivateC_tooltip">
+            <Original>Enables ambient combat animation for selected unit, unit will react to danger</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+    </Package>
+
+    <package name="disableAI">
+        <container name="Move">
+            <Key ID="STR_objAttributes_Move_displayName">
+                <Original>Move</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Move_tooltip">
+                <Original>Disables AI's ability to Move</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+
+        </container>
+        <container name="Target">
+            <Key ID="STR_objAttributes_Cover_displayName">
+                <Original>Target</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Cover_tooltip">
+                <Original>Disables AI's ability to target</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+
+        </container>
+        <container name="Cover">
+            <Key ID="STR_objAttributes_Cover_displayName">
+                <Original>Cover</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Cover_tooltip">
+                <Original>Disables AI's ability to take cover.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+
+        </container>
+        <container name="Autotarget">
+            <Key ID="STR_objAttributes_Autotarget_displayName">
+                <Original>Autotarget</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Autotarget_tooltip">
+                <Original>Disables AI's ability automatically assign targets.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+
+        </container>
+        <container name="Animation">
+            <Key ID="STR_objAttributes_Animation_displayName">
+                <Original>Animation</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Animation_tooltip">
+                <Original>Disables animations.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="FSM">
+            <Key ID="STR_objAttributes_FSM_displayName">
+                <Original>FSM</Original>
+            </Key>
+            <Key ID="STR_objAttributes_FSM_tooltip">
+                <Original>Disable the execution of AI behaviour scripts.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="AimingError">
+            <Key ID="STR_objAttributes_AimingError_displayName">
+                <Original>Aiming Error</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_AimingError_tooltip">
+                <Original>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="Teamswitch">
+            <Key ID="STR_objAttributes_TeamSwitch_displayName">
+                <Original>TeamSwitch</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_TeamSwitch_tooltip">
+                <Original>AI disabled because of Team Switch.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="Suppression">
+            <Key ID="STR_objAttributes_Suppression_displayName">
+                <Original>Suppression</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Suppression_tooltip">
+                <Original>Prevents AI from being suppressed.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="CheckVisible">
+            <Key ID="STR_objAttributes_Checkvisible_displayName">
+                <Original>Raycasts</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Checkvisible_tooltip">
+                <Original>Disables visibility raycasts.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="Autocombat">
+            <Key ID="STR_objAttributes_Autocombat_displayName">
+                <Original>Autocombat</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Autocombat_tooltip">
+                <Original>Disables autonomous switching to COMBAT when in danger.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+    </Package>
+    <package name="inventory">
+        <container name="RemoveWeapons">
+            <Key ID="STR_objAttributes_RemoveWeapons_displayName">
+                <Original>Remove Weapons</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_RemoveWeapons_tooltip">
+                <Original>Removes entities' weapons</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="ClearInventory">
+            <Key ID="STR_objAttributes_ClearInventory_displayName">
+                <Original>Clear Inventory</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_ClearInventory_tooltip">
+                <Original>Removes all items from entities' inventory, including uniform, vest and backpack</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="RemoveNVG">
+            <Key ID="STR_objAttributes_RemoveNVG_displayName">
+                <Original>Remove NVG</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="RemoveGPS">
+            <Key ID="STR_objAttributes_RemoveGPS_displayName">
+                <Original>Remove GPS</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="AddGunLight">
+            <Key ID="STR_objAttributes_addgunlight_displayName">
+                <Original>Add Gun Light</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_addgunlight_tooltip">
+                <Original>Forces unit to have gun light turned on.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="SaveGear">
+            <Key ID="STR_objAttributes_SaveGear_displayName">
+                <Original>Save Loadout</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_SaveGear_tooltip">
+                <Original>If enabled, the loadout of the unit will be restored on respawn</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="Arsenal">
+            <Key ID="STR_objAttributes_Arsenal_displayName">
+                <Original>Arsenal</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Arsenal_tooltip">
+                <Original>If enabled, the object will have an option to open the Arsenal with all items</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="ClearVehCargo">
+            <Key ID="STR_objAttributes_ClearVehCargo_displayName">
+                <Original>Clear Vehicle Cargo</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_ClearVehCargo_tooltip">
+                <Original>Removes all items from vehicle's cargo</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+    </package>
+    <package name="patrol">
+        <Key ID="STR_objAttributes_Patrol_displayName">
+            <Original>Radius of patrolled area</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+        <Key ID="STR_objAttributes_Patrol_tooltip">
+            <Original>A radius > 0 will automatically make unit or unit's group patrol. -1 to disable it again</Original>
+            <French></French>
+            <Spanish></Spanish>
+            <Italian></Italian>
+        </Key>
+    </package>
+    <package name="state">
+        <container name="Stance">
+            <Key ID="STR_objAttributes_Stance_displayName">
+                <Original>Stance</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="Fatigue">
+            <Key ID="STR_objAttributes_Fatigue_displayName">
+                <Original>Fatigue</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Fatigue_tooltip">
+                <Original>Will increase the fatigue for the unit at mission start</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="Suppression">
+            <Key ID="STR_objAttributes_Suppression_displayName">
+                <Original>Suppression</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_Suppression_tooltip">
+                <Original>Sets the soldier's suppression</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+    </package>
+    <package name="StatesSpecial">
+        <container name="AllowSprint">
+            <Key ID="STR_objAttributes_AllowSprint_displayName">
+                <Original>Allow Sprinting</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_AllowSprint_tooltip">
+                <Original>Force player to run if unchecked.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="SetCaptive">
+            <Key ID="STR_objAttributes_SetCaptive_displayName">
+                <Original>Set Captive</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_SetCaptive_tooltip">
+                <Original>Change unit's status to captive, unit will be on civilian side.</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="EnableHeadlights">
+            <Key ID="STR_objAttributes_EnableHeadlights_displayName">
+                <Original>Enable Headlights</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_EnableHeadLights_tooltip">
+                <Original>Will enable headlights of selected EMPTY vehicle</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="ForceWalk">
+            <Key ID="STR_objAttributes_ForceWalk_displayName">
+                <Original>Force Walk</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_ForceWalk_tooltip">
+                <Original>Forces unit to walk even if run or sprint is selected</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+        <container name="AllowCrewInImmobile">
+            <Key ID="STR_objAttributes_AllowCrewInImmobile_displayName">
+                <Original>Crew in Immobile</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+            <Key ID="STR_objAttributes_AllowCrewInImmobile_tooltip">
+                <Original>If enabled, crew will stay in vehicle even if tracks/wheels are damaged</Original>
+                <French></French>
+                <Spanish></Spanish>
+                <Italian></Italian>
+            </Key>
+        </container>
+    </package>
+</project>
