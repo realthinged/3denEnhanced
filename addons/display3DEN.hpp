@@ -43,25 +43,26 @@ class display3DEN
 			};
 			class Edit
 			{
-				items[] += {"SetRandomDir"};
+				items[] += {"SetRandomDir","GarrisonBuildings"};
 			};
 			class LogClassName
 			{
-				action = "call 3E_fnc_logClassName";
+				action = "call Revo_fnc_logClassName";
 				Text = "Log Class Name to Clipboard";
 				conditionShow = "selectedObject + selectedWaypoint + selectedLogic + selectedMarker";
 			};	
 			class SetRandomDir
 			{
-				action = "call 3E_fnc_setRandomDir";
+				action = "call Revo_fnc_setRandomDir";
 				Text = "Set Random Direction";
 				conditionShow = "selectedObject + selectedWaypoint + selectedLogic + selectedMarker";
-			};		
-			// class LogTerrainObject
-			// {
-				// action = "call 3E_fnc_logTerrainObjectData";
-				// Text = "Log Terrain Object Data to Clipboard";
-			// };				
+			};	
+			class GarrisonBuildings
+			{
+				action = "call Revo_fnc_garrisonBuildings";
+				Text = "Garrison Buildings";
+				conditionShow = "selectedObject";
+			};							
 		};
 	};
 };
