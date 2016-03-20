@@ -7,7 +7,7 @@ class Volume
 		class SoundVolume
 		{
 			displayName = "Sound Volume"; 
-			tooltip = "Set the sound volume."; 
+			tooltip = ""; 
 			property = "3E_soundVolume"; 
 			control = "Slider";
 			expression = 
@@ -22,7 +22,7 @@ class Volume
 		class MusicVolume
 		{
 			displayName = "Music Volume"; 
-			tooltip = "Set the music volume."; 
+			tooltip = ""; 
 			property = "3E_musicVolume"; 
 			control = "Slider";
 			expression = 
@@ -37,7 +37,7 @@ class Volume
 		class RadioVolume
 		{
 			displayName = "Radio Volume"; 
-			tooltip = "Set the radio volume."; 
+			tooltip = ""; 
 			property = "3E_radioVolume"; 
 			control = "Slider";
 			expression = 
