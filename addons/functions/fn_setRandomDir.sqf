@@ -12,10 +12,10 @@
 
 private ["_selectedObjects", "_selectedMarkers", "_selectedTriggers", "_selectedLogics", "_selectedEntities"];
 
-_selectedObjects  = get3denSelected "object";
-_selectedMarkers  = get3denSelected "Marker";
-_selectedTriggers = get3denSelected "Trigger";
-_selectedLogics   = get3denSelected "Logic";
+_selectedObjects  = get3DENSelected "object";
+_selectedMarkers  = get3DENSelected "Marker";
+_selectedTriggers = get3DENSelected "Trigger";
+_selectedLogics   = get3DENSelected "Logic";
 
 _selectedEntities = _selectedObjects + _selectedMarkers + _selectedTriggers + _selectedLogics;
 

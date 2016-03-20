@@ -10,12 +10,21 @@
 	true
 */
 
-private ["_object", "_className"];
+private ["_object", "_className","_i"];
 
-_object = ((get3DENSelected "") select 0) param [0,objNull,[objNull]];
+_object = get3DENSelected "";
+
+for "_i" from 0 to ((count _object) - 1) do
+{
+	if (!(((get3DENSelected "") select _i) isEqualTo [])) exitWith {_object = (((get3DENSelected "") select _i) select 0)};
+};
+
+systemChat str _object;
+
 _className = typeOf _object;
 
 copyToClipboard _className;
-["LogClassName"] call bis_fnc_3DENNotification;
+
+["LogClassName"] call BIS_fnc_3DENNotification;
 
 true;

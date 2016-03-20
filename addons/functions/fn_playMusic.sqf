@@ -13,7 +13,7 @@
 private ["_value","_unwantedSongs","_song","_CfgMusic"];
 _value = param [0,false,[false]];
 
-if (_value) then 
+if (_value && isNil 'Revo_musicEH') then 
 {
 	_unwantedSongs = ['click','Defcon','C_EA_RadioBroadcast1','C_EA_RadioBroadcast2','C_EA_RadioMusic1','C_EA_RadioMusic2','radio_music','RadioAmbient1','RadioAmbient2','RadioAmbient4','RadioAmbient5','RadioAmbient6','RadioAmbient7','RadioAmbient8','RadioAmbient9','RadioAmbient10','RadioAmbient12','RadioAmbient14','RadioAmbient15','RadioAmbient16','RadioAmbient17','RadioAmbient18','RadioAmbient19','RadioAmbient20','RadioAmbient21','RadioAmbient22','RadioAmbient23','RadioAmbient24','RadioAmbient25','RadioAmbient26','RadioAmbient27','RadioAmbient28','RadioAmbient29','RadioAmbient30'];
 	_CfgMusic = 'true' configClasses (configFile >> 'CfgMusic');
@@ -31,7 +31,7 @@ if (_value) then
 } 
 else 
 {
-	if(!(isNil 'Revo_musicEH')) then 
+	if(!(isNil 'Revo_musicEH') && !(_value)) then 
 	{
 		removeMusicEventHandler ['MusicStop',Revo_musicEH];
 		0 fadeMusic 0;
