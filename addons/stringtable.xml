@@ -848,7 +848,7 @@
   </Package>
   <Package name="Misc">
     <Container name="notification.hpp">
-      <Key ID="STR_3E_LogClassName">
+      <Key ID="STR_3E_notifications_LogClassName">
         <Original>Classname was copied to clipboard</Original>
         <English>Classname was copied to clipboard</English>
         <German>Klassenname wurde in der Zwischenablage gespeichert</German>
