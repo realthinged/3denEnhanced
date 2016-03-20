@@ -103,6 +103,14 @@ class Inventory
 				};\
 			";
 		};
+		// class DisableRandomisation: RemoveWeapons
+		// {
+			// displayName = "Disable Randomisation";
+			// tooltip = "If unchecked, facewear and headgear won't be randomised";
+			// property = "3E_disableRandomisation";
+			// expression = "_this setVariable ['BIS_enableRandomization',_value]";
+			// defaultValue "true";
+		// }; https://forums.bistudio.com/topic/143930-general-discussion-dev-branch/page-937#entry2996919
 		class Arsenal: RemoveWeapons
 		{
 			displayName = "Arsenal";

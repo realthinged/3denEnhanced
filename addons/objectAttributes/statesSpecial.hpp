@@ -22,6 +22,24 @@ class StateSpecial
 			condition = "objectControllable";
 			defaultValue = "false";
 		};
+		class MakeHostage: SetCaptive //Doesn't work at all yet
+		{
+			displayName = "Make Hostage";
+			tooltip = "";
+			property = "3E_makeHostage";
+			expression = 
+			"\
+				[\
+					[_this,\
+						{\
+							systemChat str (_this select 0);\
+							(_this select 0) playMoveNow 'Acts_AidlPsitMstpSsurWnonDnon04';\
+							(_this select 0) addAction ['Free Hostage',{(_this select 0) playMoveNow 'AmovPercMstpSnonWnonDnon'}];\
+						}\
+					]\
+				] remoteExec ['BIS_fnc_spawn',0];\
+			";
+		};
 		class EnableHeadlights: SetCaptive
 		{
 			displayName = "Enable Headlights";
@@ -35,13 +53,6 @@ class StateSpecial
 				};\
 			";
 			condition = "objectVehicle";
-		};
-		class ForceWalk: SetCaptive
-		{
-			displayName = "Force Walk";
-			tooltip = "Forces unit to walk even if run or sprint is selected";
-			property = "3E_forceWalk";
-			expression = "_this forceWalk _value;";
 		};
 		class AllowCrewInImmobile: SetCaptive
 		{
@@ -58,7 +69,15 @@ class StateSpecial
 			";
 			condition = "objectVehicle";
 		};
-
+		class EngineOn: SetCaptive
+		{
+			displayName = "Turn Engine On";
+			tooltip = "If enabled, engine of the vehicle will be turned on";
+			property = "3E_engine";
+			control = "Checkbox";
+			expression = "if (!(is3den) then {_this engineOn _value};";
+			condition = "objectVehicle";
+		};
 		class LimitSpeed: SetCaptive
 		{
 			displayName = "Speed Limit";
