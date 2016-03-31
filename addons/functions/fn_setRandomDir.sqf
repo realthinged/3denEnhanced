@@ -10,20 +10,18 @@
 	true
 */
 
-private ["_selectedObjects", "_selectedMarkers", "_selectedTriggers", "_selectedLogics", "_selectedEntities"];
+private _selectedObjects  = get3DENSelected "object";
+private _selectedMarkers  = get3DENSelected "Marker";
+private _selectedTriggers = get3DENSelected "Trigger";
+private _selectedLogics   = get3DENSelected "Logic";
 
-_selectedObjects  = get3DENSelected "object";
-_selectedMarkers  = get3DENSelected "Marker";
-_selectedTriggers = get3DENSelected "Trigger";
-_selectedLogics   = get3DENSelected "Logic";
+private _selectedEntities = _selectedObjects + _selectedMarkers + _selectedTriggers + _selectedLogics;
 
-_selectedEntities = _selectedObjects + _selectedMarkers + _selectedTriggers + _selectedLogics;
-
-collect3DENHistory 
-{
+collect3DENHistory {
 	{
 		_x set3DENAttribute ["rotation", [0,0,random 360]];
-	} forEach _selectedEntities;
+		false
+	} count _selectedEntities;
 };
 
-true;
+true
