@@ -52,7 +52,8 @@ class AmbAnimTypeCombo: Title
 		};\
 	";
 
-	class Controls {
+	class Controls: Controls 
+	{
 		class Title: Title{}; 
 		class Value: ctrlCombo
 		{
@@ -179,16 +180,16 @@ class AmbAnimTypeCombo: Title
 					text = "Sit low U (Sitting on the ground, no weapon)";
 					data = "SIT_LOW_U";
 				};
-				class SIT_HIGH1
-				{
-					text = "Sit high 1 (Sitting on higher object, legs swinging, needs a rifle)";
-					data = "SIT_HIGH1";
-				};
-				class SIT_HIGH2
-				{
-					text = "Sit high 2 (Sitting on higher object, legs swinging, needs a rifle)";
-					data = "SIT_HIGH2";
-				};
+				// class SIT_HIGH1//Bugged, unit is spawned underneath surface
+				// {
+					// text = "Sit high 1 (Sitting on higher object, legs swinging, needs a rifle)";
+					// data = "SIT_HIGH1";
+				// };
+				// class SIT_HIGH2//Bugged, unit is spawned underneath surface
+				// {
+					// text = "Sit high 2 (Sitting on higher object, legs swinging, needs a rifle)";
+					// data = "SIT_HIGH2";
+				// };
 				// class SIT_SAD1 //Bugged, unit is spawned underneath surface
 				// {
 					// text = "Sit sad 1 (Sitting on chair, looking sad)";
