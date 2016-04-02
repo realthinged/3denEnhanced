@@ -1,10 +1,34 @@
 v1.2
 *removed*
+- custom compositions
 
 *added*
+- function to quickly garrison placed building. Settings can be changed in the preferences
+- attribute to toggle map object IDs on/off
+- attribute to turn off/on vehicles engines
+- attribute to make unit a hostage
+- English, German and Italian (partially) translation
+- attribute to disable BIS revive for specific units
+- attribute to remove all FAKs from a unit
+- mission attribute to initialise BIS Dynamic Groups
+- mission attribute to create an establishing shot
+- mission attribute for display text on mission start
+- currently played song of the playMusic preference attribute is now displayed at the bottom of the screen
 
 *changed*
 - added check to prevent vanilla fog to be overwritten by advanced fog
+- music loop is not restarted every time the preference settings are confirmed
+- some attributes were executed where not needed
+- completely overhauled the task patrol attribute, one can now set the number of waypoints, radius of the area, behaviour of unit/group, and speed of unit/group
+- removed an unwanted radio sound from playMusic function
+- all functions, variables and attribute properties are now using the same tag (Enh_)
+- various function improvements
+- some categories where renamed
+- tooltips where improved
+
+*fixed*
+- log classname function would not return classname of logics and modules
+
 v1.1
 
 *removed*
@@ -42,4 +66,3 @@ v1.1
 - allowCrewImmobile attribute has been tweaked
 - shortened ambient anim init time
 - removed some ambient animation that would not work, e.g sit and treat_injured
-
