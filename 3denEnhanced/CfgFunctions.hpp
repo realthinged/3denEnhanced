@@ -1,14 +1,19 @@
 class CfgFunctions
 {
-	class Revo
+	class Enh
 	{
-		class Misc
+		class ContextMenu
 		{
 			file="3denEnhanced\functions";
-			class playMusic {};
 			class logClassName {};
 			class setRandomDir {};
 			class garrisonBuildings {};
+			class hideMapObjects {};
+		};
+		class Attributes
+		{
+			file="3denEnhanced\functions";
+			class playMusic {};
 		};
 	};
 };

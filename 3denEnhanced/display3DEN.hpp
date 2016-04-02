@@ -14,19 +14,19 @@ class display3DEN
 				};
 				class Help3denEnhanced
 				{
-					text = "3den Enhanced";
+					text = $STR_Help3denEnhanced;
 					picture = "\a3\3DEN\Data\Controls\ctrlMenu\link_ca.paa";
 					weblink = "https://forums.bistudio.com/topic/188312-3den-enhanced/";
 				};
 				class HelpFunctionsList
 				{
-					text = "Functions Overview";
+					text = $STR_HelpFunctionsOverview;
 					picture = "\a3\3DEN\Data\Controls\ctrlMenu\link_ca.paa";
 					weblink = "https://community.bistudio.com/wiki/Category:Arma_3:_Functions";
 				};
 				class HelpAssets
 				{
-					text = "Assets Overview";
+					text = $STR_HelpAssets;
 					picture = "\a3\3DEN\Data\Controls\ctrlMenu\link_ca.paa";
 					weblink = "https://community.bistudio.com/wiki/Arma_3_Assets";
 				};
@@ -43,26 +43,31 @@ class display3DEN
 			};
 			class Edit
 			{
-				items[] += {"SetRandomDir","GarrisonBuildings"};
+				items[] += {"SetRandomDir","GarrisonBuildings","HideMapObjects"};
 			};
 			class LogClassName
 			{
-				action = "call Revo_fnc_logClassName";
-				Text = "Log Class Name to Clipboard";
-				conditionShow = "selectedObject + selectedWaypoint + selectedLogic + selectedMarker";
-			};	
+				action = "call Enh_fnc_logClassName";
+				Text = $STR_LogClassName;
+				conditionShow = "selectedObject + selectedLogic";
+			};
 			class SetRandomDir
 			{
-				action = "call Revo_fnc_setRandomDir";
-				Text = "Set Random Direction";
+				action = "call Enh_fnc_setRandomDir";
+				Text = $STR_SetRandomDir;
 				conditionShow = "selectedObject + selectedWaypoint + selectedLogic + selectedMarker";
-			};	
+			};
 			class GarrisonBuildings
 			{
-				action = "call Revo_fnc_garrisonBuildings";
-				Text = "Garrison Buildings";
+				action = "call Enh_fnc_garrisonBuildings";
+				Text = $STR_GarrisonBuilding;
 				conditionShow = "selectedObject";
-			};							
+			};
+			class HideMapObjects
+			{
+				action = "call Enh_fnc_hideMapObjects";
+				Text = "Hide Map Objects";
+			};
 		};
 	};
 };

@@ -21,4 +21,24 @@ class Connections
 		cursor = "3DENConnectSync";
 		expression = "hint str [_this,_target];"; // _this is array of source entities, _target is target entity
 	};
+	class AVFeed
+	{
+		displayName = "Create AV Feed";
+		condition1 = "objectVehicle";
+		condition2 = "objectVehicle";
+		data = "custom";
+		color[] = {1,1,1,1};
+		cursor = "3DENConnectSync";
+		expression = "BIS_fnc_liveFeed"; // _this is array of source entities, _target is target entity
+	};
+	class doSuppressiveFire //unlimited ammo 
+	{
+		displayName = "Create AV Feed";
+		condition1 = "objectVehicle";
+		condition2 = "objectVehicle";
+		data = "custom";
+		color[] = {1,1,1,1};
+		cursor = "3DENConnectSync";
+		expression = "BIS_fnc_liveFeed"; // _this is array of source entities, _target is target entity
+	};
 };

@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class Revo_3denEnhanced
+	class 3denEnhanced
 	{
 		units[] = {};
 		weapons[] = {};
@@ -13,11 +13,5 @@ class CfgPatches
 #include "Cfg3DEN.hpp"
 #include "display3DEN.hpp"
 #include "CfgFunctions.hpp"
-
-
-
-
-
-
 
 
