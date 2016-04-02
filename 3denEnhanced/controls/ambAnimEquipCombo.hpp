@@ -52,8 +52,9 @@ class AmbAnimEquipmentCombo: Title
 		};\
 	";
 
-	class Controls {
-		class Title: Title{}; 
+	class Controls: Controls
+	{
+		class Title: Title{};
 		class Value: ctrlCombo
 		{
 			idc = 100;
@@ -65,33 +66,33 @@ class AmbAnimEquipmentCombo: Title
 			{
 				class ASIS
 				{
-					text = "Asis (No Changes)";
+					text = $STR_ambAnimEquipCombo_asis;
 					data = "ASIS";
 					default = 1;
 				};
 				class RANDOM
 				{
-					text = "Random (Gear is randomized according to the animation set)";
+					text = $STR_ambAnimEquipCombo_random;
 					data = "RANDOM";
 				};
 				class LIGHT
 				{
-					text = "Light (No goggles, headgear, vest)";
+					text = $STR_ambAnimEquipCombo_light;
 					data = "LIGHT";
 				};
 				class MEDIUM
 				{
-					text = "Medium (No goggles, headgear)";
+					text = $STR_ambAnimEquipCombo_medium;
 					data = "MEDIUM";
 				};
 				class FULL
 				{
-					text = "Full (No goggles)";
+					text = $STR_ambAnimEquipCombo_full;
 					data = "FULL";
 				};
 				class NONE
 				{
-					text = "None (No goggles, headgear, vest, weapon)";
+					text = $STR_ambAnimEquipCombo_none;
 					data = "NONE";
 				};
 			};

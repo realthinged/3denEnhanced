@@ -52,7 +52,8 @@ class GarrisonFactionCombo: Title
 		};\
 	";
 
-	class Controls {
+	class Controls: Controls
+	{
 		class Title: Title{}; 
 		class Value: ctrlCombo
 		{

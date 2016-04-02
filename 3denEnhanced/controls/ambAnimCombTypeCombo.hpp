@@ -52,8 +52,8 @@ class AmbAnimCombTypeCombo: Title
 		};\
 	";
 
-	class Controls {
-		class Title: Title{}; 
+	class Controls: Controls{
+		class Title: Title{};
 		class Value: ctrlCombo
 		{
 			idc = 100;
@@ -65,43 +65,43 @@ class AmbAnimCombTypeCombo: Title
 			{
 				class STAND
 				{
-					text = "Stand (Slightly turning to the sides, needs rifle!)";
+					text = $STR_ambAnimCombo_stand;
 					data = "STAND";
 					default = 1;
 				};
 				class STAND_IA
 				{
-					text = "Stand (Default A3 animation)";
+					text = $STR_ambAnimCombo_standIA;
 					data = "STAND_IA";
 				};
 				class SIT_LOW
 				{
-					text = "Sit (Sitting on the ground, with weapon";
+					text = $STR_ambAnimCombo_sitLow;
 					data = "SIT_LOW";
 				};
 				class KNEEL
 				{
-					text = "Kneel (Kneeling, with weapon)";
+					text = $STR_ambAnimCombo_kneel;
 					data = "KNEEL";
 				};
 				class LEAN
 				{
-					text = "Lean";
+					text = $STR_ambAnimCombo_lean;
 					data = "LEAN";
 				};
 				class WATCH
 				{
-					text = "Watch (Standing and turning around)";
+					text = $STR_ambAnimCombo_watch;
 					data = "WATCH";
 				};
 				class WATCH1
 				{
-					text = "Watch 1 (Standing and turning around)";
+					text = $STR_ambAnimCombo_watch1;
 					data = "WATCH1";
 				};
 				class WATCH2
 				{
-					text = "Watch 2 (Standing and turning around)";
+					text = $STR_ambAnimCombo_watch2;
 					data = "WATCH2";
 				};
 			};

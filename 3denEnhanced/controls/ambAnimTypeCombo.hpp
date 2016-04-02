@@ -52,9 +52,9 @@ class AmbAnimTypeCombo: Title
 		};\
 	";
 
-	class Controls: Controls 
+	class Controls: Controls
 	{
-		class Title: Title{}; 
+		class Title: Title{};
 		class Value: ctrlCombo
 		{
 			idc = 100;
@@ -66,120 +66,160 @@ class AmbAnimTypeCombo: Title
 			{
 				class STAND
 				{
-					text = "Stand (Slightly turning to the sides, needs rifle!)";
+					text = $STR_ambAnimCombo_stand;
 					data = "STAND";
 					default = 1;
 				};
 				class STAND_IA
 				{
-					text = "Stand IA (Default A3 animation)";
+					text = $STR_ambAnimCombo_standIA;
 					data = "STAND_IA";
 				};
 				class STAND_U1
 				{
-					text = "Stand U1 (Slightly turning to the sides, no weapon)";
+					text = $STR_ambAnimCombo_standU1;
 					data = "STAND_U1";
 				};
 				class STAND_U2
 				{
-					text = "Stand U2 ((Slightly turning to the sides, no weapon))";
+					text = $STR_ambAnimCombo_standU2;
 					data = "STAND_U2";
 				};
 				class STAND_U3
 				{
-					text = "Stand U3 ((Slightly turning to the sides, no weapon))";
+					text = $STR_ambAnimCombo_standU3;
 					data = "STAND_U3";
 				};
 				class WATCH1
 				{
-					text = "Watch 1 (Standing and turning around)";
+					text = $STR_ambAnimCombo_watch1;
 					data = "WATCH1";
 				};
 				class WATCH2
 				{
-					text = "Watch 2 (Standing and turning around)";
+					text = $STR_ambAnimCombo_watch2;
 					data = "WATCH2";
 				};
 				class LISTEN_BRIEFING
 				{
-					text = "Listen Briefing (Hands behind back, no weapon)";
+					text = $STR_ambAnimCombo_listenBriefing;
 					data = "LISTEN_BRIEFING";
 				};
 				class LEAN_ON_TABLE
 				{
-					text = "Lean on table (Standing while leaning on table)";
+					text = $STR_ambAnimCombo_leanOnTable;
 					data = "LEAN_ON_TABLE";
 				};
 				class LEAN
 				{
-					text = "Lean";
+					text = $STR_ambAnimCombo_lean;
 					data = "LEAN";
 				};
 				class BRIEFING
 				{
-					text = "Briefing (Ambient briefing loop)";
+					text = $STR_ambAnimCombo_briefing;
 					data = "BRIEFING";
 				};
 				class BRIEFING_POINT_LEFT
 				{
-					text = "Briefing pointing left (Pointing left & high)";
+					text = $STR_ambAnimCombo_briefingPointLeft;
 					data = "BRIEFING_POINT_LEFT";
 				};
 				class BRIEFING_POINT_RIGHT
 				{
-					text = "Briefing pointing right (Pointing right & high)";
+					text = $STR_ambAnimCombo_briefingPointRight;
 					data = "BRIEFING_POINT_right";
 				};
 				class BRIEFING_POINT_TABLE
 				{
-					text = "Briefing pointing down (pointing front & low)";
+					text = $STR_ambAnimCombo_briefingPointTable;
 					data = "BRIEFING_POINT_TABLE";
 				};
 				class SIT_U1
 				{
-					text = "Sit U1 (Sitting on bench or similar, no weapon)";
+					text = $STR_ambAnimCombo_sitU1;
 					data = "SIT_U1";
 				};
 				class SIT_U2
 				{
-					text = "Sit U2 (Sitting on bench or similar, no weapon)";
+					text = $STR_ambAnimCombo_sitU2;
 					data = "SIT_U2";
 				};
 				class SIT_U3
 				{
-					text = "Sit U3 (Sitting on bench or similar, no weapon)";
+					text = $STR_ambAnimCombo_sitU3;
 					data = "SIT_U3";
 				};
 				class SIT1
 				{
-					text = "Sit 1 (Sitting on bench or similar)";
+					text = $STR_ambAnimCombo_sit1;
 					data = "SIT1";
 				};
 				class SIT2
 				{
-					text = "Sit 2 (Sitting on bench or similar)";
+					text = $STR_ambAnimCombo_sit2;
 					data = "SIT2";
 				};
 				class SIT3
 				{
-					text = "Sit 3 (Sitting on bench or similar, no weapon)";
+					text = $STR_ambAnimCombo_sit3;
 					data = "SIT3";
 				};
 				class SIT_AT_TABLE
 				{
-					text = "Sit at table";
+					text = $STR_ambAnimCombo_sitAtTable;
 					data = "SIT_AT_TABLE";
 				};
 				class SIT_LOW
 				{
-					text = "Sit low (Sitting on the ground, with weapon)";
+					text = $STR_ambAnimCombo_sitLow;
 					data = "SIT_LOW";
 				};
 				class SIT_LOW_U
 				{
-					text = "Sit low U (Sitting on the ground, no weapon)";
+					text = $STR_ambAnimCombo_sitLowU;
 					data = "SIT_LOW_U";
 				};
+				class KNEEL
+				{
+					text = $STR_ambAnimCombo_kneel;
+					data = "KNEEL";
+				};
+				class PRONE_INJURED_U1
+				{
+					text = $STR_ambAnimCombo_proneInjured2;
+					data = "PRONE_INJURED_U1";
+				};
+				class PRONE_INJURED_U2
+				{
+					text = $STR_ambAnimCombo_proneInjured1;
+					data = "PRONE_INJURED_U2";
+				};
+				class PRONE_INJURED
+				{
+					text = $STR_ambAnimCombo_proneInjured;
+					data = "PRONE_INJURED";
+				};
+				class REPAIR_VEH_STAND
+				{
+					text = $STR_ambAnimCombo_repairVehStand;
+					data = "REPAIR_VEH_STAND";
+				};
+				class REPAIR_VEH_KNEEL
+				{
+					text = $STR_ambAnimCombo_repairVehKneel;
+					data = "REPAIR_VEH_KNEEL";
+				};
+				class REPAIR_VEH_PRONE
+				{
+					text = $STR_ambAnimCombo_repairVehProne;
+					data = "REPAIR_VEH_PRONE";
+				};
+				// class KNEEL_TREAT //Bugged, won't loop
+				// {
+					// text = "Kneel treat (Treating wounded soldier)";
+					// data = "KNEEL_TREAT";
+				// };
 				// class SIT_HIGH1//Bugged, unit is spawned underneath surface
 				// {
 					// text = "Sit high 1 (Sitting on higher object, legs swinging, needs a rifle)";
@@ -200,46 +240,6 @@ class AmbAnimTypeCombo: Title
 					// text = "Sit sad 2 (Sitting on chair, looking sad)";
 					// data = "SIT_SAD2";
 				// };
-				class KNEEL
-				{
-					text = "Kneel";
-					data = "KNEEL";
-				};
-				class PRONE_INJURED_U1
-				{
-					text = "Prone injured 1 (Laying wounded on back, no weapon)";
-					data = "PRONE_INJURED_U1";
-				};
-				class PRONE_INJURED_U2
-				{
-					text = "Prone injured 2 (Laying wounded on back, no weapon)";
-					data = "PRONE_INJURED_U2";
-				};
-				class PRONE_INJURED
-				{
-					text = "Prone injured (Laying wounded on back, with or without weapon)";
-					data = "PRONE_INJURED";
-				};
-				// class KNEEL_TREAT //Bugged, won't loop
-				// {
-					// text = "Kneel treat (Treating wounded soldier)";
-					// data = "KNEEL_TREAT";
-				// };
-				class REPAIR_VEH_STAND 
-				{
-					text = "Repair vehicle (Reparing vehicle, standing)";
-					data = "REPAIR_VEH_STAND";
-				};
-				class REPAIR_VEH_KNEEL
-				{
-					text = "Repair vehicle (Reparing vehicle, Kneeling)";
-					data = "REPAIR_VEH_KNEEL";
-				};
-				class REPAIR_VEH_PRONE
-				{
-					text = "Repair vehicle (Reparing vehicle, Prone)";
-					data = "REPAIR_VEH_PRONE";
-				};
 			};
 		};
 	};
