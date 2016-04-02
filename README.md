@@ -28,3 +28,11 @@ Steam Workshop: http://steamcommunity.com/sharedfiles/filedetails/?id=623475643
 PlayWithSix : http://withsix.com/p/Arma-3/mods/tUSAv2ZlsUSfu5kTGSy24w/3den-Enhanced
 
 Armaholic: http://www.armaholic.com/page.php?id=30461
+
+How to help translating this modification:
+
+    Download Stringforge from https://github.com/ajvorobiev/StringForge
+    Unzip Stringforge and execute the Stringforge.exe
+    Download the stringtable.xml from this repository and open it with Stringforge -> File-> Open
+    Add your translations/corrections
+    Upload the updated stringtable.xml and create a Pull Request
