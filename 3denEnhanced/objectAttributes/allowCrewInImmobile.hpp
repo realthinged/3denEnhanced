@@ -11,7 +11,8 @@ class AllowCrewInImmobile: SetCaptive
 			{\
 				_x disableAI 'FSM';\
 				_x setBehaviour 'CARELESS';\
-			} forEach crew _this;\
+				false;
+			} count crew _this;\
 		}\
 	";
 
