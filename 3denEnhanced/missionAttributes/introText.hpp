@@ -12,7 +12,7 @@ class IntroText
 			control = "CheckboxState";
 			expression =
 			"\
-				if (!is3DEN) then\
+				if (_value && !is3DEN) then\
 				{\
 					[] spawn\
 					{\
