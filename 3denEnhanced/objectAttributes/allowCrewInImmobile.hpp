@@ -5,13 +5,13 @@ class AllowCrewInImmobile: SetCaptive
 	property = "Enh_allowCrewInImmobile";
 	expression =
 	"\
-		if (_value) then
+		if (_value) then\
 		{\
 			_this allowCrewInImmobile _value;\
 			{\
 				_x disableAI 'FSM';\
 				_x setBehaviour 'CARELESS';\
-				false;
+				false;\
 			} count crew _this;\
 		}\
 	";
