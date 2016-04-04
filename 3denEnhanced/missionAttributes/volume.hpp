@@ -27,7 +27,7 @@ class Volume
 			control = "Slider";
 			expression =
 			"\
-				if (!is3DEN then\
+				if (!is3DEN) then\
 				{\
 					[0,_value] remoteExec ['fadeMusic',0,true];\
 				};\
