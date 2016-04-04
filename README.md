@@ -17,7 +17,7 @@ Features:
 - one click clear inventory
 - one click remove weapons
 - on click add full Arsenal
-- restore loadout on respawn (playerable units only)
+- restore loadout on respawn
 - enable music while editing
 - and much more..
 
