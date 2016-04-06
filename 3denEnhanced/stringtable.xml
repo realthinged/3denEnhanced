@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="3den Enhanced">
   <Package name="Mission Attributes">
+    <Container name="Save Gear">
+      <Key ID="STR_saveGearAllPlayers_displayName">
+        <Original>Save Gear</Original>
+        <English>Save Gear</English>
+        <German>Speichere Ausrüstung</German>
+      </Key>
+      <Key ID="STR_saveGearAllPlayers_tooltip">
+        <Original>If enabled, the gear of all player units will be saved and restored on respawn. Will only work in multiplayer missions</Original>
+        <English>If enabled, the gear of all player units will be saved and restored on respawn. Will only work in multiplayer missions</English>
+        <German>Wenn aktiviert wird die Ausrüstung aller Spielereinheiten gespeichert und beim Wiedereinstieg wiederhergestellt. Funktioniert nur im Mehrspieler</German>
+      </Key>
+    </Container>
     <Container name="Advanced Fog">
       <Key ID="STR_advancedFog_activate_displayName">
         <Original>Activate</Original>
@@ -165,6 +177,17 @@
         <Original>Radio Volume</Original>
         <English>Radio Volume</English>
         <German>Radio Lautstärke</German>
+      </Key>
+      <Key ID="STR_randomMusic_displayName">
+        <Original>Random Music</Original>
+        <English>Random Music</English>
+        <German>Zufällige Musik</German>
+      </Key>
+      <Key ID="STR_randomMusic_tooltip">
+        <Original>Will play randomly selected music at mission start. Input must look as follows: classname_1, classname_2, classname_3, classname_n</Original>
+        <English>Will play randomly selected music at mission start. Input must look as follows: classname_1, classname_2, classname_3, classname_n</English>
+        <Czech />
+        <German>Spielt willkürlich ausgewählte Musikstücke am Anfang der Mission. Eingabe muss folgendermaßen ausehen: Klassenname_1, Klassenname_2, Klassenname_3, Klassenname_n</German>
       </Key>
     </Container>
     <Container name="Intro Text">
@@ -471,18 +494,6 @@
         <Original>Forces unit to have gun light turned on</Original>
         <English>Forces unit to have gun light turned on</English>
         <German>Baut eine Taschenlampe an die Waffe der Einheit, und schaltet diese an</German>
-      </Key>
-    </Container>
-    <Container name="Save Gear">
-      <Key ID="STR_saveGear_displayName">
-        <Original>Save Loadout</Original>
-        <English>Save Loadout</English>
-        <German>Speichere Inventar</German>
-      </Key>
-      <Key ID="STR_saveGear_tooltip">
-        <Original>If enabled, the loadout of the unit will be restored on respawn</Original>
-        <English>If enabled, the loadout of the unit will be restored on respawn</English>
-        <German>Wenn aktiviert wird das Inventar nach dem Wiedereinstieg wiederhergestellt</German>
       </Key>
     </Container>
     <Container name="Arsenal">
@@ -1236,11 +1247,11 @@
         <German>Erweiterte Nebeleinstellungen</German>
       </Key>
     </Container>
-    <Container name="Music, Sound &amp; Radio Volume">
+    <Container name="Music, Sound &amp; Radio Settings">
       <Key ID="STR_volume_headline">
-        <Original>Music, Sound &amp; Radio Volume</Original>
-        <English>Music, Sound &amp; Radio Volume</English>
-        <German>Musik , Geräusch &amp; Radiolautstärke</German>
+        <Original>Music, Sound &amp; Radio Settings</Original>
+        <English>Music, Sound &amp; Radio Settings</English>
+        <German>Musik , Geräusch &amp; Radioeinstellungen</German>
       </Key>
     </Container>
     <Container name="Visual Settings">
