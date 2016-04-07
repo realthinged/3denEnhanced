@@ -49,5 +49,20 @@ class Volume
 			";
 			defaultValue = "1";
 		};
+		class RandomMusic
+		{
+			displayName = $STR_randomMusic_displayName;
+			tooltip = $STR_randomMusic_tooltip;
+			property = "Enh_randomMusic";
+			control = "EditArray";
+			expression =
+			"\
+				if (!is3DEN) then\
+				{\
+					(selectRandom _value) remoteExec ['playMusic',0];\
+				};\
+			";
+			defaultValue = [];
+		};
 	};
 };
