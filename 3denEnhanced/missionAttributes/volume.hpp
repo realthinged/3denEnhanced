@@ -16,7 +16,7 @@ class Volume
 				{\
 					[0,_value] remoteExec ['fadeSound',0,true];\
 				};\
-			"
+			";
 			defaultValue = "1";
 		};
 		class MusicVolume
@@ -27,11 +27,11 @@ class Volume
 			control = "Slider";
 			expression =
 			"\
-				if (!is3DEN then\
+				if (!is3DEN) then\
 				{\
 					[0,_value] remoteExec ['fadeMusic',0,true];\
 				};\
-				"
+			";
 			defaultValue = "1";
 		};
 		class RadioVolume
@@ -46,7 +46,7 @@ class Volume
 				{\
 					[0,_value] remoteExec ['fadeRadio',0,true];\
 				};\
-				"
+			";
 			defaultValue = "1";
 		};
 	};
