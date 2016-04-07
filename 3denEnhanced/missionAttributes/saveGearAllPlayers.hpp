@@ -17,7 +17,7 @@ class Respawn
                   player addEventHandler ['respawn', {\
                      [_this select 0,[missionNamespace,'Enh_savedInventory']] call BIS_fnc_loadInventory;\
                   }];\
-               } remoteExec ['call',-2,true];\
+               } remoteExec ['call',0,true];\
             };\
          ";
          defaultValue = "false";
