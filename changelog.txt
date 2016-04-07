@@ -25,6 +25,7 @@ v1.2
 - various function improvements
 - some categories where renamed
 - tooltips where improved
+- save gear on respawn attribute was moved to mission settings -> respawn and will now be applied to all playable units automatically
 
 *fixed*
 - log classname function would not return classname of logics and modules
