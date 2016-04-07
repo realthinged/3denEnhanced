@@ -20,7 +20,7 @@ class AmbientAnimationCombat
 				}\
 				else\
 				{\
-					[_this] remoteExec ['BIS_fnc_ambientAnim__terminate',0,true];\
+					_this call 'BIS_fnc_ambientAnim__terminate';\
 				};\
 			";
 			property = "Enh_ambAnimCombActivate";
