@@ -37,6 +37,7 @@ class EstablishingShot
 			tooltip = $STR_establishingShot_centerPos_displayName;
 			property = "Enh_centerPosition";
 			control = "EditXYZ";
+			defaultValue = [0,0,0];
 			expression = "missionNamespace setVariable ['Enh_centerPosition',_value]";
 		};
 		class DisplayText
