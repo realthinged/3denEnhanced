@@ -13,10 +13,14 @@ class Respawn
             if(!is3DEN && _value && isMultiplayer) then\
             {\
                {\
-                  [player,[missionNamespace,'Enh_savedInventory']] call BIS_fnc_saveInventory;\
-                  player addEventHandler ['respawn', {\
+                  if !(player getVariable ['Enh_gearSaved',false]) then\s
+                  {\
+                     [player,[missionNamespace,'Enh_savedInventory']] call BIS_fnc_saveInventory;\
+                     player setVariable ['Enh_gearSaved',true'];\
+                     player addEventHandler ['respawn', {\
                      [_this select 0,[missionNamespace,'Enh_savedInventory']] call BIS_fnc_loadInventory;\
-                  }];\
+                     }];\
+                  };\
                } remoteExec ['call',0,true];\
             };\
          ";
