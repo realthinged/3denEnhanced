@@ -1,7 +1,7 @@
 class Fatigue
 {
 	displayName = $STR_fatigue_displayName;
-	tooltip = "Will increase the fatigue for the unit at mission start";
+	tooltip = "";
 	property = "Enh_setFatigue";
 	control = "Slider";
 	expression = "_this setFatigue _value;";
