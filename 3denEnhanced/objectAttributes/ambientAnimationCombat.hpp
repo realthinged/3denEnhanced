@@ -20,7 +20,7 @@ class AmbientAnimationCombat
 				}\
 				else\
 				{\
-					_this call 'BIS_fnc_ambientAnim__terminate';\
+					_this call BIS_fnc_ambientAnim__terminate;\
 				};\
 			";
 			property = "Enh_ambAnimCombActivate";
