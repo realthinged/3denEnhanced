@@ -22,7 +22,7 @@ class AmbientAnimation
 				}\
 				else\
 				{\
-					_this call 'BIS_fnc_ambientAnim__terminate';\
+					_this call BIS_fnc_ambientAnim__terminate;\
 				};\
 			";
 			condition = "objectControllable";
