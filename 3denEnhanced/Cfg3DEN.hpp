@@ -19,7 +19,7 @@ class Cfg3DEN
 				class Title;
 			};
 		};
-	
+
 		#include "controls\ambAnimCombTypeCombo.hpp"
 		#include "controls\ambAnimEquipCombo.hpp"
 		#include "controls\ambAnimTypeCombo.hpp"
@@ -31,7 +31,7 @@ class Cfg3DEN
 		class Intel
 		{
 			class AttributeCategories
-			{			
+			{
 				#include "missionAttributes\timeMultiplier.hpp"
 				#include "missionAttributes\visualSettings.hpp"
 				#include "missionAttributes\enableEnvironment.hpp"
@@ -41,11 +41,11 @@ class Cfg3DEN
 		class Scenario
 		{
 			class AttributeCategories
-			{			
+			{
 				#include "missionAttributes\volume.hpp"
 				#include "missionAttributes\introText.hpp"
 				#include "missionAttributes\establishingShot.hpp"
-			};	
+			};
 		};
 		class Preferences
 		{
@@ -61,6 +61,7 @@ class Cfg3DEN
 			class AttributeCategories
 			{
 				#include "missionAttributes\dynamicGroups.hpp"
+				#include "missionAttributes\saveGearAllPlayers.hpp"
 			};
 		};
 	};
@@ -92,7 +93,7 @@ class Cfg3DEN
 			class Inventory
 			{
 				class Attributes
-				{	
+				{
 					#include "objectAttributes\removeWeapons.hpp"
 					#include "objectAttributes\clearInventory.hpp"
 					#include "objectAttributes\removeFAKs.hpp"
@@ -100,7 +101,6 @@ class Cfg3DEN
 					#include "objectAttributes\removeMap.hpp"
 					#include "objectAttributes\removeGPS.hpp"
 					#include "objectAttributes\addGunLight.hpp"
-					#include "objectAttributes\saveGear.hpp"
 					#include "objectAttributes\arsenal.hpp"
 					#include "objectAttributes\clearVehCargo.hpp"
 				};
