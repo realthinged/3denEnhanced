@@ -1,7 +1,7 @@
 name = "3den Enhanced";
 author = "Revo";
 picture = "logo.paa";
-logoSmall = "logoSmall.paa";
+logoSmall = "";
 logo = "logo.paa";
 logoOver = "";
 actionName = "Arma 3"; 
