@@ -60,8 +60,15 @@ class Cfg3DEN
 		{
 			class AttributeCategories
 			{
+				class Respawn
+				{
+					class Attributes
+					{
+						#include "missionAttributes\saveGearAllPlayers.hpp"
+						#include "missionAttributes\respawnTickets.hpp"
+					};
+				};
 				#include "missionAttributes\dynamicGroups.hpp"
-				#include "missionAttributes\saveGearAllPlayers.hpp"
 			};
 		};
 	};
