@@ -15,6 +15,7 @@ v1.2
 - mission attribute for display text on mission start
 - currently played song of the playMusic preference attribute is now displayed at the bottom of the screen
 - attribute to play random music at the beginning of the mission -> Scenario Attributs -> Music,Sound & Radiosettings
+- attribute to set respawn tickets for all sides
 
 *changed*
 - added check to prevent vanilla fog to be overwritten by advanced fog
@@ -28,6 +29,7 @@ v1.2
 - tooltips where improved
 - save gear on respawn attribute was moved to mission settings -> respawn and will now be applied to all playable units automatically
 - changes logo which is display in the expansion menu
+- improved fn_logClassName.sqf
 
 *fixed*
 - log classname function would not return classname of logics and modules
