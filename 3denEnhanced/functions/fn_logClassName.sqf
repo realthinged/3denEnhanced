@@ -12,12 +12,7 @@
 
 private ["_object", "_className","_i"];
 
-_object = get3DENSelected "";
-
-for "_i" from 0 to ((count _object) - 1) do
-{
-	if (!(((get3DENSelected "") select _i) isEqualTo [])) exitWith {_object = (((get3DENSelected "") select _i) select 0)};
-};
+_object = (get3DENSelected "object" + get3DENSelected "logic") select 0;
 
 copyToClipboard (typeOf _object);
 
