@@ -3,6 +3,8 @@
 //Bases classes for all controls
 class ctrlCombo;
 class ctrlStatic;
+class ctrlEdit;
+class ctrlXSliderH;
 
 class Cfg3DEN
 {
@@ -25,6 +27,7 @@ class Cfg3DEN
 		#include "controls\ambAnimTypeCombo.hpp"
 		#include "controls\garrisonFactionCombo.hpp"
 		#include "controls\garrisonCoverageCombo.hpp"
+		#include "controls\sliderTimeMultiplier.hpp"
 	};
 	class Mission
 	{
@@ -60,8 +63,15 @@ class Cfg3DEN
 		{
 			class AttributeCategories
 			{
+				class Respawn
+				{
+					class Attributes
+					{
+						#include "missionAttributes\saveGearAllPlayers.hpp"
+						#include "missionAttributes\respawnTickets.hpp"
+					};
+				};
 				#include "missionAttributes\dynamicGroups.hpp"
-				#include "missionAttributes\saveGearAllPlayers.hpp"
 			};
 		};
 	};
