@@ -5,6 +5,7 @@ class ctrlCombo;
 class ctrlStatic;
 class ctrlEdit;
 class ctrlXSliderH;
+class ctrlCheckbox;
 
 class Cfg3DEN
 {
@@ -28,6 +29,7 @@ class Cfg3DEN
 		#include "controls\garrisonFactionCombo.hpp"
 		#include "controls\garrisonCoverageCombo.hpp"
 		#include "controls\sliderTimeMultiplier.hpp"
+		#include "controls\sliderCheckbViewDistance.hpp"
 	};
 	class Mission
 	{
