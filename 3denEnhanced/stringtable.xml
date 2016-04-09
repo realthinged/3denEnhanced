@@ -283,6 +283,23 @@
         <German>Richtung der Kamerabewegung</German>
       </Key>
     </Container>
+    <Container name="Respawn Tickets">
+      <Key ID="STR_respawnTickets_BLUFOR_displayName">
+        <Original>Respawn Tickets BLUFOR</Original>
+        <English>Respawn Tickets BLUFOR</English>
+        <German>Wiedereinstiegstickets BLUFOR</German>
+      </Key>
+      <Key ID="STR_respawnTickets_INDFOR_displayName">
+        <Original>Respawn Tickets INDFOR</Original>
+        <English>Respawn Tickets INDFOR</English>
+        <German>Wiedereinstiegstickets INDFOR</German>
+      </Key>
+      <Key ID="STR_respawnTickets_OPFOR_displayName">
+        <Original>Respawn Tickets OPFOR</Original>
+        <English>Respawn Tickets OPFOR</English>
+        <German>Wiedereinstiegstickets OPFOR</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Object Attributes">
     <Container name="Advanced Damage Vehicle">
