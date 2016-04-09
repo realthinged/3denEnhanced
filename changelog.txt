@@ -30,6 +30,8 @@ v1.2
 - save gear on respawn attribute was moved to mission settings -> respawn and will now be applied to all playable units automatically
 - changes logo which is display in the expansion menu
 - improved fn_logClassName.sqf
+- added improved control for view distance setting
+- time multiplier settings uses a custom control with slider and edit box
 
 *fixed*
 - log classname function would not return classname of logics and modules
