@@ -18,8 +18,8 @@ class RandomPatrol
 					{\
 						waitUntil {time > 0.2};\
 						_radius =  _this getVariable ['Enh_taskPatrol_radius',200];\
-						_behaviour =  _this getVariable ['Enh_taskPatrol_behaviour','SAFE'];\
-						_speed =  _this getVariable ['Enh_taskPatrol_speed','LIMITED'];\
+						_behaviour =  _this getVariable ['Enh_taskPatrol_behaviour','safe'];\
+						_speed =  _this getVariable ['Enh_taskPatrol_speed','limited'];\
 						_group = group _this;\
 						_center = getPosWorld _this;\
 						_water = 0;\
@@ -64,7 +64,7 @@ class RandomPatrol
 			control = "BehaviourGroup";
 			expression = "_this setVariable ['Enh_taskPatrol_behaviour',_value];";
 			condition = "objectControllable";
-			defaultValue = "SAFE";
+			defaultValue = "safe";
 		};
 		class Speed
 		{
@@ -74,7 +74,7 @@ class RandomPatrol
 			control = "SpeedModeGroup";
 			expression = "_this setVariable ['Enh_taskPatrol_speed',_value];";
 			condition = "objectControllable";
-			defaultValue = "LIMITED";
+			defaultValue = "limited";
 		};
 	};
 };
