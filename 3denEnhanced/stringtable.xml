@@ -62,14 +62,14 @@
     </Container>
     <Container name="Enable Environment">
       <Key ID="STR_enableEnvironment_displayName">
-        <Original>Disable Environment</Original>
-        <English>Disable Environment</English>
-        <German>Umwelteffekte ausschalten</German>
+        <Original>Enable Environment</Original>
+        <English>Enable Environment</English>
+        <German>Umwelteffekte anschalten</German>
       </Key>
       <Key ID="STR_enableEnvironment_tooltip">
-        <Original>Disables environmental effects (ambient life + sound)</Original>
-        <English>Disables environmental effects (ambient life + sound)</English>
-        <German>Schaltet die Umwelteffekte wie Tiere und Geräusche aus</German>
+        <Original>Enables environmental effects (ambient life + sound)</Original>
+        <English>Enables environmental effects (ambient life + sound)</English>
+        <German>Schaltet die Umwelteffekte wie Tiere und Geräusche an</German>
       </Key>
     </Container>
     <Container name="Music">
