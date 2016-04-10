@@ -7,7 +7,7 @@ class AddGunLight: RemoveWeapons
 	"\
 		if(_value) then\
 		{\
-			_this removePrimaryWeaponItem (primaryWeaponItems param [1,"",[""]]);\
+			_this removePrimaryWeaponItem (primaryWeaponItems _this param [1,"",[""]]);\
 			_this addPrimaryWeaponItem 'acc_flashlight';\
 			_this enableGunLights 'forceOn';\
 		};\
