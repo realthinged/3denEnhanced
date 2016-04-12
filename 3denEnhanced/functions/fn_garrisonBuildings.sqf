@@ -51,7 +51,6 @@ switch (_faction) do
 collect3DENHistory
 {
 	{
-		systemChat "START";
 		if (count (_x buildingPos -1) > 0) then
 		{
 			for "_i" from 0 to count (_x buildingPos -1) step parseNumber (_stepBuildingPos) do
