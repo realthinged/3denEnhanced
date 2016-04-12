@@ -1,4 +1,4 @@
-class GarrisonFactionCombo: Title //not yet on gitHub
+class GarrisonFactionCombo: Title
 {
 	attributeLoad = "\
 		_ctrl = _this controlsGroupCtrl 100;\
