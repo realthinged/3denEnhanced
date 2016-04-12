@@ -85,16 +85,6 @@
       </Key>
     </Container>
     <Container name="Garrison Buildings">
-      <Key ID="STR_buildingCoverage_displayName">
-        <Original>Coverage Buildings</Original>
-        <English>Coverage Buildings</English>
-        <German>Abdeckung Gebäude</German>
-      </Key>
-      <Key ID="STR_buildingCoverage_tooltip">
-        <Original>Set how many of the selected buildings will be garrisoned</Original>
-        <English>Set how many of the selected buildings will be garrisoned</English>
-        <German>Legt fest wie viele der selektierten Gebäude bemannt werden</German>
-      </Key>
       <Key ID="STR_buildingPosCoverage_displayName">
         <Original>Coverage Building Positions</Original>
         <English>Coverage Building Positions</English>
