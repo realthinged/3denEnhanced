@@ -1,4 +1,4 @@
-class GarrisonCoverageCombo: Title //not yet on gitHub
+class GarrisonCoverageCombo: Title
 {
 	attributeLoad = "\
 		_ctrl = _this controlsGroupCtrl 100;\
