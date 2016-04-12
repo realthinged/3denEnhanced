@@ -1,4 +1,4 @@
-class GarrisonFactionCombo: Title
+class GarrisonFactionCombo: Title //not yet on gitHub
 {
 	attributeLoad = "\
 		_ctrl = _this controlsGroupCtrl 100;\
@@ -30,31 +30,17 @@ class GarrisonFactionCombo: Title
 		if ( isClass _staticItemsCfg ) then {\
 			[ _staticItemsCfg, false ] call _fnc_setValues;\
 		};\
-		\
-		_dynamicItemsCfg = configFile >> 'Cfg3DEN' >> 'Attributes' >> _attCtrl >> 'Controls' >> 'Value' >> 'ItemsConfig';\
-		if ( isNumber( _dynamicItemsCfg >> 'localConfig' ) && { getNumber( _dynamicItemsCfg >> 'localConfig' ) > 0 } ) then {\
-			_class = getArray( _dynamicItemsCfg >> 'path' ) select 0;\
-			_path = missionConfigFile >> _class;\
-			if ( isClass _path ) then {\
-				_path call _fnc_setValues;\
-			};\
-		};\
 	";
 
-	attributeSave = "\
-		_ctrl = (_this controlsGroupCtrl 100);\
-		_value = _ctrl lbData lbCurSel _ctrl;\
-		_att = getText( _config >> 'property' );\
-		collect3DENHistory {\
-			{\
-				_x set3DENAttribute [_att,_value];\
-			} forEach ( get3DENSelected 'object' );\
-		};\
+	attributeSave =
+	"\
+		_ctrl = _this controlsGroupCtrl 100;\
+		_ctrl lbData lbCurSel _ctrl;\
 	";
 
 	class Controls: Controls
 	{
-		class Title: Title{}; 
+		class Title: Title{};
 		class Value: ctrlCombo
 		{
 			idc = 100;
