@@ -12,6 +12,16 @@ class display3DEN
 				{
 					items[] += {"Help3denEnhanced","HelpFunctionsList","HelpAssets"};
 				};
+				class Tools
+				{
+					items[] += {"Enh_toggleMapIDs"};
+				};
+				class Enh_toggleMapIDs
+				{
+					text = $STR_showMapIDs_displayName;
+					picture = "\3denEnhanced\data\Enh_icon_id.paa";
+					action = "do3DENAction 'ToggleMapIDs';";
+				};
 				class Help3denEnhanced
 				{
 					text = $STR_Help3denEnhanced;

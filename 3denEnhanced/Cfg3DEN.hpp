@@ -58,7 +58,6 @@ class Cfg3DEN
 			{
 				#include "missionAttributes\music.hpp"
 				#include "missionAttributes\garrisonBuildings.hpp"
-				#include "missionAttributes\toggleMapIDs.hpp"
 			};
 		};
 		class Multiplayer
