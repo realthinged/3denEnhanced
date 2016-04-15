@@ -1,5 +1,3 @@
-#include "\a3\3DEN\UI\macros.inc"
-
 //Bases classes for all controls
 class ctrlCombo;
 class ctrlStatic;
