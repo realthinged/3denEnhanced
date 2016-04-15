@@ -221,14 +221,9 @@
     </Container>
     <Container name="Show Map IDs">
       <Key ID="STR_showMapIDs_displayName">
-        <Original>Show Map IDs</Original>
-        <English>Show Map IDs</English>
+        <Original>Toggle Map IDs</Original>
+        <English>Toggle Map IDs</English>
         <German>Zeige Karten IDs</German>
-      </Key>
-      <Key ID="STR_showMapIDs_tooltip">
-        <Original>If enabled, map IDs will be shown in zoomed in 2D view</Original>
-        <English>If enabled, map IDs will be shown in zoomed in 2D view</English>
-        <German>Wenn aktiviert werden die IDs der Kartenobjekte in der 2D Ansicht angezeigt</German>
       </Key>
     </Container>
     <Container name="Establishing Shot">
