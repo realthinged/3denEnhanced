@@ -32,6 +32,8 @@ v1.2
 - improved fn_logClassName.sqf
 - added improved control for view distance setting
 - time multiplier settings uses a custom control with slider and edit box
+- removed toggleMapIDs attribute from Preferences and moved it to the Menu Strip -> Tools
+- added ID icon for ToggleMapIDs tool
 
 *fixed*
 - log classname function would not return classname of logics and modules
