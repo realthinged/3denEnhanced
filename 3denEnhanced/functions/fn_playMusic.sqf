@@ -33,6 +33,7 @@ if (_value && isNil 'Enh_musicEH') then
 		'RadioAmbient8',
 		'RadioAmbient9',
 		'RadioAmbient10',
+		'RadioAmbient11',
 		'RadioAmbient12',
 		'RadioAmbient13',
 		'RadioAmbient14',
