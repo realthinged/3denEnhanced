@@ -4,35 +4,36 @@ class RandomPatrol
 	collapsed = 1;
 	class Attributes
 	{
-		class Activate
+		class Radius
 		{
-			displayName = $STR_advancedFog_activate_displayName;
-			tooltip = "";
-			property = "Enh_taskPatrol_activate";
-			control = "CheckboxState";
+			displayName = $STR_randomPatrol_radius_displayName;
+			tooltip = $STR_randomPatrol_radius_tooltip;
+			property = "Enh_randomPatrol_radius";
+			control = "Edit"
 			expression =
 			"\
-				if (!is3DEN && _value) then\
+				if (!is3DEN && (_value > 0)) then\
 				{\
-					_this spawn\
+					[_this,_value] spawn\
 					{\
 						waitUntil {time > 0.2};\
-						_radius =  _this getVariable ['Enh_taskPatrol_radius',200];\
-						_behaviour =  _this getVariable ['Enh_taskPatrol_behaviour','safe'];\
-						_speed =  _this getVariable ['Enh_taskPatrol_speed','limited'];\
-						_group = group _this;\
-						_center = getPosWorld _this;\
+						_unit = _this select 0;\
+						_radius = _this select 1;\
+						_behaviour =  _unit getVariable ['Enh_randomPatrol_behaviour','SAFE'];\
+						_speed =  _unit getVariable ['Enh_randomPatrol_speed','LIMITED'];\
+						_group = group _unit;\
+						_center = getPosWorld _unit;\
 						_water = 0;\
 						for '_i' from 1 to 5 do\
 						{\
-							if (vehicle _this isKindOf 'ship') then {_water = 2};\
-							_wpPos = [_center, 1,_radius,2,_water,20,0] call BIS_fnc_findSafePos;\
-							_wp = _group addWaypoint [_wpPos,1];\
+							if (vehicle _unit isKindOf 'ship') then {_water = 2};\
+							_wpPos = [_center,1,_radius,2,_water,20,0] call BIS_fnc_findSafePos;\
+							_wp = _group addWaypoint [_wpPos,10];\
 							if (_i == 1) then\
 							{\
 								_wp setWaypointType 'MOVE';\
-								_wp setWaypointBehaviour _behaviour;\
-								_wp setWaypointSpeed _speed;\
+								_wp setWaypointBehaviour toUpper _behaviour;\
+								_wp setWaypointSpeed toUpper _speed;\
 							};\
 							if (_i == 5) then\
 							{\
@@ -42,17 +43,7 @@ class RandomPatrol
 					};\
 				};\
 			";
-			defaultValue = "false";
-			condition = "objectControllable";
-		};
-		class Radius
-		{
-			displayName = $STR_randomPatrol_radius_displayName;
-			tooltip = $STR_randomPatrol_radius_tooltip;
-			property = "Enh_taskPatrol_radius";
-			control = "Edit"
-			expression = "_this setVariable ['Enh_taskPatrol_radius',_value];";
-			defaultValue = "200";
+			defaultValue = "-1";
 			typeName = "NUMBER";
 			condition = "objectControllable";
 		};
@@ -62,8 +53,9 @@ class RandomPatrol
 			tooltip = "";
 			property = "Enh_taskPatrol_behaviour";
 			control = "BehaviourGroup";
-			expression = "_this setVariable ['Enh_taskPatrol_behaviour',_value];";
+			expression = "_this setVariable ['Enh_randomPatrol_behaviour',_value];";
 			condition = "objectControllable";
+			typeName = "STRING";
 			defaultValue = "safe";
 		};
 		class Speed
@@ -72,8 +64,9 @@ class RandomPatrol
 			tooltip = "";
 			property = "Enh_taskPatrol_speed";
 			control = "SpeedModeGroup";
-			expression = "_this setVariable ['Enh_taskPatrol_speed',_value];";
+			expression = "_this setVariable ['Enh_randomPatrol_speed',_value];";
 			condition = "objectControllable";
+			typeName = "STRING";
 			defaultValue = "limited";
 		};
 	};
