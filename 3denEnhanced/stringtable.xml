@@ -543,9 +543,9 @@
         <German>Radius</German>
       </Key>
       <Key ID="STR_randomPatrol_radius_tooltip">
-        <Original>Radius of the patrolled area</Original>
-        <English>Radius of the patrolled area</English>
-        <German>Radius des zu patrollierenden Gebietes</German>
+        <Original>Radius of the patrolled area, enter -1 to disable the patrol</Original>
+        <English>Radius of the patrolled area, enter -1 to disable the patrol</English>
+        <German>Radius des zu patrollierenden Gebietes, gebe -1 ein, um die Patrouille zu deaktivieren</German>
       </Key>
       <Key ID="STR_randomPatrol_behaviour_displayName">
         <Original>Behaviour</Original>
