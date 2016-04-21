@@ -16,6 +16,8 @@ v1.2
 - currently played song of the playMusic preference attribute is now displayed at the bottom of the screen
 - attribute to play random music at the beginning of the mission -> Scenario Attributs -> Music,Sound & Radiosettings
 - attribute to set respawn tickets for all sides
+- version check. Player will now recieve a warning if game version is greater than required version and dev branch is used
+- version check function
 
 *changed*
 - added check to prevent vanilla fog to be overwritten by advanced fog
