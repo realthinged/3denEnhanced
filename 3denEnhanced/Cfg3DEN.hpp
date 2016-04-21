@@ -10,6 +10,14 @@ class Cfg3DEN
 {
 	#include "notifications.hpp"
 	#include "connections.hpp"
+
+	class EventHandlers
+	{
+		class Enh_EH_checkVersion
+		{
+			onMissionNew = "call Enh_fnc_checkVersion";
+		};
+	};
 	class Attributes
 	{
 		// Base class templates

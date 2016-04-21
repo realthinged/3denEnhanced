@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = 1.57;
+		requiredVersion = 1.58;
 		requiredAddons[] = {3den};
 		author[] = {"Revo"};
 	};
@@ -13,5 +13,3 @@ class CfgPatches
 #include "Cfg3DEN.hpp"
 #include "display3DEN.hpp"
 #include "CfgFunctions.hpp"
-
-
