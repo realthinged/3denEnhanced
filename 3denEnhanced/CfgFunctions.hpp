@@ -15,5 +15,10 @@ class CfgFunctions
 			file="3denEnhanced\functions";
 			class playMusic {};
 		};
+		class Misc
+		{
+			file="3denEnhanced\functions";
+			class checkVersion {};
+		};
 	};
 };
