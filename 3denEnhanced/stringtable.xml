@@ -1092,6 +1092,11 @@
         <French>Classname copié dans le presse-papiers</French>
         <German>Klassenname wurde in der Zwischenablage gespeichert</German>
       </Key>
+      <Key ID="STR_notifications_checkVersionWarning">
+        <Original>Warning! You are currently using the development branch. 3den Enhanced might not work with the current version of Arma 3. Please keep that in mind when reporting issues</Original>
+        <English>Warning! You are currently using the development branch. 3den Enhanced might not work with the current version of Arma 3. Please keep that in mind when reporting issues</English>
+        <German>Warnung! Sie benutzen zurzeit den Entwicklungszweig von Arma 3. Bei der Verwendung der 3den Enhanced Modifikation könnte es zu Fehlern kommen. Bitte beachten Sie dies beim Melden von Fehlern</German>
+      </Key>
     </Container>
     <Container name="Song Display">
       <Key ID="STR_songDisplay">
