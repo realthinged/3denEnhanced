@@ -6,7 +6,7 @@ v1.2
 - function to quickly garrison placed building. Settings can be changed in the preferences
 - attribute to toggle map object IDs on/off
 - attribute to turn off/on vehicles engines
-- attribute to make unit a hostage
+- attribute to make unit a hostage !!!!Will be in a later version!!!!
 - English, German and Italian (partially) translation
 - attribute to disable BIS revive for specific units
 - attribute to remove all FAKs from a unit
@@ -18,6 +18,7 @@ v1.2
 - attribute to set respawn tickets for all sides
 - version check. Player will now recieve a warning if game version is greater than required version and dev branch is used
 - version check function
+- french translation
 
 *changed*
 - added check to prevent vanilla fog to be overwritten by advanced fog
