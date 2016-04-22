@@ -5,11 +5,13 @@
       <Key ID="STR_saveGearAllPlayers_displayName">
         <Original>Save Gear</Original>
         <English>Save Gear</English>
+        <French>Sauvegarder l'équipement</French>
         <German>Speichere Ausrüstung</German>
       </Key>
       <Key ID="STR_saveGearAllPlayers_tooltip">
         <Original>If enabled, the gear of all player units will be saved and restored on respawn. Will only work in multiplayer missions</Original>
         <English>If enabled, the gear of all player units will be saved and restored on respawn. Will only work in multiplayer missions</English>
+        <French>Si activé, l'équipement de tous les joueurs sera sauvegardé et restauré lors de la réapparition. Fonctionne uniquement dans les missions multi-joueurs.</French>
         <German>Wenn aktiviert wird die Ausrüstung aller Spielereinheiten gespeichert und beim Wiedereinstieg wiederhergestellt. Funktioniert nur im Mehrspieler</German>
       </Key>
     </Container>
@@ -17,46 +19,55 @@
       <Key ID="STR_advancedFog_activate_displayName">
         <Original>Activate</Original>
         <English>Activate</English>
+        <French>Activer</French>
         <German>Aktivieren</German>
       </Key>
       <Key ID="STR_advancedFog_Delay_displayName">
         <Original>Delay</Original>
         <English>Delay</English>
+        <French>Retarder</French>
         <German>Verzögerung</German>
       </Key>
       <Key ID="STR_advancedFog_Delay_tooltip">
         <Original>Define how long it will take for the fog to appear. [sec]</Original>
         <English>Define how long it will take for the fog to appear. [sec]</English>
+        <French>Définir combien de temps il faut pour que le brouillard apparaisse (en seconde).</French>
         <German>Legt fest wie viel Zeit vergehen muss bis der Nebel sein maximales Level erreich. [Sec]</German>
       </Key>
       <Key ID="STR_advancedFog_FogValue_displayName">
         <Original>Density</Original>
         <English>Density</English>
+        <French>Densité</French>
         <German>Stärke</German>
       </Key>
       <Key ID="STR_advancedFog_FogValue_tooltip">
         <Original>Value for fog at base level</Original>
         <English>Value for fog at base level</English>
+        <French>Valeur de base du brouillard</French>
         <German>Die Stärke des Nebels in der Basishöhenlage</German>
       </Key>
       <Key ID="STR_advancedFog_FogDecay_displayName">
         <Original>Decay</Original>
         <English>Decay</English>
+        <French>Dissipation</French>
         <German>Stärke des Abklingens</German>
       </Key>
       <Key ID="STR_advancedFog_FogDecay_tooltip">
         <Original>Decay of fog density with altitude</Original>
         <English>Decay of fog density with altitude</English>
+        <French>Dissipation de la densité du brouillard avec l'altitude</French>
         <German>Stärke des Abklingens des Nebels mit Zunahme der Höhe</German>
       </Key>
       <Key ID="STR_advancedFog_FogBase_displayName">
         <Original>Base Altitude</Original>
         <English>Base Altitude</English>
+        <French>Altitude de base</French>
         <German>Basis Höhenlage</German>
       </Key>
       <Key ID="STR_advancedFog_FogBase_tooltip">
         <Original>Base altitude of fog [m]</Original>
         <English>Base altitude of fog [m]</English>
+        <French>Altitude de base du brouillard (en mètre)</French>
         <German>Basis Höhenlage des Nebels [m]</German>
       </Key>
     </Container>
@@ -64,11 +75,13 @@
       <Key ID="STR_enableEnvironment_displayName">
         <Original>Enable Environment</Original>
         <English>Enable Environment</English>
+        <French>Activer l'environnement</French>
         <German>Umwelteffekte anschalten</German>
       </Key>
       <Key ID="STR_enableEnvironment_tooltip">
         <Original>Enables environmental effects (ambient life + sound)</Original>
         <English>Enables environmental effects (ambient life + sound)</English>
+        <French>Activer des effets environnementaux (vie ambiante et son)</French>
         <German>Schaltet die Umwelteffekte wie Tiere und Geräusche an</German>
       </Key>
     </Container>
@@ -76,11 +89,13 @@
       <Key ID="STR_enableMusic_displayName">
         <Original>Enable Music</Original>
         <English>Enable Music</English>
+        <French>Activer musique</French>
         <German>Musik einschalten</German>
       </Key>
       <Key ID="STR_enableMusic_tooltip">
         <Original>If enabled, random music from CfgMusic will be played in a loop</Original>
         <English>If enabled, random music from CfgMusic will be played in a loop</English>
+        <French>Si activé, une musique aléatoire du jeu sera jouée</French>
         <German>Wenn eingeschaltet, werden willkürliche Musikstücke aus CfgMusic ausgewählt und abgespielt</German>
       </Key>
     </Container>
@@ -88,21 +103,25 @@
       <Key ID="STR_buildingPosCoverage_displayName">
         <Original>Coverage Building Positions</Original>
         <English>Coverage Building Positions</English>
+        <French>Couverture de la position du bâtiment</French>
         <German>Abdeckung Gebäudepositionen</German>
       </Key>
       <Key ID="STR_buildingPosCoverage_tooltip">
         <Original>Set how many building positions should be garrisoned</Original>
         <English>Set how many building positions should be garrisoned</English>
+        <French>Définir combien de positions de bâtiments doivent être placées</French>
         <German>Legt fest wie viele der Gebäudepositionen bemannt werden</German>
       </Key>
       <Key ID="STR_faction_displayName">
         <Original>Faction</Original>
         <English>Faction</English>
+        <French>Faction</French>
         <German>Fraktion</German>
       </Key>
       <Key ID="STR_faction_tooltip">
         <Original>Set which faction should garrison the building</Original>
         <English>Set which faction should garrison the building</English>
+        <French>Définir quelle faction devrait être placée dans le bâtiment</French>
         <German>Legt fest welche Fraktion zum bemannen von Gebäuden benutzt werden</German>
       </Key>
     </Container>
@@ -110,11 +129,13 @@
       <Key ID="STR_timeMultiplier_displayName">
         <Original>Time Multiplier</Original>
         <English>Time Multiplier</English>
+        <French>Temps en multi-joueurs</French>
         <German>Zeit Beschleunigung</German>
       </Key>
       <Key ID="STR_timeMultiplier_tooltip">
         <Original>Set how fast the time will pass. Values from 0.1 - 120 are valid</Original>
         <English>Set how fast the time will pass. Values from 0.1 - 120 are valid</English>
+        <French>Définir la vitesse du temps. Les valeurs de 0.1 à 120 sont valides</French>
         <German>Legt fest wie schnell die Zeit vergeht. Werte von 0.1 - 120 sind möglich</German>
       </Key>
     </Container>
@@ -122,11 +143,13 @@
       <Key ID="STR_showMapIDs_displayName">
         <Original>Show Map IDs</Original>
         <English>Show Map IDs</English>
+        <French>Afficher les IDs de carte</French>
         <German>Zeige Karten IDs</German>
       </Key>
       <Key ID="STR_showMapIDs_tooltip">
         <Original>If enabled, map IDs will be shown in zoomed in 2D view</Original>
         <English>If enabled, map IDs will be shown in zoomed in 2D view</English>
+        <French>Si activé, les IDs de carte peuvent être affichés en zoom dans le mode 2D.</French>
         <German>Wenn eingeschaltet, werden die IDs von Kartenobjekten in der 2D Ansicht angezeigt</German>
       </Key>
     </Container>
@@ -134,21 +157,25 @@
       <Key ID="STR_viewDistance_displayName">
         <Original>View Distance</Original>
         <English>View Distance</English>
+        <French>Distance d'affichage</French>
         <German>Sichtweite</German>
       </Key>
       <Key ID="STR_disableGrass_displayName">
         <Original>Disable Grass</Original>
         <English>Disable Grass</English>
+        <French>Désactiver l'herbe</French>
         <German>Grass ausschalten</German>
       </Key>
       <Key ID="STR_disableGrass_tooltip">
         <Original>Disables grass. JIP compatible</Original>
         <English>Disables grass. JIP compatible</English>
+        <French>Désactiver l'herbe. Compatible avec JIP</French>
         <German>Schaltet das Gras aus. JIP kompatible</German>
       </Key>
       <Key ID="STR_viewDistance_tooltip">
         <Original>Set the view distance for all players. JIP compatible</Original>
         <English>Set the view distance for all players. JIP compatible</English>
+        <French>Distance d'affichage pour tous les joueurs. Compatible avec JIP</French>
         <German>Legt die Sichtweite fest. JIP kompatible</German>
       </Key>
     </Container>
@@ -156,27 +183,32 @@
       <Key ID="STR_soundVolume_displayName">
         <Original>Sound Volume</Original>
         <English>Sound Volume</English>
+        <French>Volume du son</French>
         <German>Geräusch Lautstärke</German>
       </Key>
       <Key ID="STR_musicVolume_displayName">
         <Original>Music Volume</Original>
         <English>Music Volume</English>
+        <French>Volume de la musique</French>
         <German>Musik Lautstärke</German>
       </Key>
       <Key ID="STR_radioVolume_displayName">
         <Original>Radio Volume</Original>
         <English>Radio Volume</English>
+        <French>Volume de la radio</French>
         <German>Radio Lautstärke</German>
       </Key>
       <Key ID="STR_randomMusic_displayName">
         <Original>Random Music</Original>
         <English>Random Music</English>
+        <French>Musique aléatoire</French>
         <German>Zufällige Musik</German>
       </Key>
       <Key ID="STR_randomMusic_tooltip">
         <Original>Will play randomly selected music at mission start. Input must look as follows: classname_1, classname_2, classname_3, classname_n</Original>
         <English>Will play randomly selected music at mission start. Input must look as follows: classname_1, classname_2, classname_3, classname_n</English>
         <Czech />
+        <French>Joue aléatoirement une musique sélectionnée quand la mission débute. Le champ doit être de la forme : classname_1, classname_2, classname_3, classname_n</French>
         <German>Spielt willkürlich ausgewählte Musikstücke am Anfang der Mission. Eingabe muss folgendermaßen ausehen: Klassenname_1, Klassenname_2, Klassenname_3, Klassenname_n</German>
       </Key>
     </Container>
@@ -184,31 +216,37 @@
       <Key ID="STR_introText_displayName">
         <Original>Intro Text</Original>
         <English>Intro Text</English>
+        <French>Texte d'introduction</French>
         <German>Intro Text</German>
       </Key>
       <Key ID="STR_introText_activate_displayName">
         <Original>Activate</Original>
         <English>Activate</English>
+        <French>Activer</French>
         <German>Aktivieren</German>
       </Key>
       <Key ID="STR_introText_activate_tooltip">
         <Original>Will display three lines at the beginnen of the mission for every player</Original>
         <English>Will display three lines at the beginnen of the mission for every player</English>
+        <French>Affiche trois lignes au début de la mission pour chaque joueurs</French>
         <German>Am Anfang der Mission werden drei Zeilen für jeden Spieler angezeigt</German>
       </Key>
       <Key ID="STR_introText_line1_displayName">
         <Original>First Line</Original>
         <English>First Line</English>
+        <French>Première ligne</French>
         <German>Erste Zeile</German>
       </Key>
       <Key ID="STR_introText_line2_displayName">
         <Original>Second Line</Original>
         <English>Second Line</English>
+        <French>Seconde ligne</French>
         <German>Zweite Zeile</German>
       </Key>
       <Key ID="STR_introText_line3_displayName">
         <Original>Third Line</Original>
         <English>Third Line</English>
+        <French>Troisième ligne</French>
         <German>Dritte Zeile</German>
       </Key>
     </Container>
@@ -216,6 +254,7 @@
       <Key ID="STR_dynamicGroups_tooltip">
         <Original>Enables the Dynamic Groups system</Original>
         <English>Enables the Dynamic Groups system</English>
+        <French>Activer le système de groupes dynamiques</French>
         <German>Aktiviert das dynamische Gruppensystem</German>
       </Key>
     </Container>
@@ -223,6 +262,7 @@
       <Key ID="STR_showMapIDs_displayName">
         <Original>Toggle Map IDs</Original>
         <English>Toggle Map IDs</English>
+        <French>Affichage des IDs de carte</French>
         <German>Zeige Karten IDs</German>
       </Key>
     </Container>
@@ -230,41 +270,49 @@
       <Key ID="STR_establishingShot_centerPos_displayName">
         <Original>Center Position</Original>
         <English>Center Position</English>
+        <French>Position centrale</French>
         <German>Anvisierte Position</German>
       </Key>
       <Key ID="STR_establishingShot_centerPos_tooltip">
         <Original>The center position of the virtual UAV's orbit</Original>
         <English>The center position of the virtual UAV's orbit</English>
+        <French>Position centrale de la sphère virtuelle du drône</French>
         <German>Das Zentrum um das das virtuelle UAV kreist</German>
       </Key>
       <Key ID="STR_establishingShot_displayedText">
         <Original>Displayed Text</Original>
         <English>Displayed Text</English>
+        <French>Afficher texte</French>
         <German>Angezeigter Text</German>
       </Key>
       <Key ID="STR_establishingShot_altitude_displayName">
         <Original>Altitude</Original>
         <English>Altitude</English>
+        <French>Altitude</French>
         <German>Flughöhe</German>
       </Key>
       <Key ID="STR_establishingShot_radius_displayName">
         <Original>Radius of the orbit</Original>
         <English>Radius of the orbit</English>
+        <French>Rayon de la sphère</French>
         <German>Radius der Umlaufbahn</German>
       </Key>
       <Key ID="STR_establishingShot_viewingAngle_displayName">
         <Original>Viewing Angle</Original>
         <English>Viewing Angle</English>
+        <French>Angle de vue</French>
         <German>Betrachtungswinkel</German>
       </Key>
       <Key ID="STR_establishingShot_dirCamera_tooltip">
         <Original>(0: anti-clockwise, 1: clockwise, default: random)</Original>
         <English>(0: anti-clockwise, 1: clockwise, default: random)</English>
+        <French>(0 : sens antihoraire, 1 : sens horaire, par défaut : aléatoire)</French>
         <German>(0: Gegen Uhrzeigersinn, 1: Im Uhrzeigersinn, Standart: willkürlich)</German>
       </Key>
       <Key ID="STR_establishingShot_dirCamera_displayName">
         <Original>Direction of Camera Movement</Original>
         <English>Direction of Camera Movement</English>
+        <French>Direction du mouvement de la caméra</French>
         <German>Richtung der Kamerabewegung</German>
       </Key>
     </Container>
@@ -272,16 +320,19 @@
       <Key ID="STR_respawnTickets_BLUFOR_displayName">
         <Original>Respawn Tickets BLUFOR</Original>
         <English>Respawn Tickets BLUFOR</English>
+        <French>Tickets de réapparition BLUFOR</French>
         <German>Wiedereinstiegstickets BLUFOR</German>
       </Key>
       <Key ID="STR_respawnTickets_INDFOR_displayName">
         <Original>Respawn Tickets INDFOR</Original>
         <English>Respawn Tickets INDFOR</English>
+        <French>Tickets de réapparition INDFOR</French>
         <German>Wiedereinstiegstickets INDFOR</German>
       </Key>
       <Key ID="STR_respawnTickets_OPFOR_displayName">
         <Original>Respawn Tickets OPFOR</Original>
         <English>Respawn Tickets OPFOR</English>
+        <French>Tickets de réapparition OPFOR</French>
         <German>Wiedereinstiegstickets OPFOR</German>
       </Key>
     </Container>
@@ -291,101 +342,121 @@
       <Key ID="STR_advancedDamageVeh_engine">
         <Original>Engine (all)</Original>
         <English>Engine (all)</English>
+        <French>Moteur (tout)</French>
         <German>Motor (Alle)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_gun">
         <Original>Gun (all)</Original>
         <English>Gun (all)</English>
+        <French>Arme (tout)</French>
         <German>Geschütz (Alle)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_fuelTank">
         <Original>Fuel Trank (all)</Original>
         <English>Fuel Trank (all)</English>
+        <French>Jerrican (tout)</French>
         <German>Treibstofftank (Alle)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_turret">
         <Original>Turret (all)</Original>
         <English>Turret (all)</English>
+        <French>Tourelle (tout)</French>
         <German>Geschützturm (Alle)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_windows">
         <Original>Windows (all)</Original>
         <English>Windows (all)</English>
+        <French>Fenêtres (tout)</French>
         <German>Fenster (Alle)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_LFWheel">
         <Original>1st axle left wheel (car)</Original>
         <English>1st axle left wheel (car)</English>
+        <French>1er essieu, roue gauche (voiture)</French>
         <German>1. Achse, linkes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_RFWheel">
         <Original>1st axle right wheel (car)</Original>
         <English>1st axle right wheel (car)</English>
+        <French>1er essieu, roue droite (voiture)</French>
         <German>1. Achse, rechtes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_LF2Wheel">
         <Original>2nd axle left wheel (car)</Original>
         <English>2nd axle left wheel (car)</English>
+        <French>2d essieu, roue gauche (voiture)</French>
         <German>2. Achse, linkes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_RF2Wheel">
         <Original>2nd axle right wheel (car)</Original>
         <English>2nd axle right wheel (car)</English>
+        <French>2d essieu, roue droite (voiture)</French>
         <German>2. Achse, rechtes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_LMWheel">
         <Original>3rd axle left wheel (car)</Original>
         <English>3rd axle left wheel (car)</English>
+        <French>3e essieu, roue gauche (voiture)</French>
         <German>3. Achse, linkes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_RMWheel">
         <Original>3rd axle right wheel (car)</Original>
         <English>3rd axle right wheel (car)</English>
+        <French>3e essieu, roue droite (voiture)</French>
         <German>3. Achse, rechtes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_LBWheel">
         <Original>4th axle left wheel (car)</Original>
         <English>4th axle left wheel (car)</English>
+        <French>4e essieu, roue gauche (voiture)</French>
         <German>4. Achse, linkes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_RBWheel">
         <Original>4th axle right wheel (car)</Original>
         <English>4th axle right wheel (car)</English>
+        <French>4e essieu, roue droite (voiture)</French>
         <German>4. Achse, rechtes Rad (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_body">
         <Original>Body (car)</Original>
         <English>Body (car)</English>
+        <French>Carrosserie (voiture)</French>
         <German>Karrosserie (Auto)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_LTrack">
         <Original>Left track (tank)</Original>
         <English>Left track (tank)</English>
+        <French>Chaîne gauche (char)</French>
         <German>Linke Kette (Panzer)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_RTrack">
         <Original>Right track (tank)</Original>
         <English>Right track (tank)</English>
+        <French>Chaîne droite (char)</French>
         <German>Rechte Kette (Panzer)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_hull">
         <Original>Hull (tank &amp; helicopter)</Original>
         <English>Hull (tank &amp; helicopter)</English>
+        <French>Blindage (char et hélicoptère)</French>
         <German>Rumpf (Panzer &amp; Hubschrauber)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_avionics">
         <Original>Avionics (helicopter)</Original>
         <English>Avionics (helicopter)</English>
+        <French>Électronique embarquée (hélicoptère)</French>
         <German>Bordelektronik (Hubschrauber)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_mainRotor">
         <Original>Main rotor (helicopter)</Original>
         <English>Main rotor (helicopter)</English>
+        <French>Rotor principal (hélicoptère)</French>
         <German>Hauptrotor (Hubschrauber)</German>
       </Key>
       <Key ID="STR_advancedDamageVeh_tailRotor">
         <Original>Tail Rotor (helicopter)</Original>
         <English>Tail Rotor (helicopter)</English>
+        <French>Rotor arrière (hélicoptère)</French>
         <German>Heckrotor (Hubschrauber)</German>
       </Key>
     </Container>
@@ -393,51 +464,61 @@
       <Key ID="STR_advancedDamageUnit_head">
         <Original>Head</Original>
         <English>Head</English>
+        <French>Tête</French>
         <German>Kopf</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_face">
         <Original>Face</Original>
         <English>Face</English>
+        <French>Visage</French>
         <German>Gesicht</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_neck">
         <Original>Neck</Original>
         <English>Neck</English>
+        <French>Cou</French>
         <German>Hals</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_chest">
         <Original>Chest</Original>
         <English>Chest</English>
+        <French>Poitrine</French>
         <German>Brustkorb</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_arms">
         <Original>Arms</Original>
         <English>Arms</English>
+        <French>Bras</French>
         <German>Arme</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_hands">
         <Original>Hands</Original>
         <English>Hands</English>
+        <French>Mains</French>
         <German>Hände</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_abdomen">
         <Original>Abdomen</Original>
         <English>Abdomen</English>
+        <French>Abdomen</French>
         <German>Unterleib</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_pelvis">
         <Original>Pelvis</Original>
         <English>Pelvis</English>
+        <French>Bassin</French>
         <German>Becken</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_diaphragm">
         <Original>Diaphragm</Original>
         <English>Diaphragm</English>
+        <French>Diaphragme</French>
         <German>Zwerchfell</German>
       </Key>
       <Key ID="STR_advancedDamageUnit_legs">
         <Original>Legs</Original>
         <English>Legs</English>
+        <French>Jambes</French>
         <German>Beine</German>
       </Key>
     </Container>
@@ -445,6 +526,7 @@
       <Key ID="STR_removeNVG_displayName">
         <Original>Remove NVGs</Original>
         <English>Remove NVGs</English>
+        <French>Supprimer les lunettes de vision nocturne</French>
         <German>Entferne Nachtsichtgerät</German>
       </Key>
     </Container>
@@ -452,6 +534,7 @@
       <Key ID="STR_removeMap_displayName">
         <Original>Remove Map</Original>
         <English>Remove Map</English>
+        <French>Supprimer la carte</French>
         <German>Entferne Karte</German>
       </Key>
     </Container>
@@ -459,6 +542,7 @@
       <Key ID="STR_removeGPS_displayName">
         <Original>Remove GPS</Original>
         <English>Remove GPS</English>
+        <French>Supprimer le GPS</French>
         <German>Entferne GPS</German>
       </Key>
     </Container>
@@ -466,11 +550,13 @@
       <Key ID="STR_clearInventory_displayName">
         <Original>Clear Inventory</Original>
         <English>Clear Inventory</English>
+        <French>Inventaire vide</French>
         <German>Leere Inventar</German>
       </Key>
       <Key ID="STR_clearInventory_tooltip">
         <Original>Removes all items from entities' inventory, including uniform, vest and backpack</Original>
         <English>Removes all items from entities' inventory, including uniform, vest and backpack</English>
+        <French>Supprime tous les items de l'inventaire, y compris l'uniforme, la veste et le sac à dos</French>
         <German>Entfernt alle Gegenstände aus dem Inventar der Einheit</German>
       </Key>
     </Container>
@@ -478,11 +564,13 @@
       <Key ID="STR_removeWeapons_displayName">
         <Original>Remove Weapons</Original>
         <English>Remove Weapons</English>
+        <French>Supprimer les armes</French>
         <German>Entferne Waffen</German>
       </Key>
       <Key ID="STR_removeWeapons_tooltip">
         <Original>Removes entities' weapons</Original>
         <English>Removes entities' weapons</English>
+        <French>Supprime les accessoires des armes</French>
         <German>Entferne alle Waffen dieser Einheit</German>
       </Key>
     </Container>
@@ -490,11 +578,13 @@
       <Key ID="STR_addGunLight_displayName">
         <Original>Add Gun Light</Original>
         <English>Add Gun Light</English>
+        <French>Ajouter une lampe de poche sur l'arme</French>
         <German>Taschenlampe anbauen</German>
       </Key>
       <Key ID="STR_addGunLight_tooltip">
         <Original>Forces unit to have gun light turned on</Original>
         <English>Forces unit to have gun light turned on</English>
+        <French>Force les unités à avoir la lampe de poche allumée</French>
         <German>Baut eine Taschenlampe an die Waffe der Einheit, und schaltet diese an</German>
       </Key>
     </Container>
@@ -515,7 +605,7 @@
         <Original>Adds an Arsenal with all items to the object</Original>
         <English>Adds an Arsenal with all items to the object</English>
         <Czech />
-        <French />
+        <French>Ajouter un arsenal à l'objet avec tous les items</French>
         <Spanish />
         <Italian />
         <Polish />
@@ -528,11 +618,13 @@
       <Key ID="STR_clearVehCargo_displayName">
         <Original>Clear Vehicle Cargo</Original>
         <English>Clear Vehicle Cargo</English>
+        <French>Retire les items dans le véhicule</French>
         <German>Leere Fahrzeug Inventar</German>
       </Key>
       <Key ID="STR_clearVehCargo_tooltip">
         <Original>Removes all items from vehicle's cargo</Original>
         <English>Removes all items from vehicle's cargo</English>
+        <French>Retire tous les items des véhicules</French>
         <German>Entfernt alle Gegenstände aus dem Fahrzeuginventar</German>
       </Key>
     </Container>
@@ -540,21 +632,25 @@
       <Key ID="STR_randomPatrol_radius_displayName">
         <Original>Radius</Original>
         <English>Radius</English>
+        <French>Rayon</French>
         <German>Radius</German>
       </Key>
       <Key ID="STR_randomPatrol_radius_tooltip">
         <Original>Radius of the patrolled area, enter -1 to disable the patrol</Original>
         <English>Radius of the patrolled area, enter -1 to disable the patrol</English>
+        <French>Rayon de la patrouille, entrer -1 pour désactiver la patrouille</French>
         <German>Radius des zu patrollierenden Gebietes, gebe -1 ein, um die Patrouille zu deaktivieren</German>
       </Key>
       <Key ID="STR_randomPatrol_behaviour_displayName">
         <Original>Behaviour</Original>
         <English>Behaviour</English>
+        <French>Comportement</French>
         <German>Verhalten</German>
       </Key>
       <Key ID="STR_randomPatrol_speed_displayName">
         <Original>Speed</Original>
         <English>Speed</English>
+        <French>Vitesse</French>
         <German>Geschwindigkeit</German>
       </Key>
     </Container>
@@ -562,11 +658,13 @@
       <Key ID="STR_allowSprinting_displayName">
         <Original>Allow Sprinting</Original>
         <English>Allow Sprinting</English>
+        <French>Autoriser le sprint</French>
         <German>Erlaube Sprinten</German>
       </Key>
       <Key ID="STR_allowSprinting_tooltip">
         <Original>Unit can't sprint if unchecked</Original>
         <English>Unit can't sprint if unchecked</English>
+        <French>L'unité ne peut pas sprinter si la case n'est pas coché</French>
         <German>Einheit kann nicht Sprinten wenn deaktiviert</German>
       </Key>
     </Container>
@@ -574,11 +672,13 @@
       <Key ID="STR_setCaptive_displayName">
         <Original>Set Captive</Original>
         <English>Set Captive</English>
+        <French>Faire otage</French>
         <German>Neutrales Verhalten</German>
       </Key>
       <Key ID="STR_setCaptive_tooltip">
         <Original>Change unit's status to captive, unit will be on civilian side</Original>
         <English>Change unit's status to captive, unit will be on civilian side</English>
+        <French>Change le statut des unités à otage, l'unité sera dans la faction civil</French>
         <German>Einheit wechselt auf die zivile Seite und verhält sich neutral</German>
       </Key>
     </Container>
@@ -586,11 +686,13 @@
       <Key ID="STR_enableHeadlights_displayName">
         <Original>Enable Headlights</Original>
         <English>Enable Headlights</English>
+        <French>Activer les phares</French>
         <German>Scheinwerfer an</German>
       </Key>
       <Key ID="STR_enableHeadlights_tooltip">
         <Original>Will enable headlights of selected EMPTY vehicle</Original>
         <English>Will enable headlights of selected EMPTY vehicle</English>
+        <French>Active les phares sur le véhicule vide sélectionné</French>
         <German>Schaltet die Scheinwerfer von LEEREN Fahrzeugen an</German>
       </Key>
     </Container>
@@ -598,11 +700,13 @@
       <Key ID="STR_forceWalk_displayName">
         <Original>Force Walking</Original>
         <English>Force Walking</English>
+        <French>Forcer la marche</French>
         <German>Erzwinge Gehen</German>
       </Key>
       <Key ID="STR_forceWalk_tooltip">
         <Original>Forces unit to walk</Original>
         <English>Forces unit to walk</English>
+        <French>Forcer les unités à marcher</French>
         <German>Einheit kann weder Laufen noch Sprinten</German>
       </Key>
     </Container>
@@ -610,11 +714,13 @@
       <Key ID="STR_allowCrewImmobile_displayName">
         <Original>Crew in Immobile</Original>
         <English>Crew in Immobile</English>
+        <French>Le groupe est immobile</French>
         <German />
       </Key>
       <Key ID="STR_allowCrewImmobile_tooltip">
         <Original>Crew stays in vehicle even thought the vehicle is disabled</Original>
         <English>Crew stays in vehicle even thought the vehicle is disabled</English>
+        <French>Le groupe reste dans le véhicule même si il est désactivé</French>
         <German>Fahrzeugbesatzung bleibt im Fahrzeug auch wenn dieses Kampfunfähig ist</German>
       </Key>
     </Container>
@@ -622,6 +728,7 @@
       <Key ID="STR_stance_displayName">
         <Original>Stance</Original>
         <English>Stance</English>
+        <French>Position</French>
         <German>Haltung</German>
       </Key>
     </Container>
@@ -629,6 +736,7 @@
       <Key ID="STR_fatigue_displayName">
         <Original>Fatigue</Original>
         <English>Fatigue</English>
+        <French>Épuisement</French>
         <German>Erschöpfungsgrad</German>
       </Key>
     </Container>
@@ -636,6 +744,7 @@
       <Key ID="STR_suppression_displayName">
         <Original>Suppression</Original>
         <English>Suppression</English>
+        <French>Suppression</French>
         <German>Grad der Niederhaltung</German>
       </Key>
     </Container>
@@ -643,21 +752,25 @@
       <Key ID="STR_ambAnim_equipment_displayName">
         <Original>Equipment</Original>
         <English>Equipment</English>
+        <French>Équipement</French>
         <German>Ausrüstung</German>
       </Key>
       <Key ID="STR_ambAnim_activate_tooltip">
         <Original>Enables ambient animation for selected unit, unit will react not to danger</Original>
         <English>Enables ambient animation for selected unit, unit will not react to danger</English>
+        <French>Activer l'animations d'ambiance pour l'unité sélectionnée, l'unité ne réagira pas en cas de danger</French>
         <German>Ausgewählte Einheit spielt eine Animation ab. Einheit reagiert nicht auf Gefahr</German>
       </Key>
       <Key ID="STR_ambAnimCombat_activate_tooltip">
         <Original>Enables ambient animation for selected unit, unit will react to danger</Original>
         <English>Enables ambient animation for selected unit, unit will react to danger</English>
+        <French>Activer l'animations d'ambiance pour l'unité sélectionnée, l'unité réagira en cas de danger</French>
         <German>Ausgewählte Einheit spielt eine Animation ab. Einheit reagiert nicht auf Gefahr</German>
       </Key>
       <Key ID="STR_ambAnim_animation_displayName">
         <Original>Animation</Original>
         <English>Animation</English>
+        <French>Animation</French>
         <German>Animation</German>
       </Key>
     </Container>
@@ -665,91 +778,109 @@
       <Key ID="STR_aimingShake_displayName">
         <Original>Aiming Shake</Original>
         <English>Aiming Shake</English>
+        <French>Précision</French>
         <German>Verwacklung beim Zielen</German>
       </Key>
       <Key ID="STR_aimingShake_tooltip">
         <Original>Affects how steadily the AI can hold a weapon  (Higher value = less weapon sway)</Original>
         <English>Affects how steadily the AI can hold a weapon (Higher value = less weapon sway)</English>
+        <French>Affecte la manière dont l'IA tient son arme (valeur plus élevée = balancement d'arme moins important)</French>
         <German>Beeinflusst wie stabil eine KI ihre Waffe halten kann (Höherer Wert = weniger Verwacklung)</German>
       </Key>
       <Key ID="STR_aimingSpeed_displayName">
         <Original>Aiming Speed</Original>
         <English>Aiming Speed</English>
+        <French>Rapidité de visé</French>
         <German>Zielgeschwindigkeit</German>
       </Key>
       <Key ID="STR_aimingSpeed_tooltip">
         <Original>Affects how quickly the AI can rotate and stabilize its aim (Higher value = faster, less error)</Original>
         <English>Affects how quickly the AI can rotate and stabilize its aim (Higher value = faster, less error)</English>
+        <French>Affecte la manière dont l'IA va rapidement stabiliser et bouger sa visé (valeur supérieure = plus rapide et moins d'erreur)</French>
         <German>Beeinflusst wie schnell eine KI sich herumdrehen und ihr Zielen stabilisieren kann (Höherer Wert = schneller, weniger Fehler)</German>
       </Key>
       <Key ID="STR_aimingAccuracy_displayName">
         <Original>Aiming Accuracy</Original>
         <English>Aiming Accuracy</English>
+        <French>Précision du tir</French>
         <German>Treffsicherheit</German>
       </Key>
       <Key ID="STR_aimingAccuracy_tooltip">
         <Original>Affects how precise an AI will shoot (Higher value = higher precision)</Original>
         <English>Affects how precise an AI will shoot (Higher value = higher precision)</English>
+        <French>Affecte la précision de l'IA lors d'un tir (valeur supérieure = précision plus haute)</French>
         <German>Beeinflusst die Treffsicherheit der KI (Höherer Wert = höhere Treffsicherheit)</German>
       </Key>
       <Key ID="STR_commanding_displayName">
         <Original>Commanding</Original>
         <English>Commanding</English>
+        <French>Commandement</French>
         <German>Kommandieren</German>
       </Key>
       <Key ID="STR_commanding_tooltip">
         <Original>Affects how quickly recognized targets are shared with the group (Higher value = faster reporting)</Original>
         <English>Affects how quickly recognized targets are shared with the group (Higher value = faster reporting)</English>
+        <French>Affecte la rapidité d'organisation des cibles partagé avec le groupe (valeur supérieure = organisation plus rapide)</French>
         <German>Beeinflusst wie schnell Ziele erkannt und in der Gruppe geteilt werden (Höherer Wert = schnellere Kommunikation)</German>
       </Key>
       <Key ID="STR_courage_displayName">
         <Original>Courage</Original>
         <English>Courage</English>
+        <French>Courage</French>
         <German>Mut</German>
       </Key>
       <Key ID="STR_courage_tooltip">
         <Original>Affects unit's subordinates' morale (Higher value = more courage)</Original>
         <English>Affects unit's subordinates' morale (Higher value = more courage)</English>
+        <French>Affecte le moral des unités subordonnées (valeur supérieure = plus de courage) </French>
         <German>Beeinflusst die Tapferkeit der KI im Kampf (Höherer Wert = mehr Mut)</German>
       </Key>
       <Key ID="STR_general_displayName">
         <Original>General</Original>
         <English>General</English>
+        <French>Général</French>
         <German>Allgemein</German>
       </Key>
       <Key ID="STR_general_tooltip">
         <Original>Affects the AI's decision making</Original>
         <English>Affects the AI's decision making</English>
+        <French>Affecte l'IA à prendre des décisions</French>
         <German>Beeinflusst die Fähigkeit der KI, Entscheidungen zu treffen</German>
       </Key>
       <Key ID="STR_reloadSpeed_displayName">
         <Original>Reload Speed</Original>
         <English>Reload Speed</English>
+        <French>Temps de rechargement</French>
         <German>Nachladegeschwindigkeit</German>
       </Key>
       <Key ID="STR_reloadSpeed_tooltip">
         <Original>Affects the delay between switching or reloading a weapon. (Higher value = less delay)</Original>
         <English>Affects the delay between switching or reloading a weapon. (Higher value = less delay)</English>
+        <French>Affecte le délais entre le rechargement et le changement d'arme (valeur supérieure = délais réduit)</French>
         <German>Beeinflusst die Nachladegeschwindigkeit und die Zeit die zum Wechseln einer Waffe benötigt wird. (Höherer Wert = schnelleres Nachladen)</German>
       </Key>
       <Key ID="STR_spotDistance_displayName">
         <Original>Spot Distance</Original>
         <English>Spot Distance</English>
+        <French>Distance de repérage</French>
         <German>Aufklärungsreichweite</German>
       </Key>
       <Key ID="STR_spotDistance_tooltip">
         <Original>Affects the AI's ability to spot targets within it's visual or audible range and also affects the accuracy of the information (Higher value = better spotting, more accurate information)</Original>
         <English>Affects the AI's ability to spot targets within it's visual or audible range and also affects the accuracy of the information (Higher value = better spotting, more accurate information)</English>
+        <French>Affecte la capacité de l'IA à repérer des cibles au sein de son champs de vision ou par les bruits et affecte également la précision de l'information (valeur supérieure = meilleur temps de repérage et des informations plus justes)</French>
         <German>Beeinflusst die Fähigkeit der KI im sicht - und hörbaren Bereich Ziele zu erkennen. Zusätzlich wird die Genauigkeit der Zielerkennung beeinflusst (Höherer Wert = besseres Erkennen von Zielen, und genauere Informationen)</German>
       </Key>
       <Key ID="STR_spotTime_displayName">
         <Original>Spot Time</Original>
         <English>Spot Time</English>
+        <French>Temps de repérage</French>
         <German>Aufklärungsgeschwindigkeit</German>
       </Key>
       <Key ID="STR_spotTime_tooltip">
         <Original>Affects how quick the AI react to death, damage or observing an enemy (Higher value = quicker reaction)</Original>
         <English>Affects how quick the AI react to death, damage or observing an enemy (Higher value = quicker reaction)</English>
+        <French>Affecte la rapidité de réaction de l'IA sur la mort de ses alliers, les dommages ou l'observation d'un ennemi (valeur supérieure = réaction plus rapide)</French>
         <German>Beeinflusst wie schnell die KI auf Tod, Schaden oder das Entdecken von Feinden reagiert (Höherer Wert = schnelleres Reagieren)</German>
       </Key>
     </Container>
@@ -757,105 +888,126 @@
       <Key ID="STR_disableAI_move_displayName">
         <Original>Move</Original>
         <English>Move</English>
+        <French>Bouger</French>
         <German>Bewegung</German>
       </Key>
       <Key ID="STR_disableAI_move_tooltip">
         <Original>Disables AI's ability to Move</Original>
         <English>Disables AI's ability to move</English>
+        <French>Désactiver la capacité de l'IA pour se déplacer</French>
         <German>Deaktiviert die Fähigkeit der KI sich zu bewegen</German>
       </Key>
       <Key ID="STR_disableAI_target_displayName">
         <Original>Target</Original>
         <English>Target</English>
+        <French>Cible</French>
         <German>Zielen</German>
       </Key>
       <Key ID="STR_disableAI_target_tooltip">
         <Original>Disables AI's ability to target</Original>
         <English>Disables AI's ability to target</English>
+        <French>Désactiver la capacité de l'IA pour cibler</French>
         <German>Deaktiviert die Fähigkeit der KI zu Zielen</German>
       </Key>
       <Key ID="STR_disableAI_cover_displayName">
         <Original>Cover</Original>
         <English>Cover</English>
+        <French>Couverture</French>
         <German>Deckung</German>
       </Key>
       <Key ID="STR_disableAI_cover_tooltip">
         <Original>Disables AI's ability to take cover</Original>
         <English>Disables AI's ability to take cover</English>
+        <French>Désactiver la capacité de l'IA pour se mettre à couvert</French>
         <German>Deaktiviert die Fähigkeit der KI sich Deckung zu suchen</German>
       </Key>
       <Key ID="STR_disableAI_autotarget_displayName">
         <Original>Autotarget</Original>
         <English>Autotarget</English>
+        <French>Cible automatique</French>
         <German>Ziele suchen</German>
       </Key>
       <Key ID="STR_disableAI_autotarget_tooltip">
         <Original>Disables AI's ability automatically assign targets</Original>
         <English>Disables AI's ability automatically assign targets</English>
+        <French>Désactiver la capacité de l'IA à automatiquement assigner une cible</French>
         <German>Deaktiviert die Fähigkeit der KI automatisch Ziele zu suchen</German>
       </Key>
       <Key ID="STR_disableAI_anim_tooltip">
         <Original>Disables animations</Original>
         <English>Disables animations</English>
+        <French>Désactive les animations</French>
         <German>Deaktiviert die Animationen der KI</German>
       </Key>
       <Key ID="STR_disableAI_anim_displayName">
         <Original>Animation</Original>
         <English>Animation</English>
+        <French>Animation</French>
         <German>Animation</German>
       </Key>
       <Key ID="STR_disableAI_FSM_tooltip">
         <Original>Disable the execution of AI behaviour scripts</Original>
         <English>Disable the execution of AI behaviour scripts</English>
+        <French>Désactive l'éxecution des scripts comportementaux de l'IA</French>
         <German>Deaktiviert das Ausführen der KI Verhaltens Skripte</German>
       </Key>
       <Key ID="STR_disableAI_aimingError_displayName">
         <Original>Aiming Error</Original>
         <English>Aiming Error</English>
+        <French>Erreur de tir</French>
       </Key>
       <Key ID="STR_disableAI_aimingError_tooltip">
         <Original>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target</Original>
         <English>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target</English>
+        <French>Empêche l'IA de rater son tir en étant blessé, fatigué, en mouvement, en tournant, en rechargeant, en subissant les effets de suppression ou en ayant perdu sa cible.</French>
         <German>Das Zielen der KI wird nicht mehr vom Schießen, Bewegen, Nachladen, von Treffern bzw. Verletzungen, Erschöpfung, Unterdrückungsfeuer und das Verlieren von Zielen beeinflusst</German>
       </Key>
       <Key ID="STR_disableAI_teamSwitch_displayName">
         <Original>TeamSwitch</Original>
         <English>Team Switch</English>
+        <French>Changement d'équipe</French>
         <German>Teamwechsel</German>
       </Key>
       <Key ID="STR_disableAI_teamSwitch_tooltip">
         <Original>AI disabled because of Team Switch</Original>
         <English>AI disabled because of Team Switch</English>
+        <French>L'IA est désactivé suite à un changement d'équipe</French>
         <German />
       </Key>
       <Key ID="STR_disableAI_raycasts_displayName">
         <Original>Raycasts</Original>
         <English>Raycasts</English>
+        <French>Raycasts</French>
         <German>Raycasts</German>
       </Key>
       <Key ID="STR_disableAI_raycasts_tooltip">
         <Original>Disables visibility raycasts</Original>
         <English>Disables visibility raycasts</English>
+        <French>Désactiver les "raycasts" visible</French>
         <German />
       </Key>
       <Key ID="STR_disableAI_suppression_displayName">
         <Original>Suppression</Original>
         <English>Suppression</English>
+        <French>Suppression</French>
         <German>Niederhaltung</German>
       </Key>
       <Key ID="STR_disableAI_suppression_tooltip">
         <Original>Prevents AI from being suppressed</Original>
         <English>Prevents AI from being suppressed</English>
+        <French>Les tirs de suppressions non aucun effet sur l'IA</French>
         <German>Unterdrückungsfeuer hat keiner Wirkung mehr auf die KI</German>
       </Key>
       <Key ID="STR_disableAI_autocombat_displayName">
         <Original>Autocombat</Original>
         <English>Autocombat</English>
+        <French>Combat automatique</French>
         <German>Automatischer Kampfmodus</German>
       </Key>
       <Key ID="STR_disableAI_autocombat_tooltip">
         <Original>Disables autonomous switching to COMBAT when in danger</Original>
         <English>Disables autonomous switching to COMBAT when in danger</English>
+        <French>Désactiver le changement automatique en mode combat quand il y a danger</French>
         <German>Die KI wechselt nicht mehr autonom in den Gefahrenmodus</German>
       </Key>
     </Container>
@@ -863,6 +1015,7 @@
       <Key ID="STR_removeFAKs_displayName">
         <Original>Remove FAKs</Original>
         <English>Remove FAKs</English>
+        <French>Supprimer les kits d'aide</French>
         <German>Entferne Verbandskästen</German>
       </Key>
     </Container>
@@ -870,6 +1023,7 @@
       <Key ID="STR_engineOn_displayName">
         <Original>Engine on/off</Original>
         <English>Engine on/off</English>
+        <French>Moteur (on / off)</French>
         <German>Motor an/aus</German>
       </Key>
     </Container>
@@ -877,11 +1031,13 @@
       <Key ID="STR_enableHeadlights_displayName">
         <Original>Headlights on/off</Original>
         <English>Headlights on/off</English>
+        <French>Phares (on / off)</French>
         <German>Scheinwerfer an/aus</German>
       </Key>
       <Key ID="STR_enableHeadlights_tooltip">
         <Original>Turn the headlights of EMPTY vehicles on/off</Original>
         <English>Turn the headlights of EMPTY vehicles on/off</English>
+        <French>Activer les phares des véhicules vides (on / off)</French>
         <German>Schalte die Scheinwerfer von LEEREN Fahrzeugen an/aus</German>
       </Key>
     </Container>
@@ -889,11 +1045,13 @@
       <Key ID="STR_disableBISRevive_tooltip">
         <Original>Disables the vanilla revive system for this unit</Original>
         <English>Disables the vanilla revive system for this unit</English>
+        <French>Désactiver le système de réanimation vanilla pour les unités</French>
         <German>Deaktiviert das standard Wiederbelebungssystem für diese Einheit</German>
       </Key>
       <Key ID="STR_disableBISRevive_displayName">
         <Original>Disable BIS Revive</Original>
         <English>Disable BIS Revive</English>
+        <French>Désactiver la réanimation</French>
         <German>Deaktiviere Wiederbelebung</German>
       </Key>
     </Container>
@@ -901,23 +1059,27 @@
       <Key ID="STR_limitSpeed_displayName">
         <Original>Speed Limit</Original>
         <English>Speed Limit</English>
+        <French>Limitation de vitesse</French>
         <German>Geschwindigkeitsberenzung</German>
       </Key>
       <Key ID="STR_limitSpeed_tooltip">
         <Original>Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles</Original>
         <English>Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles</English>
+        <French>Limiter la vitesse du véhicule ou de la personne en donnant une valeur (en km/h). Fonctionne uniquement pour les véhicules contrôlés par l'IA.</French>
         <German>Begrenzt die Geschwindigkeit des Fahrzeuges (Km/h). Funktioniert nur bei KI gesteuerten Fahrzeugen</German>
       </Key>
     </Container>
     <Container name="Make Hostage">
       <Key ID="STR_makeHostage_displayName">
-        <Original>Make Hostage</Original>
+        <Original>Courage</Original>
         <English>Make Hostage</English>
+        <French>Rendre l'unité en otage</French>
         <German>Zur Geisel machen</German>
       </Key>
       <Key ID="STR_makeHostage_tooltip">
         <Original>Makes the unit a hostage and adds a 'Free Hostage' action. Whether the unit is still hostage can be checked with _unitName getVariable 'Enh_isHostage';</Original>
         <English>Makes the unit a hostage and adds a 'Free Hostage' action. Whether the unit is still hostage can be checked with _unitName getVariable 'Enh_isHostage';</English>
+        <French>Rend l'unité en otage, il faut ajouter l'action 'Free Hostage'. Si l'unité est otage elle peut être vérifiée par _unitName getVariable 'Enh_isHostage';</French>
         <German>Die Einheit wird zu einer Geisel und jeder Spieler erhält eine Action diese zu befreien, ob die Geisel befreit wurde kann mit folgendermaßen überprüft werden: _unitName getVariable 'Enh_isHostage';</German>
       </Key>
     </Container>
@@ -927,6 +1089,7 @@
       <Key ID="STR_notifications_LogClassName">
         <Original>Classname was copied to clipboard</Original>
         <English>Classname was copied to clipboard</English>
+        <French>Classname copié dans le presse-papiers</French>
         <German>Klassenname wurde in der Zwischenablage gespeichert</German>
       </Key>
     </Container>
@@ -934,6 +1097,7 @@
       <Key ID="STR_songDisplay">
         <Original>Song</Original>
         <English>Song</English>
+        <French>Musique</French>
         <German>Lied</German>
       </Key>
     </Container>
@@ -943,16 +1107,19 @@
       <Key ID="STR_LogClassName">
         <Original>Log Class Name to Clipboard</Original>
         <English>Log Class Name to Clipboard</English>
+        <French>Historique du Class Name dans le presse-papiers</French>
         <German>Kopiere Klassenname in Zwischenablage</German>
       </Key>
       <Key ID="STR_SetRandomDir">
         <Original>Randomise Direction</Original>
         <English>Randomise Direction</English>
+        <French>Direction aléatoire</French>
         <German>Randomisiere Richtung</German>
       </Key>
       <Key ID="STR_GarrisonBuilding">
         <Original>Garrison Buildings</Original>
         <English>Garrison Buildings</English>
+        <French>Constructions de garnisons</French>
         <German>Gebäude besetzen</German>
       </Key>
     </Container>
@@ -961,7 +1128,7 @@
         <Original>Functions Overview</Original>
         <English>Functions Overview</English>
         <Czech />
-        <French />
+        <French>Vue d'ensemble des fonctions</French>
         <Spanish />
         <Italian />
         <Polish />
@@ -973,7 +1140,7 @@
         <Original>Assets Overview</Original>
         <English>Assets Overview</English>
         <Czech />
-        <French />
+        <French>Vue d'ensemble des propriétés</French>
         <Spanish />
         <Italian />
         <Polish />
@@ -984,6 +1151,7 @@
       <Key ID="STR_Help3denEnhanced">
         <Original>3den Enhanced Forum</Original>
         <English>3den Enhanced Forum</English>
+        <French>Forum de 3den Enhanced</French>
         <German>3den Enhanced Forum</German>
       </Key>
     </Container>
@@ -994,7 +1162,7 @@
         <Original>Asis (No changes)</Original>
         <English>Asis (No changes)</English>
         <Czech />
-        <French />
+        <French>En l'état (aucun changements)</French>
         <Spanish />
         <Italian>Asis (Nessun cambiamento)</Italian>
         <Polish />
@@ -1005,6 +1173,7 @@
       <Key ID="STR_ambAnimEquipCombo_random">
         <Original>Random (Gear is randomized according to the animation set)</Original>
         <English>Random (Gear is randomized according to the animation set)</English>
+        <French>Aléatoire (l'équipement est aléatoire en fonction de l'animation selectionnée)</French>
         <Spanish />
         <Italian>Random (L'equipaggiamento randomizzato in base all'animazione impostata)</Italian>
         <German>Zufällig (Ausrüstung wird der Animation angepasst)</German>
@@ -1012,6 +1181,7 @@
       <Key ID="STR_ambAnimEquipCombo_light">
         <Original>Light (No goggles, headgear, vest)</Original>
         <English>Light (No goggles, headgear, vest)</English>
+        <French>Léger (pas de lunette, casque et veste)</French>
         <Spanish />
         <Italian>Light (Niente occhiali,né elmetto e veste)</Italian>
         <German>Leicht (Keine Nachtsicht, Kopfbedeckung, Weste)</German>
@@ -1019,6 +1189,7 @@
       <Key ID="STR_ambAnimEquipCombo_medium">
         <Original>Medium (No goggles, headgear)</Original>
         <English>Medium (No goggles, headgear)</English>
+        <French>Intermédiaire (pas de lunette et de casque)</French>
         <Spanish />
         <Italian>Medium (Niente occhiali né elmetto)</Italian>
         <German>Mittel (Keine Nachtsicht, Kopfbedeckung)</German>
@@ -1026,6 +1197,7 @@
       <Key ID="STR_ambAnimEquipCombo_full">
         <Original>Full (No goggles)</Original>
         <English>Full (No goggles)</English>
+        <French>Tout (pas de lunette)</French>
         <Spanish />
         <Italian>Full (Niente occhiali)</Italian>
         <German>Volle Ausrüstung (Keine Nachtsicht)</German>
@@ -1033,6 +1205,7 @@
       <Key ID="STR_ambAnimEquipCombo_none">
         <Original>None (No goggles, headgear, vest, weapon)</Original>
         <English>None (No goggles, headgear, vest, weapon)</English>
+        <French>Rien (pas de lunette, casque, veste et arme)</French>
         <Spanish />
         <Italian>Nulla (Niente occhiali, elmetto, veste e arma)</Italian>
         <German>Nichts (Keine Nachtsicht, Kopfbedeckung, Weste, Waffe)</German>
@@ -1042,174 +1215,201 @@
       <Key ID="STR_ambAnimCombo_stand">
         <Original>Stand (Slightly turning to the sides, needs rifle!)</Original>
         <English>Stand (Slightly turning to the sides, needs rifle!)</English>
+        <French>Attend (tourne légèrement sur les côtés, nécessite une arme)</French>
         <Italian>Eretto (Si gira leggermente, necessita un fucile!)</Italian>
         <German>Stehen (Leicht zur Seite drehend, braucht ein Gewehr!)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standIA">
         <Original>Stand (Default A3 animation)</Original>
         <English>Stand (Default A3 animation)</English>
+        <French>Attend (animation de A3 par défaut)</French>
         <Italian>Eretto (Animazione di default)</Italian>
         <German>Stehen (Standard A3 Animation)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitLow">
         <Original>Sit (Sitting on the ground, with weapon)</Original>
         <English>Sit (Sitting on the ground, with weapon)</English>
+        <French>Assis (assis sur le sol avec une arme)</French>
         <Italian>Seduto (Seduto per terra, con un'arma)</Italian>
         <German>Schneidersitz (Bewaffnet)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitLowU">
         <Original>Sit low (Sitting on the ground, no weapon)</Original>
         <English>Sit low (Sitting on the ground, no weapon)</English>
+        <French>Assis (assis sur le sol sans arme)</French>
         <Italian>Sit Low(Seduto a terra senza arma)</Italian>
         <German>Schneidersitz (unbewaffnet)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_kneel">
         <Original>Kneel (Kneeling, with weapon)</Original>
         <English>Kneel (Kneeling, with weapon)</English>
+        <French>À genoux (avec une arme)</French>
         <Italian>Kneel (Inginocchiato, con un'arma)</Italian>
         <German>Kniend (Mit Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_lean">
         <Original>Lean</Original>
         <English>Lean</English>
+        <French>Allongé</French>
         <German>Anlehnen</German>
       </Key>
       <Key ID="STR_ambAnimCombo_watch1">
         <Original>Watch 1 (Standing and turning around)</Original>
         <English>Watch (Standing and turning around)</English>
+        <French>Regarde (attend et tourne sur lui même)</French>
         <Italian>Watch  1(Posizione eretta mentre controlla i dintorni)</Italian>
         <German>Ausschau halten 1</German>
       </Key>
       <Key ID="STR_ambAnimCombo_watch">
         <Original>Watch 1 (Standing and turning around)</Original>
         <English>Watch (Standing and turning around)</English>
+        <French>Regarde (attend et tourne sur lui même)</French>
         <Italian>Watch  1(Posizione eretta mentre controlla i dintorni)</Italian>
         <German>Ausschau halten 1</German>
       </Key>
       <Key ID="STR_ambAnimCombo_watch2">
         <Original>Watch 2(Standing and turning around)</Original>
         <English>Watch (Standing and turning around)</English>
+        <French>Regarde (attend et tourne sur lui même)</French>
         <Italian>Watch 2(Posizione eretta mentre controlla i dintorni)</Italian>
         <German>Ausschau halten 2</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standU1">
         <Original>Stand U1 (Slightly turning to the sides, no weapon)</Original>
         <English>Stand U1 (Slightly turning to the sides, no weapon)</English>
+        <French>Attend U1 (tourne légèrement sur les côtés sans arme)</French>
         <Italian>Stand U1 (Si gira leggermente, nessun'arma)</Italian>
         <German>Stehen U1 (Leicht zur seite drehend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standU2">
         <Original>Stand U2 (Slightly turning to the sides, no weapon)</Original>
         <English>Stand U2 (Slightly turning to the sides, no weapon)</English>
+        <French>Attend U2 (tourne légèrement sur les côtés sans arme)</French>
         <Italian>Stand U2 (Si gira leggermente, nessun'arma)</Italian>
         <German>Stehen U2 (Leicht zur seite drehend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standU3">
         <Original>Stand U3 (Slightly turning to the sides, no weapon)</Original>
         <English>Stand U3 (Slightly turning to the sides, no weapon)</English>
+        <French>Attend U3 (tourne légèrement sur les côtés sans arme)</French>
         <Italian>Stand U3 (Si gira leggermente, nessun'arma)</Italian>
         <German>Stehen U3 (Leicht zur seite drehend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_listenBriefing">
         <Original>Listen Briefing (Hands behind back, no weapon)</Original>
         <English>Listen Briefing (Hands behind back, no weapon)</English>
+        <French>Écoute le briefing (mains derrière les dos, sans arme)</French>
         <Italian>Ascolta il briefing (Mani dietro la schiena, nessun'arma)</Italian>
         <German>Einsatzbesprechung anhören (Hände hinter Rücken, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_leanOnTable">
         <Original>Lean on table (Standing while leaning on table)</Original>
         <English>Lean on table (Standing while leaning on table)</English>
+        <French>Appuyé sur la table</French>
         <Italian>Lean On Table (In piedi mentre indica sul tavolo)</Italian>
         <German>Auf Tisch abstützend</German>
       </Key>
       <Key ID="STR_ambAnimCombo_briefing">
         <Original>Briefing (Ambient briefing loop)</Original>
         <English>Briefing (Ambient briefing loop)</English>
+        <French>Briefing (boucle ambiante)</French>
         <Italian>Briefing (Animazione loop del Briefing)</Italian>
         <German>Einsatzbesprechung halten (Schleife)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_briefingPointLeft">
         <Original>Briefing pointing left (Pointing left &amp; high)</Original>
         <English>Briefing pointing left (Pointing left &amp; high)</English>
-        <French />
+        <French>Briefing (en pointant en haut à gauche)</French>
         <Italian>Briefing Pointing Left (Indica in alto a sinistra)</Italian>
         <German>Einsatzbesprechung (Nach links oben zeigend)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_briefingPointRight">
         <Original>Briefing pointing right (Pointing right &amp; high)</Original>
         <English>Briefing pointing right (Pointing right &amp; high)</English>
+        <French>Briefing (en pointant en haut à droite)</French>
         <Italian>Briefing Pointing Right (Indica in alto a destra)</Italian>
         <German>Einsatzbesprechung (Nach rechts oben zeigend)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_briefingPointTable">
         <Original>Briefing pointing down (pointing front &amp; low)</Original>
         <English>Briefing pointing down (pointing front &amp; low)</English>
+        <French>Briefing (en pointant devant et vers le bas)</French>
         <Italian>Briefing Pointing Down (Indica in basso in avanti)</Italian>
         <German>Einsatzbesprechung (Auf Tisch zeigend)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitU1">
         <Original>Sit U1 (Sitting on bench or similar, no weapon)</Original>
         <English>Sit U1 (Sitting on bench or similar, no weapon)</English>
+        <French>Assis U1 (sur un banc ou autre, sans arme)</French>
         <Italian>Sit U1 (Seduto su una panchina o similiari, nessun'arma)</Italian>
         <German>Sitzen U1 (Auf Bank oder Ähnlichem sitzend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitU2">
         <Original>Sit U2 (Sitting on bench or similar, no weapon)</Original>
         <English>Sit U1 (Sitting on bench or similar, no weapon)</English>
+        <French>Assis U2 (sur un banc ou autre, sans arme)</French>
         <Italian>Sit U2 (Seduto su una panchina o similiari, nessun'arma)</Italian>
         <German>Sitzen U2(Auf Bank oder Ähnlichem sitzend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitU3">
         <Original>Sit U3 (Sitting on bench or similar, no weapon)</Original>
         <English>Sit U1 (Sitting on bench or similar, no weapon)</English>
+        <French>Assis U3 (sur un banc ou autre, sans arme)</French>
         <Italian>Sit U3 (Seduto su una panchina o similiari, nessun'arma)</Italian>
         <German>Sitzen U3 (Auf Bank oder Ähnlichem sitzend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sit1">
         <Original>Sit 1 (Sitting on bench or similar)</Original>
         <English>Sit 1 (Sitting on bench or similar)</English>
+        <French>Assis 1 (sur un banc ou autre)</French>
         <Italian>Sit 1 (Seduto su una panchina o similiari)</Italian>
         <German>Sitzen 1 (Auf Bank oder Ähnlichem sitzend)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sit2">
         <Original>Sit 2 (Sitting on bench or similar)</Original>
         <English>Sit 2 (Sitting on bench or similar)</English>
+        <French>Assis 2 (sur un banc ou autre)</French>
         <Italian>Sit 2 (Seduto su una panchina o similiari)</Italian>
         <German>Sitzen 2 (Auf Bank oder Ähnlichem sitzend)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sit3">
         <Original>Sit 3 (Sitting on bench or similar, unarmed)</Original>
         <English>Sit 3 (Sitting on bench or similar, unarmed)</English>
+        <French>Assis 3 (sur un banc ou autre)</French>
         <Italian />
         <German>Sitzen 2 (Auf Bank oder Ähnlichem sitzend, unbewaffnet)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitAtTable">
         <Original>Sit at table</Original>
         <English>Sit at table</English>
+        <French>Assis sur une table</French>
         <Italian>Seduto ad un tavolo</Italian>
         <German>An Tisch sitzen</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitHigh">
         <Original>Sit high 1 (Sitting on higher object, legs swinging, needs a rifle)</Original>
         <English>Sit high 1 (Sitting on higher object, legs swinging, needs a rifle)</English>
+        <French>Assis haut 1 (appuyé sur des objets hauts avec une jambe dans le vide, nécessite une arme)</French>
         <Italian>Sit High 1 (Seduot su un oggetto sopraelevato, gambe a penzoloni, necessita un fucile)</Italian>
         <German>Erhöht sitzend (Auf höherem Objekt sitzend, braucht Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_proneInjured1">
         <Original>Prone injured 1 (Laying wounded on back, no weapon)</Original>
         <English>Prone injured 1 (Laying wounded on back, no weapon)</English>
+        <French>Prononce des insultes 1 (blessé sur le dos, sans arme)</French>
         <German>Verletzt am Boden 1 (Keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_proneInjured2">
         <Original>Prone injured 2 (Laying wounded on back, no weapon)</Original>
         <English>Prone injured 2 (Laying wounded on back, no weapon)</English>
+        <French>Prononce des insultes 2 (blessé sur le dos, sans arme)</French>
         <German>Verletzt am Boden 2 (Keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_proneInjured">
         <Original>Prone injured (Laying wounded on back, with or without weapon)</Original>
         <English>Prone injured (Laying wounded on back, with or without weapon)</English>
         <Czech />
-        <French />
+        <French>Prononce des insultes (blessé sur le dos, avec ou sans arme)</French>
         <Spanish />
         <Italian />
         <Polish />
@@ -1220,16 +1420,19 @@
       <Key ID="STR_ambAnimCombo_repairVehStand">
         <Original>Repair vehicle (Reparing vehicle, standing)</Original>
         <English>Repair vehicle (Reparing vehicle, standing)</English>
+        <French>Répare un véhicule (debout, sans arme)</French>
         <German>Fahrzeug reparieren (Stehend, ohne Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_repairVehKneel">
         <Original>Repair vehicle (Reparing vehicle, kneeling)</Original>
         <English>Repair vehicle (Reparing vehicle, kneeling)</English>
+        <French>Répare un véhicule (à genoux, sans arme)</French>
         <German>Fahrzeug reparieren (Kniend, ohne Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_repairVehProne">
         <Original>Repair vehicle (Reparing vehicle, prone)</Original>
         <English>Repair vehicle (Reparing vehicle, prone)</English>
+        <French>Répare un véhicule (allongé, sans arme)</French>
         <German>Fahrzeug reparieren (Liegend, ohne Waffe)</German>
       </Key>
     </Container>
@@ -1239,6 +1442,7 @@
       <Key ID="STR_advancedDamage_headline">
         <Original>Advanced Damage</Original>
         <English>Advanced Damage</English>
+        <French>Paramètres de dégâts avancés</French>
         <German>Erweiterte Schadenseinstellungen</German>
       </Key>
     </Container>
@@ -1246,6 +1450,7 @@
       <Key ID="STR_advancedFog_headline">
         <Original>Advanced Fog Settings</Original>
         <English>Advanced Fog Settings</English>
+        <French>Paramètres avancés du brouillard</French>
         <German>Erweiterte Nebeleinstellungen</German>
       </Key>
     </Container>
@@ -1253,6 +1458,7 @@
       <Key ID="STR_volume_headline">
         <Original>Music, Sound &amp; Radio Settings</Original>
         <English>Music, Sound &amp; Radio Settings</English>
+        <French>Paramètres de son, musique et radio</French>
         <German>Musik , Geräusch &amp; Radioeinstellungen</German>
       </Key>
     </Container>
@@ -1260,6 +1466,7 @@
       <Key ID="STR_visualSettings_headline">
         <Original>Visual Settings</Original>
         <English>Visual Settings</English>
+        <French>Paramètres graphiques</French>
         <German>Grafikeinstellungen</German>
       </Key>
     </Container>
@@ -1267,6 +1474,7 @@
       <Key ID="STR_playMusic_headline">
         <Original>Play Music</Original>
         <English>Play Music</English>
+        <French>Jouer une musique</French>
         <German>Musik abspielen</German>
       </Key>
     </Container>
@@ -1274,6 +1482,7 @@
       <Key ID="STR_introText_headline">
         <Original>Intro Text</Original>
         <English>Intro Text</English>
+        <French>Texte d'introduction</French>
         <German>Intro Text</German>
       </Key>
     </Container>
@@ -1281,6 +1490,7 @@
       <Key ID="STR_advancedSkill_headline">
         <Original>Advanced Skill Settings</Original>
         <English>Advanced Skill Settings</English>
+        <French>Paramètres de compétences avancées</French>
         <German>Erweiterte Fähigkeiteneinstellungen</German>
       </Key>
     </Container>
@@ -1288,6 +1498,7 @@
       <Key ID="STR_disableAI_headline">
         <Original>Disable AI Features</Original>
         <English>Disable AI Features</English>
+        <French>Désactiver les fonctionnalités de l'IA</French>
         <German>Deaktiviere KI Funktionen</German>
       </Key>
     </Container>
@@ -1295,6 +1506,7 @@
       <Key ID="STR_randomPatrol_headline">
         <Original>Random Patrol</Original>
         <English>Random Patrol</English>
+        <French>Patrouille aléatoire</French>
         <German>Patrouille</German>
       </Key>
     </Container>
@@ -1302,6 +1514,8 @@
       <Key ID="STR_garrisonSettings_headline">
         <Original>Garrison Settings</Original>
         <English>Garrison Settings</English>
+        <French>Paramètres de garnison</French>
+        <Italian />
         <German>Garnisonseinstellungen</German>
       </Key>
     </Container>
@@ -1309,6 +1523,7 @@
       <Key ID="STR_establishingShot_headline">
         <Original>UAV Intro</Original>
         <English>UAV Intro</English>
+        <French>Introduction UAV</French>
         <German>UAV Intro</German>
       </Key>
     </Container>
@@ -1316,11 +1531,13 @@
       <Key ID="STR_ambientAnimCombat_headline">
         <Original>Ambient Animations Combat</Original>
         <English>Ambient Animations Combat</English>
+        <French>Animations d'ambiance (combat)</French>
         <German>Animationen (Kampf)</German>
       </Key>
       <Key ID="STR_ambientAnimations_headline">
         <Original>Ambient Animations</Original>
         <English>Ambient Animations</English>
+        <French>Animations d'ambiance</French>
         <German>Animationen</German>
       </Key>
     </Container>
