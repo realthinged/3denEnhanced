@@ -57,7 +57,7 @@ class Volume
 			control = "EditArray";
 			expression =
 			"\
-				if (!is3DEN) then\
+				if (!is3DEN && !(_value isEqualTo [])) then\
 				{\
 					(selectRandom _value) remoteExec ['playMusic',0];\
 				};\
