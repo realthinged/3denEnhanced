@@ -37,6 +37,7 @@ v1.2
 - time multiplier settings uses a custom control with slider and edit box
 - removed toggleMapIDs attribute from Preferences and moved it to the Menu Strip -> Tools
 - added ID icon for ToggleMapIDs tool
+- new server key
 
 *fixed*
 - log classname function would not return classname of logics and modules
