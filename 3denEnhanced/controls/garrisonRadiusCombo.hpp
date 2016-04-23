@@ -1,4 +1,4 @@
-class GarrisonFactionCombo: Title
+class GarrisonRadiusCombo: Title
 {
 	attributeLoad = "\
 		_ctrl = _this controlsGroupCtrl 100;\
@@ -50,36 +50,41 @@ class GarrisonFactionCombo: Title
 
 			class Items
 			{
-				class NATO
+				class radius_20
 				{
-					text = "NATO";
-					data = "NATO";
+					text = "20 m";
+					data = "20";
 					default = 1;
 				};
-				class NATO_recon
+				class radius_50
 				{
-					text = "NATO (Recon)";
-					data = "NATO_recon";
+					text = "50 m";
+					data = "50";
 				};
-				class CSAT
+				class radius_100
 				{
-					text = "CSAT";
-					data = "CSAT";
+					text = "100 m";
+					data = "100";
 				};
-				class CSAT_recon
+				class radius_200
 				{
-					text = "CSAT (Recon)";
-					data = "CSAT_recon";
+					text = "200 m";
+					data = "200";
 				};
-				class AAF
+				class radius_400
 				{
-					text = "AAF";
-					data = "AAF";
+					text = "400 m";
+					data = "400";
 				};
-				class FIA
+				class radius_700
 				{
-					text = "FIA";
-					data = "FIA";
+					text = "700 m";
+					data = "700";
+				};
+				class radius_1000
+				{
+					text = "1000 m";
+					data = "1000";
 				};
 			};
 		};

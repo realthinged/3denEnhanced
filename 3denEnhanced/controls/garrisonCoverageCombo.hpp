@@ -66,10 +66,10 @@ class GarrisonCoverageCombo: Title
 					text = "30 %";
 					data = "3";
 				};
-				class coverage_10
+				class coverage_20
 				{
-					text = "10 %";
-					data = "10";
+					text = "20 %";
+					data = "5";
 				};
 			};
 		};
