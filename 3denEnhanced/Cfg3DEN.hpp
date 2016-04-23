@@ -33,7 +33,7 @@ class Cfg3DEN
 		#include "controls\ambAnimCombTypeCombo.hpp"
 		#include "controls\ambAnimEquipCombo.hpp"
 		#include "controls\ambAnimTypeCombo.hpp"
-		#include "controls\garrisonFactionCombo.hpp"
+		#include "controls\garrisonRadiusCombo.hpp"
 		#include "controls\garrisonCoverageCombo.hpp"
 		#include "controls\sliderTimeMultiplier.hpp"
 		#include "controls\sliderCheckbViewDistance.hpp"
