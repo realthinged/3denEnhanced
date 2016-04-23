@@ -7,8 +7,8 @@ class CfgFunctions
 			file="3denEnhanced\functions";
 			class logClassName {};
 			class setRandomDir {};
-			class garrisonBuildings {};
 			class hideMapObjects {};
+			class garrisonNearest {};
 		};
 		class Attributes
 		{
