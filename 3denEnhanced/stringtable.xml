@@ -112,17 +112,17 @@
         <French>Définir combien de positions de bâtiments doivent être placées</French>
         <German>Legt fest wie viele der Gebäudepositionen bemannt werden</German>
       </Key>
-      <Key ID="STR_faction_displayName">
-        <Original>Faction</Original>
-        <English>Faction</English>
-        <French>Faction</French>
-        <German>Fraktion</German>
+      <Key ID="STR_garrisonRadius_displayName">
+        <Original>Area Radius</Original>
+        <English>Area Radius</English>
+        <French />
+        <German>Radius des Gebietes</German>
       </Key>
-      <Key ID="STR_faction_tooltip">
-        <Original>Set which faction should garrison the building</Original>
-        <English>Set which faction should garrison the building</English>
-        <French>Définir quelle faction devrait être placée dans le bâtiment</French>
-        <German>Legt fest welche Fraktion zum bemannen von Gebäuden benutzt werden</German>
+      <Key ID="STR_garrison_notification">
+        <Original>unit(s) were/was not placed in building(s)</Original>
+        <English>unit(s) were/was not placed in building(s)</English>
+        <French />
+        <German>Einheit(en) wurde(n) nicht in Gebäude(n) platziert</German>
       </Key>
     </Container>
     <Container name="Time Multiplier">
