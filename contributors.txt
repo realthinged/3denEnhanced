@@ -1,3 +1,4 @@
-dixon13 (Function optimisation)
-dardothemaster (Italian translation)
-niquenen (French translation)
+dixon13
+dardothemaster
+niquenen
+solentis
