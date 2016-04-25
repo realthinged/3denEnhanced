@@ -112,17 +112,17 @@
         <French>Définir combien de positions de bâtiments doivent être placées</French>
         <German>Legt fest wie viele der Gebäudepositionen bemannt werden</German>
       </Key>
-      <Key ID="STR_garrisonRadius_displayName">
-        <Original>Area Radius</Original>
-        <English>Area Radius</English>
-        <French />
-        <German>Radius des Gebietes</German>
+      <Key ID="STR_faction_displayName">
+        <Original>Faction</Original>
+        <English>Faction</English>
+        <French>Faction</French>
+        <German>Fraktion</German>
       </Key>
-      <Key ID="STR_garrison_notification">
-        <Original>unit(s) were/was not placed in building(s)</Original>
-        <English>unit(s) were/was not placed in building(s)</English>
-        <French />
-        <German>Einheit(en) wurde(n) nicht in Gebäude(n) platziert</German>
+      <Key ID="STR_faction_tooltip">
+        <Original>Set which faction should garrison the building</Original>
+        <English>Set which faction should garrison the building</English>
+        <French>Définir quelle faction devrait être placée dans le bâtiment</French>
+        <German>Legt fest welche Fraktion zum bemannen von Gebäuden benutzt werden</German>
       </Key>
     </Container>
     <Container name="Time Multiplier">
@@ -672,13 +672,13 @@
       <Key ID="STR_setCaptive_displayName">
         <Original>Set Captive</Original>
         <English>Set Captive</English>
-        <French>Faire otage</French>
+        <French>Capturé</French>
         <German>Neutrales Verhalten</German>
       </Key>
       <Key ID="STR_setCaptive_tooltip">
         <Original>Change unit's status to captive, unit will be on civilian side</Original>
         <English>Change unit's status to captive, unit will be on civilian side</English>
-        <French>Change le statut des unités à otage, l'unité sera dans la faction civil</French>
+        <French>Change le statut des unités en "otage", l'unité sera dans la faction civil</French>
         <German>Einheit wechselt auf die zivile Seite und verhält sich neutral</German>
       </Key>
     </Container>
@@ -714,13 +714,13 @@
       <Key ID="STR_allowCrewImmobile_displayName">
         <Original>Crew in Immobile</Original>
         <English>Crew in Immobile</English>
-        <French>Le groupe est immobile</French>
+        <French>Equipage immobile</French>
         <German />
       </Key>
       <Key ID="STR_allowCrewImmobile_tooltip">
         <Original>Crew stays in vehicle even thought the vehicle is disabled</Original>
         <English>Crew stays in vehicle even thought the vehicle is disabled</English>
-        <French>Le groupe reste dans le véhicule même si il est désactivé</French>
+        <French>Le groupe reste dans le véhicule même si il est neutralisé</French>
         <German>Fahrzeugbesatzung bleibt im Fahrzeug auch wenn dieses Kampfunfähig ist</German>
       </Key>
     </Container>
@@ -796,7 +796,7 @@
       <Key ID="STR_aimingSpeed_tooltip">
         <Original>Affects how quickly the AI can rotate and stabilize its aim (Higher value = faster, less error)</Original>
         <English>Affects how quickly the AI can rotate and stabilize its aim (Higher value = faster, less error)</English>
-        <French>Affecte la manière dont l'IA va rapidement stabiliser et bouger sa visé (valeur supérieure = plus rapide et moins d'erreur)</French>
+        <French>Affecte la capacité de l'IA à stabiliser et modifier sa visé (valeur supérieure = plus rapide et moins d'erreur)</French>
         <German>Beeinflusst wie schnell eine KI sich herumdrehen und ihr Zielen stabilisieren kann (Höherer Wert = schneller, weniger Fehler)</German>
       </Key>
       <Key ID="STR_aimingAccuracy_displayName">
@@ -844,7 +844,7 @@
       <Key ID="STR_general_tooltip">
         <Original>Affects the AI's decision making</Original>
         <English>Affects the AI's decision making</English>
-        <French>Affecte l'IA à prendre des décisions</French>
+        <French>Affecte la capacité décisionnel de l'IA</French>
         <German>Beeinflusst die Fähigkeit der KI, Entscheidungen zu treffen</German>
       </Key>
       <Key ID="STR_reloadSpeed_displayName">
@@ -856,7 +856,7 @@
       <Key ID="STR_reloadSpeed_tooltip">
         <Original>Affects the delay between switching or reloading a weapon. (Higher value = less delay)</Original>
         <English>Affects the delay between switching or reloading a weapon. (Higher value = less delay)</English>
-        <French>Affecte le délais entre le rechargement et le changement d'arme (valeur supérieure = délais réduit)</French>
+        <French>Affecte le délais de rechargement et de changement d'arme (valeur supérieure = délais réduit)</French>
         <German>Beeinflusst die Nachladegeschwindigkeit und die Zeit die zum Wechseln einer Waffe benötigt wird. (Höherer Wert = schnelleres Nachladen)</German>
       </Key>
       <Key ID="STR_spotDistance_displayName">
@@ -880,7 +880,7 @@
       <Key ID="STR_spotTime_tooltip">
         <Original>Affects how quick the AI react to death, damage or observing an enemy (Higher value = quicker reaction)</Original>
         <English>Affects how quick the AI react to death, damage or observing an enemy (Higher value = quicker reaction)</English>
-        <French>Affecte la rapidité de réaction de l'IA sur la mort de ses alliers, les dommages ou l'observation d'un ennemi (valeur supérieure = réaction plus rapide)</French>
+        <French>Affecte la rapidité de réaction de l'IA à la mort de ses alliés, aux dommages subis ou à l'observation d'un ennemi (valeur supérieure = réaction plus rapide)</French>
         <German>Beeinflusst wie schnell die KI auf Tod, Schaden oder das Entdecken von Feinden reagiert (Höherer Wert = schnelleres Reagieren)</German>
       </Key>
     </Container>
@@ -894,7 +894,7 @@
       <Key ID="STR_disableAI_move_tooltip">
         <Original>Disables AI's ability to Move</Original>
         <English>Disables AI's ability to move</English>
-        <French>Désactiver la capacité de l'IA pour se déplacer</French>
+        <French>Désactiver la capacité de l'IA à se déplacer</French>
         <German>Deaktiviert die Fähigkeit der KI sich zu bewegen</German>
       </Key>
       <Key ID="STR_disableAI_target_displayName">
@@ -906,7 +906,7 @@
       <Key ID="STR_disableAI_target_tooltip">
         <Original>Disables AI's ability to target</Original>
         <English>Disables AI's ability to target</English>
-        <French>Désactiver la capacité de l'IA pour cibler</French>
+        <French>Désactiver la capacité de l'IA à repérer</French>
         <German>Deaktiviert die Fähigkeit der KI zu Zielen</German>
       </Key>
       <Key ID="STR_disableAI_cover_displayName">
@@ -918,7 +918,7 @@
       <Key ID="STR_disableAI_cover_tooltip">
         <Original>Disables AI's ability to take cover</Original>
         <English>Disables AI's ability to take cover</English>
-        <French>Désactiver la capacité de l'IA pour se mettre à couvert</French>
+        <French>Désactiver la capacité de l'IA à se mettre à couvert</French>
         <German>Deaktiviert die Fähigkeit der KI sich Deckung zu suchen</German>
       </Key>
       <Key ID="STR_disableAI_autotarget_displayName">
@@ -930,7 +930,7 @@
       <Key ID="STR_disableAI_autotarget_tooltip">
         <Original>Disables AI's ability automatically assign targets</Original>
         <English>Disables AI's ability automatically assign targets</English>
-        <French>Désactiver la capacité de l'IA à automatiquement assigner une cible</French>
+        <French>Désactiver la capacité de l'IA à assigner une cible automatiquement</French>
         <German>Deaktiviert die Fähigkeit der KI automatisch Ziele zu suchen</German>
       </Key>
       <Key ID="STR_disableAI_anim_tooltip">
@@ -954,12 +954,12 @@
       <Key ID="STR_disableAI_aimingError_displayName">
         <Original>Aiming Error</Original>
         <English>Aiming Error</English>
-        <French>Erreur de tir</French>
+        <French>Erreur de visée</French>
       </Key>
       <Key ID="STR_disableAI_aimingError_tooltip">
         <Original>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target</Original>
         <English>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target</English>
-        <French>Empêche l'IA de rater son tir en étant blessé, fatigué, en mouvement, en tournant, en rechargeant, en subissant les effets de suppression ou en ayant perdu sa cible.</French>
+        <French>Empêche l'IA de rater son tir lorsqu'elle est blessée, fatiguée, en mouvement, en rotation, en rechargeant, en étant suppriméen ou en ayant perdu sa cible.</French>
         <German>Das Zielen der KI wird nicht mehr vom Schießen, Bewegen, Nachladen, von Treffern bzw. Verletzungen, Erschöpfung, Unterdrückungsfeuer und das Verlieren von Zielen beeinflusst</German>
       </Key>
       <Key ID="STR_disableAI_teamSwitch_displayName">
@@ -971,7 +971,7 @@
       <Key ID="STR_disableAI_teamSwitch_tooltip">
         <Original>AI disabled because of Team Switch</Original>
         <English>AI disabled because of Team Switch</English>
-        <French>L'IA est désactivé suite à un changement d'équipe</French>
+        <French>L'IA est désactivé lors d'un changement d'équipe</French>
         <German />
       </Key>
       <Key ID="STR_disableAI_raycasts_displayName">
@@ -1007,7 +1007,7 @@
       <Key ID="STR_disableAI_autocombat_tooltip">
         <Original>Disables autonomous switching to COMBAT when in danger</Original>
         <English>Disables autonomous switching to COMBAT when in danger</English>
-        <French>Désactiver le changement automatique en mode combat quand il y a danger</French>
+        <French>Désactiver le passage automatique en mode combat quand il y a un danger</French>
         <German>Die KI wechselt nicht mehr autonom in den Gefahrenmodus</German>
       </Key>
     </Container>
@@ -1015,7 +1015,7 @@
       <Key ID="STR_removeFAKs_displayName">
         <Original>Remove FAKs</Original>
         <English>Remove FAKs</English>
-        <French>Supprimer les kits d'aide</French>
+        <French>Supprimer les kits de premiers secours</French>
         <German>Entferne Verbandskästen</German>
       </Key>
     </Container>
@@ -1023,7 +1023,7 @@
       <Key ID="STR_engineOn_displayName">
         <Original>Engine on/off</Original>
         <English>Engine on/off</English>
-        <French>Moteur (on / off)</French>
+        <French>Moteur (on/off)</French>
         <German>Motor an/aus</German>
       </Key>
     </Container>
@@ -1031,7 +1031,7 @@
       <Key ID="STR_enableHeadlights_displayName">
         <Original>Headlights on/off</Original>
         <English>Headlights on/off</English>
-        <French>Phares (on / off)</French>
+        <French>Phares (on/off)</French>
         <German>Scheinwerfer an/aus</German>
       </Key>
       <Key ID="STR_enableHeadlights_tooltip">
@@ -1059,13 +1059,13 @@
       <Key ID="STR_limitSpeed_displayName">
         <Original>Speed Limit</Original>
         <English>Speed Limit</English>
-        <French>Limitation de vitesse</French>
+        <French>Limite de vitesse</French>
         <German>Geschwindigkeitsberenzung</German>
       </Key>
       <Key ID="STR_limitSpeed_tooltip">
         <Original>Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles</Original>
         <English>Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles</English>
-        <French>Limiter la vitesse du véhicule ou de la personne en donnant une valeur (en km/h). Fonctionne uniquement pour les véhicules contrôlés par l'IA.</French>
+        <French>Limiter la vitesse du véhicule ou de la personne en fixant une valeur (en km/h). Fonctionne uniquement pour les véhicules contrôlés par l'IA.</French>
         <German>Begrenzt die Geschwindigkeit des Fahrzeuges (Km/h). Funktioniert nur bei KI gesteuerten Fahrzeugen</German>
       </Key>
     </Container>
@@ -1073,13 +1073,13 @@
       <Key ID="STR_makeHostage_displayName">
         <Original>Courage</Original>
         <English>Make Hostage</English>
-        <French>Rendre l'unité en otage</French>
+        <French>Prendre l'unité en otage</French>
         <German>Zur Geisel machen</German>
       </Key>
       <Key ID="STR_makeHostage_tooltip">
         <Original>Makes the unit a hostage and adds a 'Free Hostage' action. Whether the unit is still hostage can be checked with _unitName getVariable 'Enh_isHostage';</Original>
         <English>Makes the unit a hostage and adds a 'Free Hostage' action. Whether the unit is still hostage can be checked with _unitName getVariable 'Enh_isHostage';</English>
-        <French>Rend l'unité en otage, il faut ajouter l'action 'Free Hostage'. Si l'unité est otage elle peut être vérifiée par _unitName getVariable 'Enh_isHostage';</French>
+        <French>Prend l'unité en otage, et ajoute une action 'libérer l'otage'. Il est possible de vérifier son statut d'otage avec _unitName getVariable 'Enh_isHostage';</French>
         <German>Die Einheit wird zu einer Geisel und jeder Spieler erhält eine Action diese zu befreien, ob die Geisel befreit wurde kann mit folgendermaßen überprüft werden: _unitName getVariable 'Enh_isHostage';</German>
       </Key>
     </Container>
@@ -1095,6 +1095,7 @@
       <Key ID="STR_notifications_checkVersionWarning">
         <Original>Warning! You are currently using the development branch. 3den Enhanced might not work with the current version of Arma 3. Please keep that in mind when reporting issues</Original>
         <English>Warning! You are currently using the development branch. 3den Enhanced might not work with the current version of Arma 3. Please keep that in mind when reporting issues</English>
+		<French>Attention! Vous êtes actuellement en train d'utiliser la "version développement". 3den Enhanced pourrait ne pas marcher cette version d'Arma 3. Prenez cela en compte lorsque vous signalerez un probléme.</French>
         <German>Warnung! Sie benutzen zurzeit den Entwicklungszweig von Arma 3. Bei der Verwendung der 3den Enhanced Modifikation könnte es zu Fehlern kommen. Bitte beachten Sie dies beim Melden von Fehlern</German>
       </Key>
     </Container>
@@ -1124,7 +1125,7 @@
       <Key ID="STR_GarrisonBuilding">
         <Original>Garrison Buildings</Original>
         <English>Garrison Buildings</English>
-        <French>Constructions de garnisons</French>
+        <French>Créer une garnison</French>
         <German>Gebäude besetzen</German>
       </Key>
     </Container>
@@ -1142,8 +1143,8 @@
         <German>Funktionsübersicht</German>
       </Key>
       <Key ID="STR_HelpAssets">
-        <Original>Assets Overview</Original>
-        <English>Assets Overview</English>
+        <Original>Assets Overview</Original>
+        <English>Assets Overview</English>
         <Czech />
         <French>Vue d'ensemble des propriétés</French>
         <Spanish />
@@ -1156,7 +1157,7 @@
       <Key ID="STR_Help3denEnhanced">
         <Original>3den Enhanced Forum</Original>
         <English>3den Enhanced Forum</English>
-        <French>Forum de 3den Enhanced</French>
+        <French>Forum 3den Enhanced</French>
         <German>3den Enhanced Forum</German>
       </Key>
     </Container>
@@ -1178,7 +1179,7 @@
       <Key ID="STR_ambAnimEquipCombo_random">
         <Original>Random (Gear is randomized according to the animation set)</Original>
         <English>Random (Gear is randomized according to the animation set)</English>
-        <French>Aléatoire (l'équipement est aléatoire en fonction de l'animation selectionnée)</French>
+        <French>Aléatoire (l'équipement est assigné en fonction de l'animation selectionnée)</French>
         <Spanish />
         <Italian>Random (L'equipaggiamento randomizzato in base all'animazione impostata)</Italian>
         <German>Zufällig (Ausrüstung wird der Animation angepasst)</German>
@@ -1186,7 +1187,7 @@
       <Key ID="STR_ambAnimEquipCombo_light">
         <Original>Light (No goggles, headgear, vest)</Original>
         <English>Light (No goggles, headgear, vest)</English>
-        <French>Léger (pas de lunette, casque et veste)</French>
+        <French>Léger (pas de lunette, casque ou veste)</French>
         <Spanish />
         <Italian>Light (Niente occhiali,né elmetto e veste)</Italian>
         <German>Leicht (Keine Nachtsicht, Kopfbedeckung, Weste)</German>
@@ -1194,7 +1195,7 @@
       <Key ID="STR_ambAnimEquipCombo_medium">
         <Original>Medium (No goggles, headgear)</Original>
         <English>Medium (No goggles, headgear)</English>
-        <French>Intermédiaire (pas de lunette et de casque)</French>
+        <French>Intermédiaire (pas de lunette ou de casque)</French>
         <Spanish />
         <Italian>Medium (Niente occhiali né elmetto)</Italian>
         <German>Mittel (Keine Nachtsicht, Kopfbedeckung)</German>
@@ -1210,7 +1211,7 @@
       <Key ID="STR_ambAnimEquipCombo_none">
         <Original>None (No goggles, headgear, vest, weapon)</Original>
         <English>None (No goggles, headgear, vest, weapon)</English>
-        <French>Rien (pas de lunette, casque, veste et arme)</French>
+        <French>Rien (pas de lunette, casque, veste ou arme)</French>
         <Spanish />
         <Italian>Nulla (Niente occhiali, elmetto, veste e arma)</Italian>
         <German>Nichts (Keine Nachtsicht, Kopfbedeckung, Weste, Waffe)</German>
@@ -1220,90 +1221,90 @@
       <Key ID="STR_ambAnimCombo_stand">
         <Original>Stand (Slightly turning to the sides, needs rifle!)</Original>
         <English>Stand (Slightly turning to the sides, needs rifle!)</English>
-        <French>Attend (tourne légèrement sur les côtés, nécessite une arme)</French>
+        <French>Attend (pivote légèrement sur les côtés, nécessite une arme)</French>
         <Italian>Eretto (Si gira leggermente, necessita un fucile!)</Italian>
         <German>Stehen (Leicht zur Seite drehend, braucht ein Gewehr!)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standIA">
         <Original>Stand (Default A3 animation)</Original>
         <English>Stand (Default A3 animation)</English>
-        <French>Attend (animation de A3 par défaut)</French>
+        <French>Attend (animation debout par défaut)</French>
         <Italian>Eretto (Animazione di default)</Italian>
         <German>Stehen (Standard A3 Animation)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitLow">
         <Original>Sit (Sitting on the ground, with weapon)</Original>
         <English>Sit (Sitting on the ground, with weapon)</English>
-        <French>Assis (assis sur le sol avec une arme)</French>
+        <French>Assis au sol 1(armé)</French>
         <Italian>Seduto (Seduto per terra, con un'arma)</Italian>
         <German>Schneidersitz (Bewaffnet)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitLowU">
         <Original>Sit low (Sitting on the ground, no weapon)</Original>
         <English>Sit low (Sitting on the ground, no weapon)</English>
-        <French>Assis (assis sur le sol sans arme)</French>
+        <French>Assis au sol 2 (non armé)</French>
         <Italian>Sit Low(Seduto a terra senza arma)</Italian>
         <German>Schneidersitz (unbewaffnet)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_kneel">
         <Original>Kneel (Kneeling, with weapon)</Original>
         <English>Kneel (Kneeling, with weapon)</English>
-        <French>À genoux (avec une arme)</French>
+        <French>Accroupi (armé)</French>
         <Italian>Kneel (Inginocchiato, con un'arma)</Italian>
         <German>Kniend (Mit Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_lean">
         <Original>Lean</Original>
         <English>Lean</English>
-        <French>Allongé</French>
+        <French>Adossé</French>
         <German>Anlehnen</German>
       </Key>
       <Key ID="STR_ambAnimCombo_watch1">
         <Original>Watch 1 (Standing and turning around)</Original>
         <English>Watch (Standing and turning around)</English>
-        <French>Regarde (attend et tourne sur lui même)</French>
+        <French>Surveille 1 (attend et pivote sur lui même)</French>
         <Italian>Watch  1(Posizione eretta mentre controlla i dintorni)</Italian>
         <German>Ausschau halten 1</German>
       </Key>
       <Key ID="STR_ambAnimCombo_watch">
         <Original>Watch 1 (Standing and turning around)</Original>
         <English>Watch (Standing and turning around)</English>
-        <French>Regarde (attend et tourne sur lui même)</French>
+        <French>Surveille 2 (attend et pivote sur lui même)</French>
         <Italian>Watch  1(Posizione eretta mentre controlla i dintorni)</Italian>
         <German>Ausschau halten 1</German>
       </Key>
       <Key ID="STR_ambAnimCombo_watch2">
         <Original>Watch 2(Standing and turning around)</Original>
         <English>Watch (Standing and turning around)</English>
-        <French>Regarde (attend et tourne sur lui même)</French>
+        <French>Surveille 3(attend et pivote sur lui même)</French>
         <Italian>Watch 2(Posizione eretta mentre controlla i dintorni)</Italian>
         <German>Ausschau halten 2</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standU1">
         <Original>Stand U1 (Slightly turning to the sides, no weapon)</Original>
         <English>Stand U1 (Slightly turning to the sides, no weapon)</English>
-        <French>Attend U1 (tourne légèrement sur les côtés sans arme)</French>
+        <French>Attend 1 (pivote légèrement sur les côtés, non armé)</French>
         <Italian>Stand U1 (Si gira leggermente, nessun'arma)</Italian>
         <German>Stehen U1 (Leicht zur seite drehend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standU2">
         <Original>Stand U2 (Slightly turning to the sides, no weapon)</Original>
         <English>Stand U2 (Slightly turning to the sides, no weapon)</English>
-        <French>Attend U2 (tourne légèrement sur les côtés sans arme)</French>
+        <French>Attend 2 (tourne légèrement sur les côtés, non armé)</French>
         <Italian>Stand U2 (Si gira leggermente, nessun'arma)</Italian>
         <German>Stehen U2 (Leicht zur seite drehend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_standU3">
         <Original>Stand U3 (Slightly turning to the sides, no weapon)</Original>
         <English>Stand U3 (Slightly turning to the sides, no weapon)</English>
-        <French>Attend U3 (tourne légèrement sur les côtés sans arme)</French>
+        <French>Attend 3(tourne légèrement sur les côtés, non armé)</French>
         <Italian>Stand U3 (Si gira leggermente, nessun'arma)</Italian>
         <German>Stehen U3 (Leicht zur seite drehend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_listenBriefing">
         <Original>Listen Briefing (Hands behind back, no weapon)</Original>
         <English>Listen Briefing (Hands behind back, no weapon)</English>
-        <French>Écoute le briefing (mains derrière les dos, sans arme)</French>
+        <French>Écoute un briefing (mains derrière le dos, non armé)</French>
         <Italian>Ascolta il briefing (Mani dietro la schiena, nessun'arma)</Italian>
         <German>Einsatzbesprechung anhören (Hände hinter Rücken, keine Waffe)</German>
       </Key>
@@ -1345,21 +1346,21 @@
       <Key ID="STR_ambAnimCombo_sitU1">
         <Original>Sit U1 (Sitting on bench or similar, no weapon)</Original>
         <English>Sit U1 (Sitting on bench or similar, no weapon)</English>
-        <French>Assis U1 (sur un banc ou autre, sans arme)</French>
+        <French>Assis non armé 1 (sur un banc ou autre, sans arme)</French>
         <Italian>Sit U1 (Seduto su una panchina o similiari, nessun'arma)</Italian>
         <German>Sitzen U1 (Auf Bank oder Ähnlichem sitzend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitU2">
         <Original>Sit U2 (Sitting on bench or similar, no weapon)</Original>
         <English>Sit U1 (Sitting on bench or similar, no weapon)</English>
-        <French>Assis U2 (sur un banc ou autre, sans arme)</French>
+        <French>Assis non armé 2 (sur un banc ou autre, sans arme)</French>
         <Italian>Sit U2 (Seduto su una panchina o similiari, nessun'arma)</Italian>
         <German>Sitzen U2(Auf Bank oder Ähnlichem sitzend, keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_sitU3">
         <Original>Sit U3 (Sitting on bench or similar, no weapon)</Original>
         <English>Sit U1 (Sitting on bench or similar, no weapon)</English>
-        <French>Assis U3 (sur un banc ou autre, sans arme)</French>
+        <French>Assis non armé 3 (sur un banc ou autre, sans arme)</French>
         <Italian>Sit U3 (Seduto su una panchina o similiari, nessun'arma)</Italian>
         <German>Sitzen U3 (Auf Bank oder Ähnlichem sitzend, keine Waffe)</German>
       </Key>
@@ -1380,7 +1381,7 @@
       <Key ID="STR_ambAnimCombo_sit3">
         <Original>Sit 3 (Sitting on bench or similar, unarmed)</Original>
         <English>Sit 3 (Sitting on bench or similar, unarmed)</English>
-        <French>Assis 3 (sur un banc ou autre)</French>
+        <French>Assis 3 (sur un banc ou autre, non armé)</French>
         <Italian />
         <German>Sitzen 2 (Auf Bank oder Ähnlichem sitzend, unbewaffnet)</German>
       </Key>
@@ -1401,20 +1402,20 @@
       <Key ID="STR_ambAnimCombo_proneInjured1">
         <Original>Prone injured 1 (Laying wounded on back, no weapon)</Original>
         <English>Prone injured 1 (Laying wounded on back, no weapon)</English>
-        <French>Prononce des insultes 1 (blessé sur le dos, sans arme)</French>
+        <French>Blessé 1 (sur le dos, sans arme)</French>
         <German>Verletzt am Boden 1 (Keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_proneInjured2">
         <Original>Prone injured 2 (Laying wounded on back, no weapon)</Original>
         <English>Prone injured 2 (Laying wounded on back, no weapon)</English>
-        <French>Prononce des insultes 2 (blessé sur le dos, sans arme)</French>
+        <French>Blessé 2 (le dos, sans arme)</French>
         <German>Verletzt am Boden 2 (Keine Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_proneInjured">
         <Original>Prone injured (Laying wounded on back, with or without weapon)</Original>
         <English>Prone injured (Laying wounded on back, with or without weapon)</English>
         <Czech />
-        <French>Prononce des insultes (blessé sur le dos, avec ou sans arme)</French>
+        <French>Blessé 3 (sur le dos, avec ou sans arme)</French>
         <Spanish />
         <Italian />
         <Polish />
@@ -1425,19 +1426,19 @@
       <Key ID="STR_ambAnimCombo_repairVehStand">
         <Original>Repair vehicle (Reparing vehicle, standing)</Original>
         <English>Repair vehicle (Reparing vehicle, standing)</English>
-        <French>Répare un véhicule (debout, sans arme)</French>
+        <French>Répare 1 (debout, non armé)</French>
         <German>Fahrzeug reparieren (Stehend, ohne Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_repairVehKneel">
         <Original>Repair vehicle (Reparing vehicle, kneeling)</Original>
         <English>Repair vehicle (Reparing vehicle, kneeling)</English>
-        <French>Répare un véhicule (à genoux, sans arme)</French>
+        <French>Répare 2 (à genoux, non armé)</French>
         <German>Fahrzeug reparieren (Kniend, ohne Waffe)</German>
       </Key>
       <Key ID="STR_ambAnimCombo_repairVehProne">
         <Original>Repair vehicle (Reparing vehicle, prone)</Original>
         <English>Repair vehicle (Reparing vehicle, prone)</English>
-        <French>Répare un véhicule (allongé, sans arme)</French>
+        <French>Répare 3 (allongé, non armé)</French>
         <German>Fahrzeug reparieren (Liegend, ohne Waffe)</German>
       </Key>
     </Container>
