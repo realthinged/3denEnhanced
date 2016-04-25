@@ -1,3 +1,10 @@
+v1.2.1
+- completly overhauled the garrison function
+1. Select the units/objects you want to place in houses and place them near the buildings
+2. Open the Context menu (right click on one of the selected units) -> select Edit -> Garrison Buildings
+3. Objects/Units will now be automatically be placed inside buildings, you'll recieve a msg in case some units/objects could no be placed
+4. The size and coverage of the area can be changed in the preferences menu of Eden
+
 v1.2
 *removed*
 - custom compositions
@@ -6,7 +13,6 @@ v1.2
 - function to quickly garrison placed building. Settings can be changed in the preferences
 - attribute to toggle map object IDs on/off
 - attribute to turn off/on vehicles engines
-- attribute to make unit a hostage !!!!Will be in a later version!!!!
 - English, German and Italian (partially) translation
 - attribute to disable BIS revive for specific units
 - attribute to remove all FAKs from a unit
