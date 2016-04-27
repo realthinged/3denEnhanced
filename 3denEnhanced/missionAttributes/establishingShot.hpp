@@ -34,7 +34,7 @@ class EstablishingShot
 		class CenterPos
 		{
 			displayName = $STR_establishingShot_centerPos_displayName;
-			tooltip = $STR_establishingShot_centerPos_displayName;
+			tooltip = "";
 			property = "Enh_centerPosition";
 			control = "EditXYZ";
 			defaultValue = [0,0,0];
