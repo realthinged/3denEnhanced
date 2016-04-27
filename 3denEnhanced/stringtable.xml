@@ -112,17 +112,17 @@
         <French>Définir combien de positions de bâtiments doivent être placées</French>
         <German>Legt fest wie viele der Gebäudepositionen bemannt werden</German>
       </Key>
-      <Key ID="STR_faction_displayName">
-        <Original>Faction</Original>
-        <English>Faction</English>
-        <French>Faction</French>
-        <German>Fraktion</German>
+      <Key ID="STR_garrisonRadius_displayName">
+        <Original>Area Radius</Original>
+        <English>Area Radius</English>
+        <French />
+        <German>Radius des Gebietes</German>
       </Key>
-      <Key ID="STR_faction_tooltip">
-        <Original>Set which faction should garrison the building</Original>
-        <English>Set which faction should garrison the building</English>
-        <French>Définir quelle faction devrait être placée dans le bâtiment</French>
-        <German>Legt fest welche Fraktion zum bemannen von Gebäuden benutzt werden</German>
+      <Key ID="STR_garrison_notification">
+        <Original>unit(s) were/was not placed in building(s)</Original>
+        <English>unit(s) were/was not placed in building(s)</English>
+        <French />
+        <German>Einheit(en) wurde(n) nicht in Gebäude(n) platziert</German>
       </Key>
     </Container>
     <Container name="Time Multiplier">
@@ -218,6 +218,18 @@
         <English>Intro Text</English>
         <French>Texte d'introduction</French>
         <German>Intro Text</German>
+      </Key>
+      <Key ID="STR_introText_introDelay_displayName">
+        <Original>Delay</Original>
+        <English>Delay</English>
+        <French />
+        <German>Verzögerung</German>
+      </Key>
+      <Key ID="STR_introText_introDelay_tooltip">
+        <Original>Defines how much has to pass until the intro text is shown</Original>
+        <English>Defines how much has to pass until the intro text is shown</English>
+        <French />
+        <German>Bestimmt wie viel Zeit vergehen muss bis das Intro angezeigt wird</German>
       </Key>
       <Key ID="STR_introText_activate_displayName">
         <Original>Activate</Original>
@@ -959,7 +971,7 @@
       <Key ID="STR_disableAI_aimingError_tooltip">
         <Original>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target</Original>
         <English>Prevents AI's aiming from being distracted by its shooting, moving, turning, reloading, hit, injury, fatigue, suppression or concealed/lost target</English>
-        <French>Empêche l'IA de rater son tir lorsqu'elle est blessée, fatiguée, en mouvement, en rotation, en rechargeant, en étant suppriméen ou en ayant perdu sa cible.</French>
+        <French>Empêche l'IA de rater son tir lorsqu'elle est blessée, fatiguée, en mouvement, en rotation, en rechargeant, en étant suppriméen ou en ayant perdu sa cible</French>
         <German>Das Zielen der KI wird nicht mehr vom Schießen, Bewegen, Nachladen, von Treffern bzw. Verletzungen, Erschöpfung, Unterdrückungsfeuer und das Verlieren von Zielen beeinflusst</German>
       </Key>
       <Key ID="STR_disableAI_teamSwitch_displayName">
@@ -1065,7 +1077,7 @@
       <Key ID="STR_limitSpeed_tooltip">
         <Original>Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles</Original>
         <English>Limit speed of given vehicle or person to given value (in km/h). Does only work for AI controlled vehicles</English>
-        <French>Limiter la vitesse du véhicule ou de la personne en fixant une valeur (en km/h). Fonctionne uniquement pour les véhicules contrôlés par l'IA.</French>
+        <French>Limiter la vitesse du véhicule ou de la personne en fixant une valeur (en km/h). Fonctionne uniquement pour les véhicules contrôlés par l'IA</French>
         <German>Begrenzt die Geschwindigkeit des Fahrzeuges (Km/h). Funktioniert nur bei KI gesteuerten Fahrzeugen</German>
       </Key>
     </Container>
@@ -1083,6 +1095,78 @@
         <German>Die Einheit wird zu einer Geisel und jeder Spieler erhält eine Action diese zu befreien, ob die Geisel befreit wurde kann mit folgendermaßen überprüft werden: _unitName getVariable 'Enh_isHostage';</German>
       </Key>
     </Container>
+    <Container name="Unit Traits">
+      <Key ID="STR_unitTraits_medic_displayName">
+        <Original>Is Medic?</Original>
+        <English>Is Medic?</English>
+        <German>Ist Sanitäter?</German>
+      </Key>
+      <Key ID="STR_unitTraits_medic_tooltip">
+        <Original>Defines whether the unit can fully heal other units</Original>
+        <English>Defines whether the unit can fully heal other units</English>
+        <German>Bestimmt ob die Einheit andere Einheiten vollständig heilen kann</German>
+      </Key>
+      <Key ID="STR_unitTraits_engineer_displayName">
+        <Original>Is Engineer?</Original>
+        <English>Is Engineer?</English>
+        <German>Ist Ingenieur?</German>
+      </Key>
+      <Key ID="STR_unitTraits_engineer_tooltip">
+        <Original>Defines whether or not the unit can repair vehicles</Original>
+        <English>Defines whether or not the unit can repair vehicles</English>
+        <German>Bestimmt ob die Einheit Fahrzeuge reparieren kann</German>
+      </Key>
+      <Key ID="STR_unitTraits_explosiveSpecialist_displayName">
+        <Original>Is Explosive Specialist?</Original>
+        <English>Is Explosive Specialist?</English>
+        <German>Ist Sprengmeister?</German>
+      </Key>
+      <Key ID="STR_unitTraits_explosiveSpecialist_tooltip">
+        <Original>Defines whether the unit can defuse explosives</Original>
+        <English>Defines whether the unit can defuse explosives</English>
+        <German>Bestimmt ob die Einheit Sprengsätze entschärfen kann</German>
+      </Key>
+      <Key ID="STR_unitTraits_UAVHacker_displayName">
+        <Original>Is UAV Hacker?</Original>
+        <English>Is UAV Hacker?</English>
+        <German>Ist UAV Hacker?</German>
+      </Key>
+      <Key ID="STR_unitTraits_UAVHacker_tooltip">
+        <Original>Defines whether the unit can hack hostile UAVs</Original>
+        <English>Defines whether the unit can hack hostile UAVs</English>
+        <German>Bestimmt ob die Einheit feindliche Drohnen übernehmen kann</German>
+      </Key>
+      <Key ID="STR_camouflageCoef_displayName">
+        <Original>Camouflage Coefficent</Original>
+        <English>Camouflage Coefficent</English>
+        <German>Tarnungskoeffizient</German>
+      </Key>
+      <Key ID="STR_camouflageCoef_tooltip">
+        <Original>The camouflage coefficent determines how easy an unit can be spotted by AI. A higher value means it's more difficult to spot it</Original>
+        <English>The camouflage coefficent determines how easy an unit can be spotted by AI. A higher value means it's more difficult to spot it</English>
+        <German>Der Tarnungskoeffizient bestimmt wie leicht eine Einheit von anderen KI Einheiten erkannt werden kann, ein höherer Wert bedeutet das die Einheit schwerer zu erkennen ist</German>
+      </Key>
+      <Key ID="STR_audibleCoef_displayName">
+        <Original>Audible Coefficient</Original>
+        <English>Audible Coefficient</English>
+        <German>Hörbereichskoeffizient</German>
+      </Key>
+      <Key ID="STR_audibleCoef_tooltip">
+        <Original>The audible coefficient determines how easy a unit can be heard by AI. A higher value means it's more difficult to hear it</Original>
+        <English>The audible coefficient determines how easy a unit can be heard by AI. A higher value means it's more difficult to hear it</English>
+        <German>Der Hörbereichskoeffizient bestimmt wie leicht eine Einheit zu hören ist. Ein höherer Wert bedeutet, dass die Einheit schwieriger zu lokalisieren ist</German>
+      </Key>
+      <Key ID="STR_loadCoef_displayName">
+        <Original>Load Coefficient</Original>
+        <English>Load Coefficient</English>
+        <German>Belastungskoeffizient</German>
+      </Key>
+      <Key ID="STR_loadCoef_tooltip">
+        <Original>The load coefficient determines how much influence the unit's loadout weight has on it's stamina. A higher value means the weight has a higher influence</Original>
+        <English>The load coefficient determines how much influence the unit's loadout weight has on it's stamina. A higher value means the weight has a higher influence</English>
+        <German>Der Belastungskoeffizient bestimmt wie viel Einfluss das Ausrüstungsgewicht auf die Ausdauer der Einheit hat. Ein höherer Wert verringert die zur Verfügung stehende Ausdauer</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Misc">
     <Container name="notification.hpp">
@@ -1095,7 +1179,7 @@
       <Key ID="STR_notifications_checkVersionWarning">
         <Original>Warning! You are currently using the development branch. 3den Enhanced might not work with the current version of Arma 3. Please keep that in mind when reporting issues</Original>
         <English>Warning! You are currently using the development branch. 3den Enhanced might not work with the current version of Arma 3. Please keep that in mind when reporting issues</English>
-		<French>Attention! Vous êtes actuellement en train d'utiliser la "version développement". 3den Enhanced pourrait ne pas marcher cette version d'Arma 3. Prenez cela en compte lorsque vous signalerez un probléme.</French>
+        <French>Attention! Vous êtes actuellement en train d'utiliser la "version développement". 3den Enhanced pourrait ne pas marcher cette version d'Arma 3. Prenez cela en compte lorsque vous signalerez un probléme</French>
         <German>Warnung! Sie benutzen zurzeit den Entwicklungszweig von Arma 3. Bei der Verwendung der 3den Enhanced Modifikation könnte es zu Fehlern kommen. Bitte beachten Sie dies beim Melden von Fehlern</German>
       </Key>
     </Container>
@@ -1128,6 +1212,11 @@
         <French>Créer une garnison</French>
         <German>Gebäude besetzen</German>
       </Key>
+      <Key ID="STR_hideMapObjects">
+        <Original>Hide Map Objects</Original>
+        <English>Hide Map Objects</English>
+        <German>Verstecke Kartenobjekte</German>
+      </Key>
     </Container>
     <Container name="Menu Strip">
       <Key ID="STR_HelpFunctionsOverview">
@@ -1143,8 +1232,8 @@
         <German>Funktionsübersicht</German>
       </Key>
       <Key ID="STR_HelpAssets">
-        <Original>Assets Overview</Original>
-        <English>Assets Overview</English>
+        <Original>Assets Overview</Original>
+        <English>Assets Overview</English>
         <Czech />
         <French>Vue d'ensemble des propriétés</French>
         <Spanish />
@@ -1179,7 +1268,7 @@
       <Key ID="STR_ambAnimEquipCombo_random">
         <Original>Random (Gear is randomized according to the animation set)</Original>
         <English>Random (Gear is randomized according to the animation set)</English>
-        <French>Aléatoire (l'équipement est assigné en fonction de l'animation selectionnée)</French>
+        <French>Aléatoire (l'équipement est aléatoire en fonction de l'animation selectionnée)</French>
         <Spanish />
         <Italian>Random (L'equipaggiamento randomizzato in base all'animazione impostata)</Italian>
         <German>Zufällig (Ausrüstung wird der Animation angepasst)</German>
@@ -1442,6 +1531,23 @@
         <German>Fahrzeug reparieren (Liegend, ohne Waffe)</German>
       </Key>
     </Container>
+    <Container name="unitTraitsCombo">
+      <Key ID="STR_yes_displayName">
+        <Original>Yes</Original>
+        <English>Yes</English>
+        <German>Ja</German>
+      </Key>
+      <Key ID="STR_no_displayName">
+        <Original>No</Original>
+        <English>No</English>
+        <German>Nein</German>
+      </Key>
+      <Key ID="STR_noChange_displayName">
+        <Original>No Change</Original>
+        <English>No Change</English>
+        <German>Keine Änderung</German>
+      </Key>
+    </Container>
   </Package>
   <Package name="Attribute Category Headlines">
     <Container name="Advanced Damage Vehicle">
@@ -1545,6 +1651,13 @@
         <English>Ambient Animations</English>
         <French>Animations d'ambiance</French>
         <German>Animationen</German>
+      </Key>
+    </Container>
+    <Container name="Unit Traits">
+      <Key ID="STR_unitTraits_headline">
+        <Original>Unit Traits</Original>
+        <English>Unit Traits</English>
+        <German>Eigenschaften</German>
       </Key>
     </Container>
   </Package>
