@@ -1,5 +1,16 @@
+v1.3
+*added*
+- one can now define a delay for the intro text attribute
+- attribute for unit traits
+- added German translation for "Hide Map Objects" context menu entry
+- added German translation for unit traits attribute
+- added German translation for intro text delay
+*changed*
+- updated French translation (thanks to solentis)
+
+
 v1.2.1
-- completly overhauled the garrison function
+- completely overhauled the garrison function
 1. Select the units/objects you want to place in houses and place them near the buildings
 2. Open the Context menu (right click on one of the selected units) -> select Edit -> Garrison Buildings
 3. Objects/Units will now be automatically be placed inside buildings, you'll recieve a msg in case some units/objects could no be placed
