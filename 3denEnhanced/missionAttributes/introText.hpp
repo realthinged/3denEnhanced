@@ -16,7 +16,8 @@ class IntroText
 				{\
 					[] spawn\
 					{\
-						waitUntil {time > 5};\
+						waitUntil {time > 0.5};\
+						waitUntil {time > ((missionNamespace getVariable ['Enh_introDelay',5]) - 0.5)};\
 						[\
 							parseText format\
 							[\
@@ -31,6 +32,16 @@ class IntroText
 				};\
 			";
 			defaultValue = "false";
+		};
+		class IntroDelay
+		{
+			displayName = $STR_introText_introDelay_displayName;
+			tooltip = $STR_introText_introDelay_tooltip;
+			property = "Enh_introDelay";
+			control = "Edit";
+			expression = "missionNamespace setVariable ['Enh_introDelay',_value]";
+			defaultValue = "5";
+			typeName = "NUMBER";
 		};
 		class Line_1
 		{
