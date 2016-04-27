@@ -69,14 +69,14 @@ class display3DEN
 			};
 			class GarrisonBuildings
 			{
-				action = "call Enh_fnc_garrisonBuildings";
+				action = "call Enh_fnc_garrisonNearest";
 				Text = $STR_GarrisonBuilding;
 				conditionShow = "selectedObject";
 			};
 			class HideMapObjects
 			{
 				action = "call Enh_fnc_hideMapObjects";
-				Text = "Hide Map Objects";
+				Text = $STR_hideMapObjects;
 			};
 		};
 	};
