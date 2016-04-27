@@ -37,6 +37,7 @@ class Cfg3DEN
 		#include "controls\garrisonCoverageCombo.hpp"
 		#include "controls\sliderTimeMultiplier.hpp"
 		#include "controls\sliderCheckbViewDistance.hpp"
+		#include "controls\unitTraitsCombo.hpp"
 	};
 	class Mission
 	{
@@ -94,6 +95,7 @@ class Cfg3DEN
 			#include "objectAttributes\ambientAnimation.hpp"
 			#include "objectAttributes\ambientAnimationCombat.hpp"
 			#include "objectAttributes\advancedSkill.hpp"
+			#include "objectAttributes\unitTraits.hpp"
 			class StateSpecial
 			{
 				class Attributes
