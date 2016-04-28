@@ -7,19 +7,21 @@ class MakeHostage: SetCaptive
 	"\
 		if (_value && !is3DEN) then\
 		{\
+			_this setVariable ['Enh_isHostage',true,true];\
 			Enh_fnc_makeHostage =\
 			{\
-				_this playMoveNow 'Acts_AidlPsitMstpSsurWnonDnon04';\
-				_this addAction ['Free Hostage',\
-				{\
-					[_this select 0,_this select 2] remoteExec ['removeAction',0];\
-					(_this select 0) playMoveNow 'AmovPercMstpSnonWnonDnon';\
-					(_this select 0) setVariable ['Enh_isHostage',false];\
-				}];\
-				_this setVariable ['Enh_isHostage',true];\
+			   if (_this getVariable ['Enh_isHostage',false]) then\
+			   {\
+			      _this playMoveNow 'Acts_AidlPsitMstpSsurWnonDnon04';\
+			      _this addAction ['Free Hostage',\
+			      {\
+			         [_this select 0,_this select 2] remoteExec ['removeAction',0];\
+			         [_this select 0,'AmovPercMstpSnonWnonDnon'] remoteExec ['playMoveNow',0];\
+			         (_this select 0) setVariable ['Enh_isHostage',false,true];\
+			      }];\
+			   };\
 			};\
-			\
-			_this remoteExec ['Enh_fnc_makeHostage',0,true];\
+			[_this,Enh_fnc_makeHostage] remoteExec ['call',0,true];\
 		};\
 	";
 };
