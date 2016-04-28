@@ -103,7 +103,7 @@ class Cfg3DEN
 					#include "objectAttributes\setCaptive.hpp"
 					#include "objectAttributes\allowSprint.hpp"
 					#include "objectAttributes\disableBISRevive.hpp"
-					//#include "objectAttributes\makeHostage.hpp"
+					#include "objectAttributes\makeHostage.hpp"
 					#include "objectAttributes\enableHeadlights.hpp"
 					#include "objectAttributes\allowCrewInImmobile.hpp"
 					#include "objectAttributes\engineOn.hpp"
