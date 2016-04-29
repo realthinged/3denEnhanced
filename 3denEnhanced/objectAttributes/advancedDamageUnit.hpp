@@ -7,7 +7,7 @@ class AdvancedDamageUnit
 		class Head
 		{
 			displayName = $STR_advancedDamageUnit_head;
-			tooltip = "Damages a specific body part.";
+			tooltip = "";
 			property = "Enh_damageHead";
 			control = "slider";
 			expression = "_this setHitPointDamage ['hitHead',_value];";
