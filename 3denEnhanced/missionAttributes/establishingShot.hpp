@@ -45,7 +45,7 @@ class EstablishingShot
 			displayName = $STR_establishingShot_displayedText;
 			tooltip = "";
 			expression = "missionNamespace setVariable ['Enh_displayText',_value]";
-			property = 'Enh_displayText';
+			property = "Enh_displayText";
 			control = "Edit";
 			defaultValue = worldName;
 			typeName = "STRING";
@@ -64,7 +64,7 @@ class EstablishingShot
 			displayName = $STR_establishingShot_radius_displayName;
 			tooltip = "";
 			expression = "missionNamespace setVariable ['Enh_radius',_value]";
-			property = 'Enh_radius';
+			property = "Enh_radius";
 			control = "Edit";
 			defaultValue = 100;
 			typeName = "NUMBER";
@@ -74,7 +74,7 @@ class EstablishingShot
 			displayName = $STR_establishingShot_viewingAngle_displayName;
 			tooltip = "";
 			expression = "missionNamespace setVariable ['Enh_viewingAngle',_value]";
-			property = 'Enh_viewingAngle';
+			property = "Enh_viewingAngle";
 			control = "Edit";
 			defaultValue = 45;
 			typeName = "NUMBER";
@@ -82,11 +82,11 @@ class EstablishingShot
 		class DirectionCamera
 		{
 			displayName = $STR_establishingShot_dirCamera_displayName;
-			tooltip = $STR_establishingShot_dirCamera_tooltip;
+			tooltip = "";
 			expression = "missionNamespace setVariable ['Enh_directionCamera',_value]";
-			property = 'Enh_directionCamera';
-			control = "Edit";//Use combo or toolbox in the future
-			defaultValue = nil;
+			property = "Enh_directionCamera";
+			control = "LoiterDirectionToolbox";
+			defaultValue = 0;
 			typeName = "NUMBER";
 		};
 	};
