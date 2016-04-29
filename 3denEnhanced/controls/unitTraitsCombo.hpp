@@ -30,15 +30,6 @@ class UnitTraitsCombo: Title
 		if ( isClass _staticItemsCfg ) then {\
 			[ _staticItemsCfg, false ] call _fnc_setValues;\
 		};\
-		\
-		_dynamicItemsCfg = configFile >> 'Cfg3DEN' >> 'Attributes' >> _attCtrl >> 'Controls' >> 'Value' >> 'ItemsConfig';\
-		if ( isNumber( _dynamicItemsCfg >> 'localConfig' ) && { getNumber( _dynamicItemsCfg >> 'localConfig' ) > 0 } ) then {\
-			_class = getArray( _dynamicItemsCfg >> 'path' ) select 0;\
-			_path = missionConfigFile >> _class;\
-			if ( isClass _path ) then {\
-				_path call _fnc_setValues;\
-			};\
-		};\
 	";
 
 	attributeSave = "\
@@ -67,18 +58,18 @@ class UnitTraitsCombo: Title
 				class NoChange
 				{
 					text = $STR_noChange_displayName;
-					data = "2";
+					data = "noChange";
 					default = 1;
 				};
 				class Yes
 				{
 					text = $STR_yes_displayName
-					data = "1";
+					data = "yes";
 				};
 				class No
 				{
 					text = $STR_no_displayName;
-					data = "0";
+					data = "yes";
 				};
 			};
 		};
