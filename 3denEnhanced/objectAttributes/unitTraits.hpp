@@ -12,15 +12,11 @@ class UnitTraits
 			control = "UnitTraitsCombo";
 			expression =
 			"\
-				switch (parseNumber _value) do\
-				{\
-					case 2: {};\
-					case 1: {_this setUnitTrait ['Medic',true];};\
-					case 0: {_this setUnitTrait ['Medic',false]};\
-				};\
+				if (_value isEqualTo 'noChange') then {};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['Medic',true]} else {_this setUnitTrait ['Medic',false]};\
 			";
-			typeName = "NUMBER";
-			defaultValue = "2";
+			typeName = "STRING";
+			defaultValue = "noChange";
 			condition = "objectControllable";
 		};
 		class Engineer: Medic
@@ -30,12 +26,8 @@ class UnitTraits
 			property = "Enh_unitTraits_engineer";
 			expression =
 			"\
-				switch (parseNumber _value) do\
-				{\
-					case 2: {};\
-					case 1: {_this setUnitTrait ['Engineer',true];};\
-					case 0: {_this setUnitTrait ['Engineer',false]};\
-				};\
+				if (_value isEqualTo 'noChange') then {};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['Engineer',true]} else {_this setUnitTrait ['Engineer',false]};\
 			";
 		};
 		class ExplosiveSpecialist: Medic
@@ -45,12 +37,8 @@ class UnitTraits
 			property = "Enh_unitTrait_explosiveSpecialist";
 			expression =
 			"\
-				switch (parseNumber _value) do\
-				{\
-					case 2: {};\
-					case 1: {_this setUnitTrait ['ExplosiveSpecialist',true];};\
-					case 0: {_this setUnitTrait ['ExplosiveSpecialist',false]};\
-				};\
+				if (_value isEqualTo 'noChange') then {};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['ExplosiveSpecialist',true]} else {_this setUnitTrait ['ExplosiveSpecialist',false]};\
 			";
 		};
 		class UAVHacker: Medic
@@ -60,12 +48,8 @@ class UnitTraits
 			property = "Enh_unitTrait_UAVHacker";
 			expression =
 			"\
-				switch (parseNumber _value) do\
-				{\
-					case 2: {};\
-					case 1: {_this setUnitTrait ['UAVHacker',true];};\
-					case 0: {_this setUnitTrait ['UAVHacker',false]};\
-				};\
+				if (_value isEqualTo 'noChange') then {};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['UAVHacker',true]} else {_this setUnitTrait ['UAVHacker',false]};\
 			";
 		};
 		class Camouflage
