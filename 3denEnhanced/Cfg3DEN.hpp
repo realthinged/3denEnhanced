@@ -5,6 +5,7 @@ class ctrlStatic;
 class ctrlEdit;
 class ctrlXSliderH;
 class ctrlCheckbox;
+class ctrlToolboxPicture;
 
 class Cfg3DEN
 {
@@ -29,7 +30,6 @@ class Cfg3DEN
 				class Title;
 			};
 		};
-
 		#include "controls\ambAnimCombTypeCombo.hpp"
 		#include "controls\ambAnimEquipCombo.hpp"
 		#include "controls\ambAnimTypeCombo.hpp"
@@ -38,6 +38,7 @@ class Cfg3DEN
 		#include "controls\sliderTimeMultiplier.hpp"
 		#include "controls\sliderCheckbViewDistance.hpp"
 		#include "controls\unitTraitsCombo.hpp"
+		#include "controls\loiterDirectionToolbox.hpp"
 	};
 	class Mission
 	{
