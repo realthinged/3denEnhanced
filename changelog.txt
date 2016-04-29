@@ -2,12 +2,21 @@ v1.3
 *added*
 - one can now define a delay for the intro text attribute
 - attribute for unit traits
+
+- added hostage attribute:
+	A unit can now be taken hostage. Every player including JIP will have an action to free the Hostage.
+	Mission designers can check whether the unit is hostage or not by retrieving the following variable:
+	_unit getVariable "Enh_isHostage"; (true,is hostage/false,isn't hostage)
+*changed*
+- UAV intro center position attribute tooltip was using a wrong string
+- removed the tooltip from Advanced Damage Attributes
+- UAV intro loiter direction is now using a better control
+
+*translation*
 - added German translation for "Hide Map Objects" context menu entry
 - added German translation for unit traits attribute
 - added German translation for intro text delay
-*changed*
 - updated French translation (thanks to solentis)
-
 
 v1.2.1
 - completely overhauled the garrison function
