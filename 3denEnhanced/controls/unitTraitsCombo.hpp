@@ -69,7 +69,7 @@ class UnitTraitsCombo: Title
 				class No
 				{
 					text = $STR_no_displayName;
-					data = "yes";
+					data = "no";
 				};
 			};
 		};
