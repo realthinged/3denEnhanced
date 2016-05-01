@@ -13,7 +13,8 @@ class UnitTraits
 			expression =
 			"\
 				if (_value isEqualTo 'noChange') then {};\
-				if (_value isEqualTo 'yes') then {_this setUnitTrait ['Medic',true]} else {_this setUnitTrait ['Medic',false]};\
+				if (_value isEqualTo 'no') then {_this setUnitTrait ['Medic',false]};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['Medic',true]};\
 			";
 			typeName = "STRING";
 			defaultValue = "noChange";
@@ -27,7 +28,8 @@ class UnitTraits
 			expression =
 			"\
 				if (_value isEqualTo 'noChange') then {};\
-				if (_value isEqualTo 'yes') then {_this setUnitTrait ['Engineer',true]} else {_this setUnitTrait ['Engineer',false]};\
+				if (_value isEqualTo 'no') then {_this setUnitTrait ['Engineer',false]};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['Engineer',true]};\
 			";
 		};
 		class ExplosiveSpecialist: Medic
@@ -38,7 +40,8 @@ class UnitTraits
 			expression =
 			"\
 				if (_value isEqualTo 'noChange') then {};\
-				if (_value isEqualTo 'yes') then {_this setUnitTrait ['ExplosiveSpecialist',true]} else {_this setUnitTrait ['ExplosiveSpecialist',false]};\
+				if (_value isEqualTo 'no') then {_this setUnitTrait ['ExplosiveSpecialist',false]};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['ExplosiveSpecialist',true]};\
 			";
 		};
 		class UAVHacker: Medic
@@ -49,7 +52,8 @@ class UnitTraits
 			expression =
 			"\
 				if (_value isEqualTo 'noChange') then {};\
-				if (_value isEqualTo 'yes') then {_this setUnitTrait ['UAVHacker',true]} else {_this setUnitTrait ['UAVHacker',false]};\
+				if (_value isEqualTo 'no') then {_this setUnitTrait ['UAVHacker',false]};\
+				if (_value isEqualTo 'yes') then {_this setUnitTrait ['UAVHacker',true]};\
 			";
 		};
 		class Camouflage
