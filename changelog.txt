@@ -1,3 +1,7 @@
+v1.3.1
+*changed*
+- fixed a bug which would reset the unit traits controls
+
 v1.3
 *added*
 - one can now define a delay for the intro text attribute
