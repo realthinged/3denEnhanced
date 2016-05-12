@@ -38,4 +38,6 @@ How to help translating this modification:
     Upload the updated stringtable.xml and create a Pull Request
     
     WARNING! 
-    I'll NO longer accept private messages with translation improvements or similar, it's just too much work to compare the changes and edit them manually. Thanks for your understanding.
+    I will NO longer accept private messages with translation improvements or similar, 
+    it's just too much work to compare the changes and edit them manually. 
+    Thanks for your understanding.
