@@ -36,3 +36,6 @@ How to help translating this modification:
     Download the stringtable.xml from this repository and open it with Stringforge -> File-> Open
     Add your translations/corrections
     Upload the updated stringtable.xml and create a Pull Request
+    
+    WARNING! 
+    I'll NO longer accept private messages with translation improvements or similar, it's just too much work to compare the changes and edit them manually. Thanks for your understanding.
