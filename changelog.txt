@@ -1,3 +1,19 @@
+v1.4
+*changed*
+- fixed position of time multiplier attribute
+- time multiplier edit box is now properly formatted
+- fixed position of song name display
+- fixed position of view distance setting attribute
+- removed some obsolete code from control configs
+
+*added*
+- added attribute for rainbow probability
+- added insignia attribute
+- added preference attribute to enable preloading of the Arsenal -> Preferences-> Misc
+*translation*
+- added translation for rainbow attribute
+- added translation for insignia attribute
+
 v1.3.1
 *changed*
 - fixed a bug which would reset the unit traits controls
