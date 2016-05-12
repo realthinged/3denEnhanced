@@ -62,13 +62,12 @@ if (_value && isNil 'Enh_musicEH') then
 
 		(findDisplay 313 displayCtrl 500) ctrlSetPosition
 		[
-	 		pixelGrid * pixelW * 32,
-			pixelGrid * pixelH * 37.45,
-			pixelGrid * pixelW * 5,
-			pixelGrid * pixelH * 2.25
+		   pixelGrid * pixelW * 28,
+		   pixelGrid * pixelH * 37.35,
+		   pixelGrid * pixelW * 11,
+		   pixelGrid * pixelH * 2.25
 		];
 		(findDisplay 313 displayCtrl 500) ctrlCommit 0;
-	};
 	//Create play list
 	_CfgMusic = 'true' configClasses (configFile >> 'CfgMusic');
 	Enh_songList = [];
@@ -84,7 +83,7 @@ if (_value && isNil 'Enh_musicEH') then
 	{
 		Enh_currentSong = (selectRandom Enh_songList);
 		playMusic Enh_currentSong;
-		(findDisplay 313 displayCtrl 500) ctrlSetStructuredText parseText format ["<t size ='0.625'>%1: %2</t>",localize "STR_songDisplay",Enh_currentSong];
+		(findDisplay 313 displayCtrl 500) ctrlSetStructuredText parseText format ["<t size ='0.65'>%1: %2</t>",localize "STR_songDisplay",Enh_currentSong];
 	};
 
 	call Enh_selectNewSong;
