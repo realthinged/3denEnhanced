@@ -315,12 +315,6 @@
         <French>Angle de vue</French>
         <German>Betrachtungswinkel</German>
       </Key>
-      <Key ID="STR_establishingShot_dirCamera_tooltip">
-        <Original>(0: anti-clockwise, 1: clockwise, default: random)</Original>
-        <English>(0: anti-clockwise, 1: clockwise, default: random)</English>
-        <French>(0 : sens antihoraire, 1 : sens horaire, par défaut : aléatoire)</French>
-        <German>(0: Gegen Uhrzeigersinn, 1: Im Uhrzeigersinn, Standart: willkürlich)</German>
-      </Key>
       <Key ID="STR_establishingShot_dirCamera_displayName">
         <Original>Direction of Camera Movement</Original>
         <English>Direction of Camera Movement</English>
@@ -346,6 +340,32 @@
         <English>Respawn Tickets OPFOR</English>
         <French>Tickets de réapparition OPFOR</French>
         <German>Wiedereinstiegstickets OPFOR</German>
+      </Key>
+    </Container>
+    <Container name="Rainbow">
+      <Key ID="STR_rainbow_displayName">
+        <Original>Rainbow</Original>
+        <English>Rainbow</English>
+        <German>Regenbogen</German>
+      </Key>
+      <Key ID="STR_rainbow_tooltip">
+        <Original>Define the probabilty for the appearance of a rainbow. Like in real life, certain conditions must be met for a rainbow to appear</Original>
+        <English>Define the probabilty for the appearance of a rainbow. Like in real life, certain conditions must be met for a rainbow to appear</English>
+        <German>Bestimmt die Wahrscheinlichkeit für das Auftreten eines Regenboges. Wie im echten Leben, bestimme Bedingungen müssen erfüllt sein damit ein Regenbogen entsteht</German>
+      </Key>
+    </Container>
+    <Container name="Preload Arsenal">
+      <Key ID="STR_preloadArsenal_displayName">
+        <Original>Preload Arsenal</Original>
+        <English>Preload Arsenal</English>
+        <Czech />
+        <German>Arsenal im Voraus laden</German>
+      </Key>
+      <Key ID="STR_preloadArsenal_tooltip">
+        <Original>If enabled, the Arsenal will be preloaded every time the editor is opened, or a preview ends</Original>
+        <English>If enabled, the Arsenal will be preloaded every time the editor is opened, or a preview ends</English>
+        <Czech />
+        <German>Wenn aktiviert, wir das Arsenal im Voraus beim Öffnen des Editors, oder beim Beenden einer Vorschau geladen</German>
       </Key>
     </Container>
   </Package>
@@ -1165,6 +1185,18 @@
         <Original>The load coefficient determines how much influence the unit's loadout weight has on it's stamina. A higher value means the weight has a higher influence</Original>
         <English>The load coefficient determines how much influence the unit's loadout weight has on it's stamina. A higher value means the weight has a higher influence</English>
         <German>Der Belastungskoeffizient bestimmt wie viel Einfluss das Ausrüstungsgewicht auf die Ausdauer der Einheit hat. Ein höherer Wert verringert die zur Verfügung stehende Ausdauer</German>
+      </Key>
+    </Container>
+    <Container name="Unit Insignia">
+      <Key ID="STR_insignia_displayName">
+        <Original>Unit Insignia</Original>
+        <English>Unit Insignia</English>
+        <German>Abzeichen</German>
+      </Key>
+      <Key ID="STR_insignia_tooltip">
+        <Original>Select an insignia, which will be shown on the unit's uniform</Original>
+        <English>Select an insignia, which will be shown on the unit's uniform</English>
+        <German>Wähle ein Abzeichen aus, welches dann auf der Uniform der Einheit zu sehen ist</German>
       </Key>
     </Container>
   </Package>
