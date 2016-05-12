@@ -26,6 +26,7 @@ if (_value && isNil 'Enh_musicEH') then
 		'radio_music',
 		'RadioAmbient1',
 		'RadioAmbient2',
+		'RadioAmbient3',
 		'RadioAmbient4',
 		'RadioAmbient5',
 		'RadioAmbient6',
@@ -58,7 +59,14 @@ if (_value && isNil 'Enh_musicEH') then
 	if (isNull (findDisplay 313 displayCtrl 500)) then
 	{
 		findDisplay 313 ctrlCreate ["RscStructuredText", 500];
-		(findDisplay 313 displayCtrl 500) ctrlSetPosition [0.65 * safezoneW + safezoneX,0.982* safezoneH + safezoneY,0.1 * safezoneW,0.05 * safezoneH];
+
+		(findDisplay 313 displayCtrl 500) ctrlSetPosition
+		[
+	 		pixelGrid * pixelW * 32,
+			pixelGrid * pixelH * 37.45,
+			pixelGrid * pixelW * 5,
+			pixelGrid * pixelH * 2.25
+		];
 		(findDisplay 313 displayCtrl 500) ctrlCommit 0;
 	};
 	//Create play list
