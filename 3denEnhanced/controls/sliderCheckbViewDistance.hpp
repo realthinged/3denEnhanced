@@ -3,6 +3,8 @@ This control retuns an array [number,bool] after it was saved for the first time
 Controls needs some finetuning, on first load, the _value is a number not an array, which forces me to check if (_value isEqualType [])..
 Gonna see if I can fix that later
 */
+#define EDIT_W	10
+
 class SliderCheckBviewDistance: Title
 {
 	attributeLoad =
@@ -25,10 +27,9 @@ class SliderCheckBviewDistance: Title
 		{
 			idc = 101;
 			canModify = 1;
-			x = "(48 + 	82 - 	10) * (pixelW * 1.25 * 4)";
-			y = 0;
-			h = "5 * (pixelH * 1.25 * 4)";
-			w = "10 * (pixelW * 1.25 * 4)";
+			x = (ATTRIBUTE_TITLE_W + ATTRIBUTE_CONTENT_W - EDIT_W) * GRID_W;
+			w = EDIT_W * GRID_W;
+			h = SIZE_M * GRID_H;
 			onKillFocus =
 			"\
 				_ctrlEdit = _this select 0;\
@@ -43,10 +44,9 @@ class SliderCheckBviewDistance: Title
 		class Value: ctrlXSliderH
 		{
 			idc = 100;
-			x = "53 * (pixelW * 1.25 * 4)";
-			y = 0;
-			w = "(82 - 10) * (pixelW * 1.25 * 3.7)";
-			h = "5 * (pixelH * 1.25 * 4)";
+			x = "pixelGrid * pixelW * 13.5";
+			w = "pixelGrid * pixelW * 16.5";
+			h = SIZE_M * GRID_H;
          sliderPosition = 1;
          sliderRange[] = {500,9999};
          lineSize = 100;
@@ -62,10 +62,9 @@ class SliderCheckBviewDistance: Title
       class Checkbox: ctrlCheckbox
       {
          idc = 102;
-         x = "48 * (pixelW * 	1.25 * 4)";
-         y = 0;
-         w = "5 * (pixelW * 	1.25 * 4)";
-         h = "5 * (pixelH * 	1.25 * 4)";
+			x = ATTRIBUTE_TITLE_W * GRID_W;
+			w = SIZE_M * GRID_W;
+			h = SIZE_M * GRID_H;
       };
 	};
 };
