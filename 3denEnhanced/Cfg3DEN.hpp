@@ -6,6 +6,7 @@ class ctrlEdit;
 class ctrlXSliderH;
 class ctrlCheckbox;
 class ctrlToolboxPicture;
+class ctrlStaticPicture;
 
 class Cfg3DEN
 {
@@ -39,6 +40,7 @@ class Cfg3DEN
 		#include "controls\sliderCheckbViewDistance.hpp"
 		#include "controls\unitTraitsCombo.hpp"
 		#include "controls\loiterDirectionToolbox.hpp"
+		#include "controls\insigniaCombo.hpp"
 	};
 	class Mission
 	{
@@ -46,6 +48,13 @@ class Cfg3DEN
 		{
 			class AttributeCategories
 			{
+				class Rain
+				{
+					class Attributes
+					{
+						#include "missionAttributes\rainbow.hpp"
+					};
+				};
 				#include "missionAttributes\timeMultiplier.hpp"
 				#include "missionAttributes\visualSettings.hpp"
 				#include "missionAttributes\enableEnvironment.hpp"
@@ -67,6 +76,13 @@ class Cfg3DEN
 			{
 				#include "missionAttributes\music.hpp"
 				#include "missionAttributes\garrisonBuildings.hpp"
+				class Misc
+				{
+					class Attributes
+					{
+						#include "missionAttributes\preloadArsenal.hpp"
+					};
+				}
 			};
 		};
 		class Multiplayer
@@ -109,6 +125,13 @@ class Cfg3DEN
 					#include "objectAttributes\allowCrewInImmobile.hpp"
 					#include "objectAttributes\engineOn.hpp"
 					#include "objectAttributes\limitSpeed.hpp"
+				};
+			};
+			class Identity
+			{
+				class Attributes
+				{
+					#include "objectAttributes\insignia.hpp"
 				};
 			};
 			class Inventory
