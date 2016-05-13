@@ -68,6 +68,7 @@ if (_value && isNil 'Enh_musicEH') then
 		   pixelGrid * pixelH * 2.25
 		];
 		(findDisplay 313 displayCtrl 500) ctrlCommit 0;
+	};
 	//Create play list
 	_CfgMusic = 'true' configClasses (configFile >> 'CfgMusic');
 	Enh_songList = [];
