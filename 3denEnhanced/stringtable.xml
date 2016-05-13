@@ -1162,9 +1162,9 @@
         <German>Tarnungskoeffizient</German>
       </Key>
       <Key ID="STR_camouflageCoef_tooltip">
-        <Original>The camouflage coefficent determines how easy an unit can be spotted by AI. A higher value means it's more difficult to spot it</Original>
-        <English>The camouflage coefficent determines how easy an unit can be spotted by AI. A higher value means it's more difficult to spot it</English>
-        <German>Der Tarnungskoeffizient bestimmt wie leicht eine Einheit von anderen KI Einheiten erkannt werden kann, ein höherer Wert bedeutet das die Einheit schwerer zu erkennen ist</German>
+        <Original>The camouflage coefficent determines how easy an unit can be spotted by AI. A lower value means it's more difficult to spot it</Original>
+        <English>The camouflage coefficent determines how easy an unit can be spotted by AI. A lower value means it's more difficult to spot it</English>
+        <German>Der Tarnungskoeffizient bestimmt wie leicht eine Einheit von anderen KI Einheiten erkannt werden kann, ein niedrigere Wert bedeutet, dass die Einheit schwerer zu erkennen ist</German>
       </Key>
       <Key ID="STR_audibleCoef_displayName">
         <Original>Audible Coefficient</Original>
@@ -1172,9 +1172,9 @@
         <German>Hörbereichskoeffizient</German>
       </Key>
       <Key ID="STR_audibleCoef_tooltip">
-        <Original>The audible coefficient determines how easy a unit can be heard by AI. A higher value means it's more difficult to hear it</Original>
-        <English>The audible coefficient determines how easy a unit can be heard by AI. A higher value means it's more difficult to hear it</English>
-        <German>Der Hörbereichskoeffizient bestimmt wie leicht eine Einheit zu hören ist. Ein höherer Wert bedeutet, dass die Einheit schwieriger zu lokalisieren ist</German>
+        <Original>The audible coefficient determines how easy a unit can be heard by AI. A lower value means it's more difficult to hear it</Original>
+        <English>The audible coefficient determines how easy a unit can be heard by AI. A lower value means it's more difficult to hear it</English>
+        <German>Der Hörbereichskoeffizient bestimmt wie leicht eine Einheit zu hören ist. Ein niedrigere Wert bedeutet, dass die Einheit schwieriger zu hören ist</German>
       </Key>
       <Key ID="STR_loadCoef_displayName">
         <Original>Load Coefficient</Original>
