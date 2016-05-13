@@ -10,9 +10,11 @@ v1.4
 - added attribute for rainbow probability
 - added insignia attribute
 - added preference attribute to enable preloading of the Arsenal -> Preferences-> Misc
+
 *translation*
 - added translation for rainbow attribute
 - added translation for insignia attribute
+- corrected camouCoef & audibleCoef tooltip
 
 v1.3.1
 *changed*
